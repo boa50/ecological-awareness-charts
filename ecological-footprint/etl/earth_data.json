@@ -1,0 +1,5354 @@
+[
+    {
+        "year": 2022,
+        "countryCode": 1,
+        "shortName": "Armenia",
+        "value": 1.540439208895298
+    },
+    {
+        "year": 2022,
+        "countryCode": 2,
+        "shortName": "Afghanistan",
+        "value": 0.5306955815412614
+    },
+    {
+        "year": 2022,
+        "countryCode": 3,
+        "shortName": "Albania",
+        "value": 1.3714854201913789
+    },
+    {
+        "year": 2022,
+        "countryCode": 4,
+        "shortName": "Algeria",
+        "value": 1.4719546041899485
+    },
+    {
+        "year": 2022,
+        "countryCode": 5,
+        "shortName": "American Samoa",
+        "value": -1
+    },
+    {
+        "year": 2022,
+        "countryCode": 6,
+        "shortName": "Andorra",
+        "value": -1
+    },
+    {
+        "year": 2022,
+        "countryCode": 7,
+        "shortName": "Angola",
+        "value": 0.5680286560342978
+    },
+    {
+        "year": 2022,
+        "countryCode": 8,
+        "shortName": "Antigua and Barbuda",
+        "value": 1.94458035729189
+    },
+    {
+        "year": 2022,
+        "countryCode": 9,
+        "shortName": "Argentina",
+        "value": 2.132555690362492
+    },
+    {
+        "year": 2022,
+        "countryCode": 10,
+        "shortName": "Australia",
+        "value": 3.825307442156058
+    },
+    {
+        "year": 2022,
+        "countryCode": 11,
+        "shortName": "Austria",
+        "value": 3.725720620915673
+    },
+    {
+        "year": 2022,
+        "countryCode": 12,
+        "shortName": "Bahamas",
+        "value": 0.9634252129807503
+    },
+    {
+        "year": 2022,
+        "countryCode": 13,
+        "shortName": "Bahrain",
+        "value": 5.413930762350627
+    },
+    {
+        "year": 2022,
+        "countryCode": 14,
+        "shortName": "Barbados",
+        "value": 2.194478897778848
+    },
+    {
+        "year": 2022,
+        "countryCode": 16,
+        "shortName": "Bangladesh",
+        "value": 0.4441253332546727
+    },
+    {
+        "year": 2022,
+        "countryCode": 17,
+        "shortName": "Bermuda",
+        "value": -1
+    },
+    {
+        "year": 2022,
+        "countryCode": 18,
+        "shortName": "Bhutan",
+        "value": 3.125757812744856
+    },
+    {
+        "year": 2022,
+        "countryCode": 19,
+        "shortName": "Bolivia",
+        "value": 1.8358542445545984
+    },
+    {
+        "year": 2022,
+        "countryCode": 20,
+        "shortName": "Botswana",
+        "value": 1.4711706151967863
+    },
+    {
+        "year": 2022,
+        "countryCode": 21,
+        "shortName": "Brazil",
+        "value": 1.6897055824962453
+    },
+    {
+        "year": 2022,
+        "countryCode": 22,
+        "shortName": "Aruba",
+        "value": -1
+    },
+    {
+        "year": 2022,
+        "countryCode": 23,
+        "shortName": "Belize",
+        "value": 4.986292995047369
+    },
+    {
+        "year": 2022,
+        "countryCode": 25,
+        "shortName": "Solomon Islands",
+        "value": 1.102454671846058
+    },
+    {
+        "year": 2022,
+        "countryCode": 26,
+        "shortName": "Brunei",
+        "value": 5.236751946502477
+    },
+    {
+        "year": 2022,
+        "countryCode": 27,
+        "shortName": "Bulgaria",
+        "value": 2.3719327923716618
+    },
+    {
+        "year": 2022,
+        "countryCode": 28,
+        "shortName": "Myanmar",
+        "value": 0.7377889647076746
+    },
+    {
+        "year": 2022,
+        "countryCode": 29,
+        "shortName": "Burundi",
+        "value": 0.3930603273881833
+    },
+    {
+        "year": 2022,
+        "countryCode": 32,
+        "shortName": "Cameroon",
+        "value": 0.6913077666431202
+    },
+    {
+        "year": 2022,
+        "countryCode": 33,
+        "shortName": "Canada",
+        "value": 4.913630918801884
+    },
+    {
+        "year": 2022,
+        "countryCode": 35,
+        "shortName": "Cabo Verde",
+        "value": 0.7695451711403596
+    },
+    {
+        "year": 2022,
+        "countryCode": 36,
+        "shortName": "Cayman Islands",
+        "value": -1
+    },
+    {
+        "year": 2022,
+        "countryCode": 37,
+        "shortName": "Central African Republic",
+        "value": 0.7395459093962485
+    },
+    {
+        "year": 2022,
+        "countryCode": 38,
+        "shortName": "Sri Lanka",
+        "value": 0.6677509443886066
+    },
+    {
+        "year": 2022,
+        "countryCode": 39,
+        "shortName": "Chad",
+        "value": 0.9102171474334884
+    },
+    {
+        "year": 2022,
+        "countryCode": 40,
+        "shortName": "Chile",
+        "value": 2.543897775870667
+    },
+    {
+        "year": 2022,
+        "countryCode": 44,
+        "shortName": "Colombia",
+        "value": 1.3091603789900506
+    },
+    {
+        "year": 2022,
+        "countryCode": 45,
+        "shortName": "Comoros",
+        "value": 1.3142557297209732
+    },
+    {
+        "year": 2022,
+        "countryCode": 46,
+        "shortName": "Congo",
+        "value": 0.7405222733435791
+    },
+    {
+        "year": 2022,
+        "countryCode": 47,
+        "shortName": "Cook Islands",
+        "value": 1.9201518765302483
+    },
+    {
+        "year": 2022,
+        "countryCode": 48,
+        "shortName": "Costa Rica",
+        "value": 1.7209074374896367
+    },
+    {
+        "year": 2022,
+        "countryCode": 49,
+        "shortName": "Cuba",
+        "value": 1.2693815434924625
+    },
+    {
+        "year": 2022,
+        "countryCode": 50,
+        "shortName": "Cyprus",
+        "value": 2.1118401583715234
+    },
+    {
+        "year": 2022,
+        "countryCode": 52,
+        "shortName": "Azerbaijan",
+        "value": 1.5607634600890046
+    },
+    {
+        "year": 2022,
+        "countryCode": 53,
+        "shortName": "Benin",
+        "value": 0.7353852532568292
+    },
+    {
+        "year": 2022,
+        "countryCode": 54,
+        "shortName": "Denmark",
+        "value": 4.82478792437769
+    },
+    {
+        "year": 2022,
+        "countryCode": 55,
+        "shortName": "Dominica",
+        "value": 1.7792169657168113
+    },
+    {
+        "year": 2022,
+        "countryCode": 56,
+        "shortName": "Dominican Republic",
+        "value": 1.1940295359499615
+    },
+    {
+        "year": 2022,
+        "countryCode": 57,
+        "shortName": "Belarus",
+        "value": 3.031523215526689
+    },
+    {
+        "year": 2022,
+        "countryCode": 58,
+        "shortName": "Ecuador",
+        "value": 1.1112903939679148
+    },
+    {
+        "year": 2022,
+        "countryCode": 59,
+        "shortName": "Egypt",
+        "value": 0.9621330167487225
+    },
+    {
+        "year": 2022,
+        "countryCode": 60,
+        "shortName": "El Salvador",
+        "value": 1.2929559861922417
+    },
+    {
+        "year": 2022,
+        "countryCode": 61,
+        "shortName": "Equatorial Guinea",
+        "value": 1.2101513730602684
+    },
+    {
+        "year": 2022,
+        "countryCode": 63,
+        "shortName": "Estonia",
+        "value": 5.375056169369194
+    },
+    {
+        "year": 2022,
+        "countryCode": 64,
+        "shortName": "Faroe Islands",
+        "value": 20.894105886896224
+    },
+    {
+        "year": 2022,
+        "countryCode": 65,
+        "shortName": "Falkland Islands",
+        "value": -1
+    },
+    {
+        "year": 2022,
+        "countryCode": 66,
+        "shortName": "Fiji",
+        "value": 1.8626635699063072
+    },
+    {
+        "year": 2022,
+        "countryCode": 67,
+        "shortName": "Finland",
+        "value": 3.5513343541567126
+    },
+    {
+        "year": 2022,
+        "countryCode": 68,
+        "shortName": "France",
+        "value": 2.855966926344396
+    },
+    {
+        "year": 2022,
+        "countryCode": 69,
+        "shortName": "French Guiana",
+        "value": 1.0243923623146989
+    },
+    {
+        "year": 2022,
+        "countryCode": 70,
+        "shortName": "French Polynesia",
+        "value": 2.4616343302662633
+    },
+    {
+        "year": 2022,
+        "countryCode": 72,
+        "shortName": "Djibouti",
+        "value": 1.6271728845493414
+    },
+    {
+        "year": 2022,
+        "countryCode": 73,
+        "shortName": "Georgia",
+        "value": 1.7583440630312137
+    },
+    {
+        "year": 2022,
+        "countryCode": 74,
+        "shortName": "Gabon",
+        "value": 1.3669979219007955
+    },
+    {
+        "year": 2022,
+        "countryCode": 75,
+        "shortName": "Gambia",
+        "value": 0.5653976061637379
+    },
+    {
+        "year": 2022,
+        "countryCode": 79,
+        "shortName": "Germany",
+        "value": 2.978832931131541
+    },
+    {
+        "year": 2022,
+        "countryCode": 80,
+        "shortName": "Bosnia and Herzegovina",
+        "value": 2.8244620060917427
+    },
+    {
+        "year": 2022,
+        "countryCode": 81,
+        "shortName": "Ghana",
+        "value": 1.162269972222765
+    },
+    {
+        "year": 2022,
+        "countryCode": 82,
+        "shortName": "Gibraltar",
+        "value": -1
+    },
+    {
+        "year": 2022,
+        "countryCode": 83,
+        "shortName": "Kiribati",
+        "value": 9.33750683630278
+    },
+    {
+        "year": 2022,
+        "countryCode": 84,
+        "shortName": "Greece",
+        "value": 2.5030856012157012
+    },
+    {
+        "year": 2022,
+        "countryCode": 86,
+        "shortName": "Grenada",
+        "value": 1.1766552966879418
+    },
+    {
+        "year": 2022,
+        "countryCode": 87,
+        "shortName": "Guadeloupe",
+        "value": 2.264557131651978
+    },
+    {
+        "year": 2022,
+        "countryCode": 88,
+        "shortName": "Guam",
+        "value": -1
+    },
+    {
+        "year": 2022,
+        "countryCode": 89,
+        "shortName": "Guatemala",
+        "value": 1.2539944591040133
+    },
+    {
+        "year": 2022,
+        "countryCode": 90,
+        "shortName": "Guinea",
+        "value": 1.010404664561868
+    },
+    {
+        "year": 2022,
+        "countryCode": 91,
+        "shortName": "Guyana",
+        "value": 2.195245983549117
+    },
+    {
+        "year": 2022,
+        "countryCode": 93,
+        "shortName": "Haiti",
+        "value": 0.3913430099903791
+    },
+    {
+        "year": 2022,
+        "countryCode": 95,
+        "shortName": "Honduras",
+        "value": 0.8919780151702144
+    },
+    {
+        "year": 2022,
+        "countryCode": 97,
+        "shortName": "Hungary",
+        "value": 2.5086394332293054
+    },
+    {
+        "year": 2022,
+        "countryCode": 98,
+        "shortName": "Croatia",
+        "value": 2.457838376389275
+    },
+    {
+        "year": 2022,
+        "countryCode": 99,
+        "shortName": "Iceland",
+        "value": 15.563573726467727
+    },
+    {
+        "year": 2022,
+        "countryCode": 100,
+        "shortName": "India",
+        "value": 0.6870728683194497
+    },
+    {
+        "year": 2022,
+        "countryCode": 101,
+        "shortName": "Indonesia",
+        "value": 1.1115164623492073
+    },
+    {
+        "year": 2022,
+        "countryCode": 102,
+        "shortName": "Iran",
+        "value": 2.1511166991516935
+    },
+    {
+        "year": 2022,
+        "countryCode": 103,
+        "shortName": "Iraq",
+        "value": 1.1433774487084711
+    },
+    {
+        "year": 2022,
+        "countryCode": 104,
+        "shortName": "Ireland",
+        "value": 2.9833030200441457
+    },
+    {
+        "year": 2022,
+        "countryCode": 105,
+        "shortName": "Israel",
+        "value": 2.755158867695429
+    },
+    {
+        "year": 2022,
+        "countryCode": 106,
+        "shortName": "Italy",
+        "value": 2.616312843597548
+    },
+    {
+        "year": 2022,
+        "countryCode": 107,
+        "shortName": "Cote d'Ivoire",
+        "value": 0.5858531140832406
+    },
+    {
+        "year": 2022,
+        "countryCode": 108,
+        "shortName": "Kazakhstan",
+        "value": 2.8434306168570824
+    },
+    {
+        "year": 2022,
+        "countryCode": 109,
+        "shortName": "Jamaica",
+        "value": 1.1523789870724068
+    },
+    {
+        "year": 2022,
+        "countryCode": 110,
+        "shortName": "Japan",
+        "value": 2.6779462128309377
+    },
+    {
+        "year": 2022,
+        "countryCode": 112,
+        "shortName": "Jordan",
+        "value": 0.86335578029816
+    },
+    {
+        "year": 2022,
+        "countryCode": 113,
+        "shortName": "Kyrgyzstan",
+        "value": 1.0000983782008264
+    },
+    {
+        "year": 2022,
+        "countryCode": 114,
+        "shortName": "Kenya",
+        "value": 0.5835607852558954
+    },
+    {
+        "year": 2022,
+        "countryCode": 115,
+        "shortName": "Cambodia",
+        "value": 0.8869269120874609
+    },
+    {
+        "year": 2022,
+        "countryCode": 116,
+        "shortName": "North Korea",
+        "value": 0.7933953264323996
+    },
+    {
+        "year": 2022,
+        "countryCode": 117,
+        "shortName": "South Korea",
+        "value": 3.8547016685900863
+    },
+    {
+        "year": 2022,
+        "countryCode": 118,
+        "shortName": "Kuwait",
+        "value": 5.6622088482338695
+    },
+    {
+        "year": 2022,
+        "countryCode": 119,
+        "shortName": "Latvia",
+        "value": 5.1148862727371425
+    },
+    {
+        "year": 2022,
+        "countryCode": 120,
+        "shortName": "Laos",
+        "value": 1.2313764481190326
+    },
+    {
+        "year": 2022,
+        "countryCode": 121,
+        "shortName": "Lebanon",
+        "value": 2.082879159301053
+    },
+    {
+        "year": 2022,
+        "countryCode": 122,
+        "shortName": "Lesotho",
+        "value": 0.7621797387741878
+    },
+    {
+        "year": 2022,
+        "countryCode": 123,
+        "shortName": "Liberia",
+        "value": 0.8227710958964485
+    },
+    {
+        "year": 2022,
+        "countryCode": 124,
+        "shortName": "Libya",
+        "value": 3.379028258850724
+    },
+    {
+        "year": 2022,
+        "countryCode": 125,
+        "shortName": "Liechtenstein",
+        "value": -1
+    },
+    {
+        "year": 2022,
+        "countryCode": 126,
+        "shortName": "Lithuania",
+        "value": 4.256512593946091
+    },
+    {
+        "year": 2022,
+        "countryCode": 127,
+        "shortName": "Marshall Islands",
+        "value": 6.989297333865293
+    },
+    {
+        "year": 2022,
+        "countryCode": 129,
+        "shortName": "Madagascar",
+        "value": 0.5257717271165092
+    },
+    {
+        "year": 2022,
+        "countryCode": 130,
+        "shortName": "Malawi",
+        "value": 0.47958845961345087
+    },
+    {
+        "year": 2022,
+        "countryCode": 131,
+        "shortName": "Malaysia",
+        "value": 2.809121805557478
+    },
+    {
+        "year": 2022,
+        "countryCode": 132,
+        "shortName": "Maldives",
+        "value": 4.113035769157821
+    },
+    {
+        "year": 2022,
+        "countryCode": 133,
+        "shortName": "Mali",
+        "value": 0.6626696738582935
+    },
+    {
+        "year": 2022,
+        "countryCode": 134,
+        "shortName": "Malta",
+        "value": 2.464535979634103
+    },
+    {
+        "year": 2022,
+        "countryCode": 135,
+        "shortName": "Martinique",
+        "value": 2.319406013888542
+    },
+    {
+        "year": 2022,
+        "countryCode": 136,
+        "shortName": "Mauritania",
+        "value": 1.4940965048239931
+    },
+    {
+        "year": 2022,
+        "countryCode": 137,
+        "shortName": "Mauritius",
+        "value": 1.7239840221055143
+    },
+    {
+        "year": 2022,
+        "countryCode": 138,
+        "shortName": "Mexico",
+        "value": 1.5131812690453046
+    },
+    {
+        "year": 2022,
+        "countryCode": 141,
+        "shortName": "Mongolia",
+        "value": 5.103721339526
+    },
+    {
+        "year": 2022,
+        "countryCode": 142,
+        "shortName": "Montserrat",
+        "value": -1
+    },
+    {
+        "year": 2022,
+        "countryCode": 143,
+        "shortName": "Morocco",
+        "value": 1.0232104698858708
+    },
+    {
+        "year": 2022,
+        "countryCode": 144,
+        "shortName": "Mozambique",
+        "value": 0.5106755907706878
+    },
+    {
+        "year": 2022,
+        "countryCode": 145,
+        "shortName": "Micronesia",
+        "value": 18.152433514554232
+    },
+    {
+        "year": 2022,
+        "countryCode": 146,
+        "shortName": "Moldova",
+        "value": 1.007940169516782
+    },
+    {
+        "year": 2022,
+        "countryCode": 147,
+        "shortName": "Namibia",
+        "value": 1.5794364784580999
+    },
+    {
+        "year": 2022,
+        "countryCode": 148,
+        "shortName": "Nauru",
+        "value": 106.83472772764762
+    },
+    {
+        "year": 2022,
+        "countryCode": 149,
+        "shortName": "Nepal",
+        "value": 0.5962434978506647
+    },
+    {
+        "year": 2022,
+        "countryCode": 150,
+        "shortName": "Netherlands",
+        "value": 3.987495773082366
+    },
+    {
+        "year": 2022,
+        "countryCode": 153,
+        "shortName": "New Caledonia",
+        "value": 5.571879427196097
+    },
+    {
+        "year": 2022,
+        "countryCode": 154,
+        "shortName": "Macedonia",
+        "value": 1.863040265779372
+    },
+    {
+        "year": 2022,
+        "countryCode": 155,
+        "shortName": "Vanuatu",
+        "value": 1.2119176914374696
+    },
+    {
+        "year": 2022,
+        "countryCode": 156,
+        "shortName": "New Zealand",
+        "value": 3.593017251222632
+    },
+    {
+        "year": 2022,
+        "countryCode": 157,
+        "shortName": "Nicaragua",
+        "value": 0.9889797267005457
+    },
+    {
+        "year": 2022,
+        "countryCode": 158,
+        "shortName": "Niger",
+        "value": 0.8941158656124637
+    },
+    {
+        "year": 2022,
+        "countryCode": 159,
+        "shortName": "Nigeria",
+        "value": 0.5306099591658566
+    },
+    {
+        "year": 2022,
+        "countryCode": 160,
+        "shortName": "Niue",
+        "value": 3.9348542029132334
+    },
+    {
+        "year": 2022,
+        "countryCode": 162,
+        "shortName": "Norway",
+        "value": 3.5748104450635343
+    },
+    {
+        "year": 2022,
+        "countryCode": 163,
+        "shortName": "Northern Mariana Islands",
+        "value": -1
+    },
+    {
+        "year": 2022,
+        "countryCode": 165,
+        "shortName": "Pakistan",
+        "value": 0.4833527503155019
+    },
+    {
+        "year": 2022,
+        "countryCode": 166,
+        "shortName": "Panama",
+        "value": 1.5360600800876316
+    },
+    {
+        "year": 2022,
+        "countryCode": 167,
+        "shortName": "Czech Republic",
+        "value": 3.3657583339618147
+    },
+    {
+        "year": 2022,
+        "countryCode": 168,
+        "shortName": "Papua New Guinea",
+        "value": 0.7646874459458529
+    },
+    {
+        "year": 2022,
+        "countryCode": 169,
+        "shortName": "Paraguay",
+        "value": 2.086013243495281
+    },
+    {
+        "year": 2022,
+        "countryCode": 170,
+        "shortName": "Peru",
+        "value": 1.4818335377540675
+    },
+    {
+        "year": 2022,
+        "countryCode": 171,
+        "shortName": "Philippines",
+        "value": 0.7809361142290193
+    },
+    {
+        "year": 2022,
+        "countryCode": 173,
+        "shortName": "Poland",
+        "value": 3.0781522826335026
+    },
+    {
+        "year": 2022,
+        "countryCode": 174,
+        "shortName": "Portugal",
+        "value": 2.4628248085764732
+    },
+    {
+        "year": 2022,
+        "countryCode": 175,
+        "shortName": "Guinea-Bissau",
+        "value": 0.7993858818688386
+    },
+    {
+        "year": 2022,
+        "countryCode": 176,
+        "shortName": "Timor-Leste",
+        "value": 0.37545667400494914
+    },
+    {
+        "year": 2022,
+        "countryCode": 177,
+        "shortName": "Puerto Rico",
+        "value": 0.0774114174687591
+    },
+    {
+        "year": 2022,
+        "countryCode": 178,
+        "shortName": "Eritrea",
+        "value": 0.47946449541452113
+    },
+    {
+        "year": 2022,
+        "countryCode": 179,
+        "shortName": "Qatar",
+        "value": 8.691696866431762
+    },
+    {
+        "year": 2022,
+        "countryCode": 180,
+        "shortName": "Palau",
+        "value": -1
+    },
+    {
+        "year": 2022,
+        "countryCode": 181,
+        "shortName": "Zimbabwe",
+        "value": 0.7186995481778091
+    },
+    {
+        "year": 2022,
+        "countryCode": 182,
+        "shortName": "Reunion",
+        "value": 2.3118001792236296
+    },
+    {
+        "year": 2022,
+        "countryCode": 183,
+        "shortName": "Romania",
+        "value": 1.812764811349762
+    },
+    {
+        "year": 2022,
+        "countryCode": 184,
+        "shortName": "Rwanda",
+        "value": 0.36685480210915383
+    },
+    {
+        "year": 2022,
+        "countryCode": 185,
+        "shortName": "Russia",
+        "value": 3.841287612353671
+    },
+    {
+        "year": 2022,
+        "countryCode": 187,
+        "shortName": "St. Helena",
+        "value": -1
+    },
+    {
+        "year": 2022,
+        "countryCode": 188,
+        "shortName": "St. Kitts and Nevis",
+        "value": 10.466044245162255
+    },
+    {
+        "year": 2022,
+        "countryCode": 189,
+        "shortName": "St. Lucia",
+        "value": 1.1334995898132458
+    },
+    {
+        "year": 2022,
+        "countryCode": 190,
+        "shortName": "St. Pierre and Miquelon",
+        "value": -1
+    },
+    {
+        "year": 2022,
+        "countryCode": 191,
+        "shortName": "St. Vincent and Grenadines",
+        "value": 1.2017052975954645
+    },
+    {
+        "year": 2022,
+        "countryCode": 193,
+        "shortName": "Sao Tome and Principe",
+        "value": 0.6965031556910694
+    },
+    {
+        "year": 2022,
+        "countryCode": 194,
+        "shortName": "Saudi Arabia",
+        "value": 3.804410937365662
+    },
+    {
+        "year": 2022,
+        "countryCode": 195,
+        "shortName": "Senegal",
+        "value": 0.807516597830679
+    },
+    {
+        "year": 2022,
+        "countryCode": 196,
+        "shortName": "Seychelles",
+        "value": 7.37482092758243
+    },
+    {
+        "year": 2022,
+        "countryCode": 197,
+        "shortName": "Sierra Leone",
+        "value": 0.6927991779511303
+    },
+    {
+        "year": 2022,
+        "countryCode": 198,
+        "shortName": "Slovenia",
+        "value": 3.166435088212056
+    },
+    {
+        "year": 2022,
+        "countryCode": 199,
+        "shortName": "Slovakia",
+        "value": 2.753897927613085
+    },
+    {
+        "year": 2022,
+        "countryCode": 200,
+        "shortName": "Singapore",
+        "value": 3.7994786417738817
+    },
+    {
+        "year": 2022,
+        "countryCode": 201,
+        "shortName": "Somalia",
+        "value": 0.5902399961647752
+    },
+    {
+        "year": 2022,
+        "countryCode": 202,
+        "shortName": "South Africa",
+        "value": 2.1274360055704866
+    },
+    {
+        "year": 2022,
+        "countryCode": 203,
+        "shortName": "Spain",
+        "value": 2.592720498541334
+    },
+    {
+        "year": 2022,
+        "countryCode": 207,
+        "shortName": "Suriname",
+        "value": 2.078574567064941
+    },
+    {
+        "year": 2022,
+        "countryCode": 208,
+        "shortName": "Tajikistan",
+        "value": 0.7025301650157002
+    },
+    {
+        "year": 2022,
+        "countryCode": 209,
+        "shortName": "Swaziland",
+        "value": 1.9200788155431077
+    },
+    {
+        "year": 2022,
+        "countryCode": 210,
+        "shortName": "Sweden",
+        "value": 3.2696847407263645
+    },
+    {
+        "year": 2022,
+        "countryCode": 211,
+        "shortName": "Switzerland",
+        "value": 2.473795553494114
+    },
+    {
+        "year": 2022,
+        "countryCode": 212,
+        "shortName": "Syria",
+        "value": 0.660344965797501
+    },
+    {
+        "year": 2022,
+        "countryCode": 213,
+        "shortName": "Turkmenistan",
+        "value": 2.5564597792161514
+    },
+    {
+        "year": 2022,
+        "countryCode": 215,
+        "shortName": "Tanzania",
+        "value": 0.6133597923704313
+    },
+    {
+        "year": 2022,
+        "countryCode": 216,
+        "shortName": "Thailand",
+        "value": 1.5529204551221503
+    },
+    {
+        "year": 2022,
+        "countryCode": 217,
+        "shortName": "Togo",
+        "value": 0.5913805894567281
+    },
+    {
+        "year": 2022,
+        "countryCode": 218,
+        "shortName": "Tokelau",
+        "value": 3.7046971187475206
+    },
+    {
+        "year": 2022,
+        "countryCode": 219,
+        "shortName": "Tonga",
+        "value": 2.046347766443717
+    },
+    {
+        "year": 2022,
+        "countryCode": 220,
+        "shortName": "Trinidad and Tobago",
+        "value": 3.571078026340734
+    },
+    {
+        "year": 2022,
+        "countryCode": 221,
+        "shortName": "Oman",
+        "value": 4.821476010393706
+    },
+    {
+        "year": 2022,
+        "countryCode": 222,
+        "shortName": "Tunisia",
+        "value": 0.9014293248093993
+    },
+    {
+        "year": 2022,
+        "countryCode": 223,
+        "shortName": "Turkey",
+        "value": 2.2479121628827783
+    },
+    {
+        "year": 2022,
+        "countryCode": 224,
+        "shortName": "Turks and Caicos Islands",
+        "value": -1
+    },
+    {
+        "year": 2022,
+        "countryCode": 225,
+        "shortName": "United Arab Emirates",
+        "value": 5.770585826249445
+    },
+    {
+        "year": 2022,
+        "countryCode": 226,
+        "shortName": "Uganda",
+        "value": 0.6475634233983838
+    },
+    {
+        "year": 2022,
+        "countryCode": 227,
+        "shortName": "Tuvalu",
+        "value": 3.7610052695546123
+    },
+    {
+        "year": 2022,
+        "countryCode": 229,
+        "shortName": "United Kingdom",
+        "value": 2.360786913507283
+    },
+    {
+        "year": 2022,
+        "countryCode": 230,
+        "shortName": "Ukraine",
+        "value": 1.3332679366523221
+    },
+    {
+        "year": 2022,
+        "countryCode": 231,
+        "shortName": "United States",
+        "value": 4.940111353127781
+    },
+    {
+        "year": 2022,
+        "countryCode": 233,
+        "shortName": "Burkina Faso",
+        "value": 0.5944758606055949
+    },
+    {
+        "year": 2022,
+        "countryCode": 234,
+        "shortName": "Uruguay",
+        "value": 1.4316649982204694
+    },
+    {
+        "year": 2022,
+        "countryCode": 235,
+        "shortName": "Uzbekistan",
+        "value": 1.3952524082150466
+    },
+    {
+        "year": 2022,
+        "countryCode": 236,
+        "shortName": "Venezuela",
+        "value": 1.3968449356921653
+    },
+    {
+        "year": 2022,
+        "countryCode": 237,
+        "shortName": "Viet Nam",
+        "value": 1.6105478975043102
+    },
+    {
+        "year": 2022,
+        "countryCode": 238,
+        "shortName": "Ethiopia",
+        "value": 0.556826737418644
+    },
+    {
+        "year": 2022,
+        "countryCode": 239,
+        "shortName": "British Virgin Islands",
+        "value": -1
+    },
+    {
+        "year": 2022,
+        "countryCode": 240,
+        "shortName": "US Virgin Islands",
+        "value": -1
+    },
+    {
+        "year": 2022,
+        "countryCode": 243,
+        "shortName": "Wallis and Futuna Islands",
+        "value": -1
+    },
+    {
+        "year": 2022,
+        "countryCode": 244,
+        "shortName": "Samoa",
+        "value": 1.6446345988718691
+    },
+    {
+        "year": 2022,
+        "countryCode": 249,
+        "shortName": "Yemen",
+        "value": 0.4060734462498875
+    },
+    {
+        "year": 2022,
+        "countryCode": 250,
+        "shortName": "Congo DR",
+        "value": 0.4538357790080435
+    },
+    {
+        "year": 2022,
+        "countryCode": 251,
+        "shortName": "Zambia",
+        "value": 0.8033390089200513
+    },
+    {
+        "year": 2022,
+        "countryCode": 255,
+        "shortName": "Belgium",
+        "value": 4.429599103986842
+    },
+    {
+        "year": 2022,
+        "countryCode": 256,
+        "shortName": "Luxembourg",
+        "value": 7.256850877243819
+    },
+    {
+        "year": 2022,
+        "countryCode": 258,
+        "shortName": "Anguilla",
+        "value": -1
+    },
+    {
+        "year": 2022,
+        "countryCode": 264,
+        "shortName": "Isle of Man",
+        "value": -1
+    },
+    {
+        "year": 2022,
+        "countryCode": 270,
+        "shortName": "Mayotte",
+        "value": -1
+    },
+    {
+        "year": 2022,
+        "countryCode": 272,
+        "shortName": "Serbia",
+        "value": 2.5364453136101694
+    },
+    {
+        "year": 2022,
+        "countryCode": 273,
+        "shortName": "Montenegro",
+        "value": 2.417271279614563
+    },
+    {
+        "year": 2022,
+        "countryCode": 276,
+        "shortName": "Sudan",
+        "value": 0.7560880160829925
+    },
+    {
+        "year": 2022,
+        "countryCode": 277,
+        "shortName": "South Sudan",
+        "value": 1.1051695124923424
+    },
+    {
+        "year": 2022,
+        "countryCode": 279,
+        "shortName": "Curaçao",
+        "value": -1
+    },
+    {
+        "year": 2022,
+        "countryCode": 281,
+        "shortName": "St. Martin",
+        "value": -1
+    },
+    {
+        "year": 2022,
+        "countryCode": 299,
+        "shortName": "Palestine",
+        "value": 0.3864468886908934
+    },
+    {
+        "year": 2022,
+        "countryCode": 351,
+        "shortName": "China",
+        "value": 2.396114420883761
+    },
+    {
+        "year": 2021,
+        "countryCode": 1,
+        "shortName": "Armenia",
+        "value": 1.495306550654961
+    },
+    {
+        "year": 2021,
+        "countryCode": 2,
+        "shortName": "Afghanistan",
+        "value": 0.5439153841221995
+    },
+    {
+        "year": 2021,
+        "countryCode": 3,
+        "shortName": "Albania",
+        "value": 1.370530586316258
+    },
+    {
+        "year": 2021,
+        "countryCode": 4,
+        "shortName": "Algeria",
+        "value": 1.4797941154293186
+    },
+    {
+        "year": 2021,
+        "countryCode": 5,
+        "shortName": "American Samoa",
+        "value": -1
+    },
+    {
+        "year": 2021,
+        "countryCode": 6,
+        "shortName": "Andorra",
+        "value": -1
+    },
+    {
+        "year": 2021,
+        "countryCode": 7,
+        "shortName": "Angola",
+        "value": 0.5879488236362593
+    },
+    {
+        "year": 2021,
+        "countryCode": 8,
+        "shortName": "Antigua and Barbuda",
+        "value": 2.0347608734159865
+    },
+    {
+        "year": 2021,
+        "countryCode": 9,
+        "shortName": "Argentina",
+        "value": 2.119638529655042
+    },
+    {
+        "year": 2021,
+        "countryCode": 10,
+        "shortName": "Australia",
+        "value": 3.793442972827657
+    },
+    {
+        "year": 2021,
+        "countryCode": 11,
+        "shortName": "Austria",
+        "value": 3.786165220504785
+    },
+    {
+        "year": 2021,
+        "countryCode": 12,
+        "shortName": "Bahamas",
+        "value": 1.0194518654694376
+    },
+    {
+        "year": 2021,
+        "countryCode": 13,
+        "shortName": "Bahrain",
+        "value": 4.0760542074295705
+    },
+    {
+        "year": 2021,
+        "countryCode": 14,
+        "shortName": "Barbados",
+        "value": 2.0828616037608514
+    },
+    {
+        "year": 2021,
+        "countryCode": 16,
+        "shortName": "Bangladesh",
+        "value": 0.45072797826845334
+    },
+    {
+        "year": 2021,
+        "countryCode": 17,
+        "shortName": "Bermuda",
+        "value": -1
+    },
+    {
+        "year": 2021,
+        "countryCode": 18,
+        "shortName": "Bhutan",
+        "value": 3.074646163363865
+    },
+    {
+        "year": 2021,
+        "countryCode": 19,
+        "shortName": "Bolivia",
+        "value": 1.8541831754040672
+    },
+    {
+        "year": 2021,
+        "countryCode": 20,
+        "shortName": "Botswana",
+        "value": 1.5154337265609652
+    },
+    {
+        "year": 2021,
+        "countryCode": 21,
+        "shortName": "Brazil",
+        "value": 1.7054828815627057
+    },
+    {
+        "year": 2021,
+        "countryCode": 22,
+        "shortName": "Aruba",
+        "value": -1
+    },
+    {
+        "year": 2021,
+        "countryCode": 23,
+        "shortName": "Belize",
+        "value": 4.9815246530884565
+    },
+    {
+        "year": 2021,
+        "countryCode": 25,
+        "shortName": "Solomon Islands",
+        "value": 1.1308110920417065
+    },
+    {
+        "year": 2021,
+        "countryCode": 26,
+        "shortName": "Brunei",
+        "value": 4.593113974204191
+    },
+    {
+        "year": 2021,
+        "countryCode": 27,
+        "shortName": "Bulgaria",
+        "value": 2.3238801463794787
+    },
+    {
+        "year": 2021,
+        "countryCode": 28,
+        "shortName": "Myanmar",
+        "value": 0.7351435268095574
+    },
+    {
+        "year": 2021,
+        "countryCode": 29,
+        "shortName": "Burundi",
+        "value": 0.40169721111834744
+    },
+    {
+        "year": 2021,
+        "countryCode": 32,
+        "shortName": "Cameroon",
+        "value": 0.7059141573246819
+    },
+    {
+        "year": 2021,
+        "countryCode": 33,
+        "shortName": "Canada",
+        "value": 4.846298703030928
+    },
+    {
+        "year": 2021,
+        "countryCode": 35,
+        "shortName": "Cabo Verde",
+        "value": 0.813736687466172
+    },
+    {
+        "year": 2021,
+        "countryCode": 36,
+        "shortName": "Cayman Islands",
+        "value": -1
+    },
+    {
+        "year": 2021,
+        "countryCode": 37,
+        "shortName": "Central African Republic",
+        "value": 0.7513178732209697
+    },
+    {
+        "year": 2021,
+        "countryCode": 38,
+        "shortName": "Sri Lanka",
+        "value": 0.6925451595559564
+    },
+    {
+        "year": 2021,
+        "countryCode": 39,
+        "shortName": "Chad",
+        "value": 0.9305827395290645
+    },
+    {
+        "year": 2021,
+        "countryCode": 40,
+        "shortName": "Chile",
+        "value": 2.5366222675731875
+    },
+    {
+        "year": 2021,
+        "countryCode": 44,
+        "shortName": "Colombia",
+        "value": 1.3205825906354403
+    },
+    {
+        "year": 2021,
+        "countryCode": 45,
+        "shortName": "Comoros",
+        "value": 1.3470990262187488
+    },
+    {
+        "year": 2021,
+        "countryCode": 46,
+        "shortName": "Congo",
+        "value": 0.7499932443379643
+    },
+    {
+        "year": 2021,
+        "countryCode": 47,
+        "shortName": "Cook Islands",
+        "value": 1.9286032534664312
+    },
+    {
+        "year": 2021,
+        "countryCode": 48,
+        "shortName": "Costa Rica",
+        "value": 1.7476869870292746
+    },
+    {
+        "year": 2021,
+        "countryCode": 49,
+        "shortName": "Cuba",
+        "value": 1.261849152205982
+    },
+    {
+        "year": 2021,
+        "countryCode": 50,
+        "shortName": "Cyprus",
+        "value": 2.2122868926502015
+    },
+    {
+        "year": 2021,
+        "countryCode": 52,
+        "shortName": "Azerbaijan",
+        "value": 1.532939954701268
+    },
+    {
+        "year": 2021,
+        "countryCode": 53,
+        "shortName": "Benin",
+        "value": 0.7437996159913196
+    },
+    {
+        "year": 2021,
+        "countryCode": 54,
+        "shortName": "Denmark",
+        "value": 4.707988992949133
+    },
+    {
+        "year": 2021,
+        "countryCode": 55,
+        "shortName": "Dominica",
+        "value": 1.8014597578427745
+    },
+    {
+        "year": 2021,
+        "countryCode": 56,
+        "shortName": "Dominican Republic",
+        "value": 1.2146652134164024
+    },
+    {
+        "year": 2021,
+        "countryCode": 57,
+        "shortName": "Belarus",
+        "value": 3.0350557451189424
+    },
+    {
+        "year": 2021,
+        "countryCode": 58,
+        "shortName": "Ecuador",
+        "value": 1.1215450120748105
+    },
+    {
+        "year": 2021,
+        "countryCode": 59,
+        "shortName": "Egypt",
+        "value": 0.9554948097350114
+    },
+    {
+        "year": 2021,
+        "countryCode": 60,
+        "shortName": "El Salvador",
+        "value": 1.2919460043646591
+    },
+    {
+        "year": 2021,
+        "countryCode": 61,
+        "shortName": "Equatorial Guinea",
+        "value": 1.1199246087574302
+    },
+    {
+        "year": 2021,
+        "countryCode": 63,
+        "shortName": "Estonia",
+        "value": 5.298470476475299
+    },
+    {
+        "year": 2021,
+        "countryCode": 64,
+        "shortName": "Faroe Islands",
+        "value": 20.964597442203896
+    },
+    {
+        "year": 2021,
+        "countryCode": 65,
+        "shortName": "Falkland Islands",
+        "value": -1
+    },
+    {
+        "year": 2021,
+        "countryCode": 66,
+        "shortName": "Fiji",
+        "value": 1.8080864195978152
+    },
+    {
+        "year": 2021,
+        "countryCode": 67,
+        "shortName": "Finland",
+        "value": 3.4158793386421693
+    },
+    {
+        "year": 2021,
+        "countryCode": 68,
+        "shortName": "France",
+        "value": 2.8937416498353667
+    },
+    {
+        "year": 2021,
+        "countryCode": 69,
+        "shortName": "French Guiana",
+        "value": 1.1082721757043184
+    },
+    {
+        "year": 2021,
+        "countryCode": 70,
+        "shortName": "French Polynesia",
+        "value": 2.3666972845994714
+    },
+    {
+        "year": 2021,
+        "countryCode": 72,
+        "shortName": "Djibouti",
+        "value": 1.6495932961443351
+    },
+    {
+        "year": 2021,
+        "countryCode": 73,
+        "shortName": "Georgia",
+        "value": 1.6975913177059565
+    },
+    {
+        "year": 2021,
+        "countryCode": 74,
+        "shortName": "Gabon",
+        "value": 1.3988599390223333
+    },
+    {
+        "year": 2021,
+        "countryCode": 75,
+        "shortName": "Gambia",
+        "value": 0.5897392794780066
+    },
+    {
+        "year": 2021,
+        "countryCode": 79,
+        "shortName": "Germany",
+        "value": 2.9773741861518537
+    },
+    {
+        "year": 2021,
+        "countryCode": 80,
+        "shortName": "Bosnia and Herzegovina",
+        "value": 2.7542116631871423
+    },
+    {
+        "year": 2021,
+        "countryCode": 81,
+        "shortName": "Ghana",
+        "value": 1.1850079811377154
+    },
+    {
+        "year": 2021,
+        "countryCode": 82,
+        "shortName": "Gibraltar",
+        "value": -1
+    },
+    {
+        "year": 2021,
+        "countryCode": 83,
+        "shortName": "Kiribati",
+        "value": 9.433386901505616
+    },
+    {
+        "year": 2021,
+        "countryCode": 84,
+        "shortName": "Greece",
+        "value": 2.4455606945615047
+    },
+    {
+        "year": 2021,
+        "countryCode": 86,
+        "shortName": "Grenada",
+        "value": 1.1620780892333877
+    },
+    {
+        "year": 2021,
+        "countryCode": 87,
+        "shortName": "Guadeloupe",
+        "value": 2.372192246446303
+    },
+    {
+        "year": 2021,
+        "countryCode": 88,
+        "shortName": "Guam",
+        "value": -1
+    },
+    {
+        "year": 2021,
+        "countryCode": 89,
+        "shortName": "Guatemala",
+        "value": 1.2662321371680532
+    },
+    {
+        "year": 2021,
+        "countryCode": 90,
+        "shortName": "Guinea",
+        "value": 1.0310251348607662
+    },
+    {
+        "year": 2021,
+        "countryCode": 91,
+        "shortName": "Guyana",
+        "value": 1.9099190425825314
+    },
+    {
+        "year": 2021,
+        "countryCode": 93,
+        "shortName": "Haiti",
+        "value": 0.39700702281641737
+    },
+    {
+        "year": 2021,
+        "countryCode": 95,
+        "shortName": "Honduras",
+        "value": 0.9134542476997743
+    },
+    {
+        "year": 2021,
+        "countryCode": 97,
+        "shortName": "Hungary",
+        "value": 2.5782064539838996
+    },
+    {
+        "year": 2021,
+        "countryCode": 98,
+        "shortName": "Croatia",
+        "value": 2.4877697584760545
+    },
+    {
+        "year": 2021,
+        "countryCode": 99,
+        "shortName": "Iceland",
+        "value": 14.813646467367619
+    },
+    {
+        "year": 2021,
+        "countryCode": 100,
+        "shortName": "India",
+        "value": 0.6616884363192514
+    },
+    {
+        "year": 2021,
+        "countryCode": 101,
+        "shortName": "Indonesia",
+        "value": 1.0467485251151005
+    },
+    {
+        "year": 2021,
+        "countryCode": 102,
+        "shortName": "Iran",
+        "value": 2.0434715542487165
+    },
+    {
+        "year": 2021,
+        "countryCode": 103,
+        "shortName": "Iraq",
+        "value": 1.088677720316136
+    },
+    {
+        "year": 2021,
+        "countryCode": 104,
+        "shortName": "Ireland",
+        "value": 2.906278617394767
+    },
+    {
+        "year": 2021,
+        "countryCode": 105,
+        "shortName": "Israel",
+        "value": 2.8229778969064405
+    },
+    {
+        "year": 2021,
+        "countryCode": 106,
+        "shortName": "Italy",
+        "value": 2.6422634802002674
+    },
+    {
+        "year": 2021,
+        "countryCode": 107,
+        "shortName": "Cote d'Ivoire",
+        "value": 0.6022474900573133
+    },
+    {
+        "year": 2021,
+        "countryCode": 108,
+        "shortName": "Kazakhstan",
+        "value": 2.7894765618899418
+    },
+    {
+        "year": 2021,
+        "countryCode": 109,
+        "shortName": "Jamaica",
+        "value": 1.1538095371502697
+    },
+    {
+        "year": 2021,
+        "countryCode": 110,
+        "shortName": "Japan",
+        "value": 2.6470754794013653
+    },
+    {
+        "year": 2021,
+        "countryCode": 112,
+        "shortName": "Jordan",
+        "value": 0.8869319041475818
+    },
+    {
+        "year": 2021,
+        "countryCode": 113,
+        "shortName": "Kyrgyzstan",
+        "value": 1.0174114111191472
+    },
+    {
+        "year": 2021,
+        "countryCode": 114,
+        "shortName": "Kenya",
+        "value": 0.5986396661607728
+    },
+    {
+        "year": 2021,
+        "countryCode": 115,
+        "shortName": "Cambodia",
+        "value": 0.9083635829381438
+    },
+    {
+        "year": 2021,
+        "countryCode": 116,
+        "shortName": "North Korea",
+        "value": 0.790006263688054
+    },
+    {
+        "year": 2021,
+        "countryCode": 117,
+        "shortName": "South Korea",
+        "value": 3.8210408672453595
+    },
+    {
+        "year": 2021,
+        "countryCode": 118,
+        "shortName": "Kuwait",
+        "value": 5.3498668802546465
+    },
+    {
+        "year": 2021,
+        "countryCode": 119,
+        "shortName": "Latvia",
+        "value": 5.092642935434398
+    },
+    {
+        "year": 2021,
+        "countryCode": 120,
+        "shortName": "Laos",
+        "value": 1.1416734306703615
+    },
+    {
+        "year": 2021,
+        "countryCode": 121,
+        "shortName": "Lebanon",
+        "value": 2.0588052838197304
+    },
+    {
+        "year": 2021,
+        "countryCode": 122,
+        "shortName": "Lesotho",
+        "value": 0.7488664013452683
+    },
+    {
+        "year": 2021,
+        "countryCode": 123,
+        "shortName": "Liberia",
+        "value": 0.8253892484268599
+    },
+    {
+        "year": 2021,
+        "countryCode": 124,
+        "shortName": "Libya",
+        "value": 3.494223391280798
+    },
+    {
+        "year": 2021,
+        "countryCode": 125,
+        "shortName": "Liechtenstein",
+        "value": -1
+    },
+    {
+        "year": 2021,
+        "countryCode": 126,
+        "shortName": "Lithuania",
+        "value": 4.18640485481816
+    },
+    {
+        "year": 2021,
+        "countryCode": 127,
+        "shortName": "Marshall Islands",
+        "value": 6.829077623055325
+    },
+    {
+        "year": 2021,
+        "countryCode": 129,
+        "shortName": "Madagascar",
+        "value": 0.538284587282838
+    },
+    {
+        "year": 2021,
+        "countryCode": 130,
+        "shortName": "Malawi",
+        "value": 0.4897990920596562
+    },
+    {
+        "year": 2021,
+        "countryCode": 131,
+        "shortName": "Malaysia",
+        "value": 2.603286066083456
+    },
+    {
+        "year": 2021,
+        "countryCode": 132,
+        "shortName": "Maldives",
+        "value": 4.1883368514901935
+    },
+    {
+        "year": 2021,
+        "countryCode": 133,
+        "shortName": "Mali",
+        "value": 0.6796599613637496
+    },
+    {
+        "year": 2021,
+        "countryCode": 134,
+        "shortName": "Malta",
+        "value": 2.6332998392624876
+    },
+    {
+        "year": 2021,
+        "countryCode": 135,
+        "shortName": "Martinique",
+        "value": 2.4249302325788205
+    },
+    {
+        "year": 2021,
+        "countryCode": 136,
+        "shortName": "Mauritania",
+        "value": 1.5276635490754267
+    },
+    {
+        "year": 2021,
+        "countryCode": 137,
+        "shortName": "Mauritius",
+        "value": 1.7763593847101733
+    },
+    {
+        "year": 2021,
+        "countryCode": 138,
+        "shortName": "Mexico",
+        "value": 1.5364158291675911
+    },
+    {
+        "year": 2021,
+        "countryCode": 141,
+        "shortName": "Mongolia",
+        "value": 5.099637257298442
+    },
+    {
+        "year": 2021,
+        "countryCode": 142,
+        "shortName": "Montserrat",
+        "value": -1
+    },
+    {
+        "year": 2021,
+        "countryCode": 143,
+        "shortName": "Morocco",
+        "value": 1.048811688167244
+    },
+    {
+        "year": 2021,
+        "countryCode": 144,
+        "shortName": "Mozambique",
+        "value": 0.5164071109679963
+    },
+    {
+        "year": 2021,
+        "countryCode": 145,
+        "shortName": "Micronesia",
+        "value": 18.174539987190542
+    },
+    {
+        "year": 2021,
+        "countryCode": 146,
+        "shortName": "Moldova",
+        "value": 1.1026472513114671
+    },
+    {
+        "year": 2021,
+        "countryCode": 147,
+        "shortName": "Namibia",
+        "value": 1.6272825154633603
+    },
+    {
+        "year": 2021,
+        "countryCode": 148,
+        "shortName": "Nauru",
+        "value": 107.25272056668635
+    },
+    {
+        "year": 2021,
+        "countryCode": 149,
+        "shortName": "Nepal",
+        "value": 0.5978731068026323
+    },
+    {
+        "year": 2021,
+        "countryCode": 150,
+        "shortName": "Netherlands",
+        "value": 4.07468387023679
+    },
+    {
+        "year": 2021,
+        "countryCode": 153,
+        "shortName": "New Caledonia",
+        "value": 5.949588672882439
+    },
+    {
+        "year": 2021,
+        "countryCode": 154,
+        "shortName": "Macedonia",
+        "value": 1.8630557009389748
+    },
+    {
+        "year": 2021,
+        "countryCode": 155,
+        "shortName": "Vanuatu",
+        "value": 1.2297637108013715
+    },
+    {
+        "year": 2021,
+        "countryCode": 156,
+        "shortName": "New Zealand",
+        "value": 3.490296479834085
+    },
+    {
+        "year": 2021,
+        "countryCode": 157,
+        "shortName": "Nicaragua",
+        "value": 1.0118068711811836
+    },
+    {
+        "year": 2021,
+        "countryCode": 158,
+        "shortName": "Niger",
+        "value": 0.922079860510788
+    },
+    {
+        "year": 2021,
+        "countryCode": 159,
+        "shortName": "Nigeria",
+        "value": 0.5298091192015971
+    },
+    {
+        "year": 2021,
+        "countryCode": 160,
+        "shortName": "Niue",
+        "value": 3.89795225639097
+    },
+    {
+        "year": 2021,
+        "countryCode": 162,
+        "shortName": "Norway",
+        "value": 3.5504801537094295
+    },
+    {
+        "year": 2021,
+        "countryCode": 163,
+        "shortName": "Northern Mariana Islands",
+        "value": -1
+    },
+    {
+        "year": 2021,
+        "countryCode": 165,
+        "shortName": "Pakistan",
+        "value": 0.48251823391114607
+    },
+    {
+        "year": 2021,
+        "countryCode": 166,
+        "shortName": "Panama",
+        "value": 1.5803986777028192
+    },
+    {
+        "year": 2021,
+        "countryCode": 167,
+        "shortName": "Czech Republic",
+        "value": 3.400526806882771
+    },
+    {
+        "year": 2021,
+        "countryCode": 168,
+        "shortName": "Papua New Guinea",
+        "value": 0.7729011342745912
+    },
+    {
+        "year": 2021,
+        "countryCode": 169,
+        "shortName": "Paraguay",
+        "value": 2.091983171988536
+    },
+    {
+        "year": 2021,
+        "countryCode": 170,
+        "shortName": "Peru",
+        "value": 1.4977765412853734
+    },
+    {
+        "year": 2021,
+        "countryCode": 171,
+        "shortName": "Philippines",
+        "value": 0.7867259516892354
+    },
+    {
+        "year": 2021,
+        "countryCode": 173,
+        "shortName": "Poland",
+        "value": 3.18534527631889
+    },
+    {
+        "year": 2021,
+        "countryCode": 174,
+        "shortName": "Portugal",
+        "value": 2.478903763698094
+    },
+    {
+        "year": 2021,
+        "countryCode": 175,
+        "shortName": "Guinea-Bissau",
+        "value": 0.8128188904658696
+    },
+    {
+        "year": 2021,
+        "countryCode": 176,
+        "shortName": "Timor-Leste",
+        "value": 0.3756134756912196
+    },
+    {
+        "year": 2021,
+        "countryCode": 177,
+        "shortName": "Puerto Rico",
+        "value": 0.07671644583015866
+    },
+    {
+        "year": 2021,
+        "countryCode": 178,
+        "shortName": "Eritrea",
+        "value": 0.48388134014497297
+    },
+    {
+        "year": 2021,
+        "countryCode": 179,
+        "shortName": "Qatar",
+        "value": 8.131505000663557
+    },
+    {
+        "year": 2021,
+        "countryCode": 180,
+        "shortName": "Palau",
+        "value": -1
+    },
+    {
+        "year": 2021,
+        "countryCode": 181,
+        "shortName": "Zimbabwe",
+        "value": 0.7294384334557913
+    },
+    {
+        "year": 2021,
+        "countryCode": 182,
+        "shortName": "Reunion",
+        "value": 2.475395778625143
+    },
+    {
+        "year": 2021,
+        "countryCode": 183,
+        "shortName": "Romania",
+        "value": 1.868272334264907
+    },
+    {
+        "year": 2021,
+        "countryCode": 184,
+        "shortName": "Rwanda",
+        "value": 0.37122850304543836
+    },
+    {
+        "year": 2021,
+        "countryCode": 185,
+        "shortName": "Russia",
+        "value": 3.957430987739
+    },
+    {
+        "year": 2021,
+        "countryCode": 187,
+        "shortName": "St. Helena",
+        "value": -1
+    },
+    {
+        "year": 2021,
+        "countryCode": 188,
+        "shortName": "St. Kitts and Nevis",
+        "value": 10.450305678649404
+    },
+    {
+        "year": 2021,
+        "countryCode": 189,
+        "shortName": "St. Lucia",
+        "value": 1.1312236350220133
+    },
+    {
+        "year": 2021,
+        "countryCode": 190,
+        "shortName": "St. Pierre and Miquelon",
+        "value": -1
+    },
+    {
+        "year": 2021,
+        "countryCode": 191,
+        "shortName": "St. Vincent and Grenadines",
+        "value": 1.2368887880779373
+    },
+    {
+        "year": 2021,
+        "countryCode": 193,
+        "shortName": "Sao Tome and Principe",
+        "value": 0.7184717018370255
+    },
+    {
+        "year": 2021,
+        "countryCode": 194,
+        "shortName": "Saudi Arabia",
+        "value": 3.666628974856287
+    },
+    {
+        "year": 2021,
+        "countryCode": 195,
+        "shortName": "Senegal",
+        "value": 0.8338988310762369
+    },
+    {
+        "year": 2021,
+        "countryCode": 196,
+        "shortName": "Seychelles",
+        "value": 7.362094945453206
+    },
+    {
+        "year": 2021,
+        "countryCode": 197,
+        "shortName": "Sierra Leone",
+        "value": 0.7062937372177301
+    },
+    {
+        "year": 2021,
+        "countryCode": 198,
+        "shortName": "Slovenia",
+        "value": 3.22377880488558
+    },
+    {
+        "year": 2021,
+        "countryCode": 199,
+        "shortName": "Slovakia",
+        "value": 2.7716391774968465
+    },
+    {
+        "year": 2021,
+        "countryCode": 200,
+        "shortName": "Singapore",
+        "value": 3.8625073776677312
+    },
+    {
+        "year": 2021,
+        "countryCode": 201,
+        "shortName": "Somalia",
+        "value": 0.6046315980250035
+    },
+    {
+        "year": 2021,
+        "countryCode": 202,
+        "shortName": "South Africa",
+        "value": 2.113291642391313
+    },
+    {
+        "year": 2021,
+        "countryCode": 203,
+        "shortName": "Spain",
+        "value": 2.6139109201041104
+    },
+    {
+        "year": 2021,
+        "countryCode": 207,
+        "shortName": "Suriname",
+        "value": 2.2295555068535573
+    },
+    {
+        "year": 2021,
+        "countryCode": 208,
+        "shortName": "Tajikistan",
+        "value": 0.6890523394167679
+    },
+    {
+        "year": 2021,
+        "countryCode": 209,
+        "shortName": "Swaziland",
+        "value": 1.9570210084547912
+    },
+    {
+        "year": 2021,
+        "countryCode": 210,
+        "shortName": "Sweden",
+        "value": 3.283575560540575
+    },
+    {
+        "year": 2021,
+        "countryCode": 211,
+        "shortName": "Switzerland",
+        "value": 2.4849504241317075
+    },
+    {
+        "year": 2021,
+        "countryCode": 212,
+        "shortName": "Syria",
+        "value": 0.7028928252661181
+    },
+    {
+        "year": 2021,
+        "countryCode": 213,
+        "shortName": "Turkmenistan",
+        "value": 2.6686794940928475
+    },
+    {
+        "year": 2021,
+        "countryCode": 215,
+        "shortName": "Tanzania",
+        "value": 0.631757969728718
+    },
+    {
+        "year": 2021,
+        "countryCode": 216,
+        "shortName": "Thailand",
+        "value": 1.5441504041234375
+    },
+    {
+        "year": 2021,
+        "countryCode": 217,
+        "shortName": "Togo",
+        "value": 0.616262869262016
+    },
+    {
+        "year": 2021,
+        "countryCode": 218,
+        "shortName": "Tokelau",
+        "value": 3.71938064831525
+    },
+    {
+        "year": 2021,
+        "countryCode": 219,
+        "shortName": "Tonga",
+        "value": 2.160065251291843
+    },
+    {
+        "year": 2021,
+        "countryCode": 220,
+        "shortName": "Trinidad and Tobago",
+        "value": 3.1271567307540282
+    },
+    {
+        "year": 2021,
+        "countryCode": 221,
+        "shortName": "Oman",
+        "value": 4.428893459033884
+    },
+    {
+        "year": 2021,
+        "countryCode": 222,
+        "shortName": "Tunisia",
+        "value": 0.9044594285170636
+    },
+    {
+        "year": 2021,
+        "countryCode": 223,
+        "shortName": "Turkey",
+        "value": 2.1996573688583645
+    },
+    {
+        "year": 2021,
+        "countryCode": 224,
+        "shortName": "Turks and Caicos Islands",
+        "value": -1
+    },
+    {
+        "year": 2021,
+        "countryCode": 225,
+        "shortName": "United Arab Emirates",
+        "value": 5.2411741616350325
+    },
+    {
+        "year": 2021,
+        "countryCode": 226,
+        "shortName": "Uganda",
+        "value": 0.6662803694702012
+    },
+    {
+        "year": 2021,
+        "countryCode": 227,
+        "shortName": "Tuvalu",
+        "value": 3.7677021871307135
+    },
+    {
+        "year": 2021,
+        "countryCode": 229,
+        "shortName": "United Kingdom",
+        "value": 2.4013762979932856
+    },
+    {
+        "year": 2021,
+        "countryCode": 230,
+        "shortName": "Ukraine",
+        "value": 1.451207329106091
+    },
+    {
+        "year": 2021,
+        "countryCode": 231,
+        "shortName": "United States",
+        "value": 4.886612888989464
+    },
+    {
+        "year": 2021,
+        "countryCode": 233,
+        "shortName": "Burkina Faso",
+        "value": 0.6118616935506517
+    },
+    {
+        "year": 2021,
+        "countryCode": 234,
+        "shortName": "Uruguay",
+        "value": 1.440966428340269
+    },
+    {
+        "year": 2021,
+        "countryCode": 235,
+        "shortName": "Uzbekistan",
+        "value": 1.3830954075250639
+    },
+    {
+        "year": 2021,
+        "countryCode": 236,
+        "shortName": "Venezuela",
+        "value": 1.4014215393302256
+    },
+    {
+        "year": 2021,
+        "countryCode": 237,
+        "shortName": "Viet Nam",
+        "value": 1.544222233636202
+    },
+    {
+        "year": 2021,
+        "countryCode": 238,
+        "shortName": "Ethiopia",
+        "value": 0.5693886956392281
+    },
+    {
+        "year": 2021,
+        "countryCode": 239,
+        "shortName": "British Virgin Islands",
+        "value": -1
+    },
+    {
+        "year": 2021,
+        "countryCode": 240,
+        "shortName": "US Virgin Islands",
+        "value": -1
+    },
+    {
+        "year": 2021,
+        "countryCode": 243,
+        "shortName": "Wallis and Futuna Islands",
+        "value": -1
+    },
+    {
+        "year": 2021,
+        "countryCode": 244,
+        "shortName": "Samoa",
+        "value": 1.6491117232439638
+    },
+    {
+        "year": 2021,
+        "countryCode": 249,
+        "shortName": "Yemen",
+        "value": 0.4199516099931107
+    },
+    {
+        "year": 2021,
+        "countryCode": 250,
+        "shortName": "Congo DR",
+        "value": 0.46460854124534456
+    },
+    {
+        "year": 2021,
+        "countryCode": 251,
+        "shortName": "Zambia",
+        "value": 0.8067670268515158
+    },
+    {
+        "year": 2021,
+        "countryCode": 255,
+        "shortName": "Belgium",
+        "value": 4.438949763370718
+    },
+    {
+        "year": 2021,
+        "countryCode": 256,
+        "shortName": "Luxembourg",
+        "value": 7.235159791954201
+    },
+    {
+        "year": 2021,
+        "countryCode": 258,
+        "shortName": "Anguilla",
+        "value": -1
+    },
+    {
+        "year": 2021,
+        "countryCode": 264,
+        "shortName": "Isle of Man",
+        "value": -1
+    },
+    {
+        "year": 2021,
+        "countryCode": 270,
+        "shortName": "Mayotte",
+        "value": -1
+    },
+    {
+        "year": 2021,
+        "countryCode": 272,
+        "shortName": "Serbia",
+        "value": 2.4737591602892843
+    },
+    {
+        "year": 2021,
+        "countryCode": 273,
+        "shortName": "Montenegro",
+        "value": 2.592914605349221
+    },
+    {
+        "year": 2021,
+        "countryCode": 276,
+        "shortName": "Sudan",
+        "value": 0.768937939400742
+    },
+    {
+        "year": 2021,
+        "countryCode": 277,
+        "shortName": "South Sudan",
+        "value": 1.1130041549867815
+    },
+    {
+        "year": 2021,
+        "countryCode": 279,
+        "shortName": "Curaçao",
+        "value": -1
+    },
+    {
+        "year": 2021,
+        "countryCode": 281,
+        "shortName": "St. Martin",
+        "value": -1
+    },
+    {
+        "year": 2021,
+        "countryCode": 299,
+        "shortName": "Palestine",
+        "value": 0.44240707989400524
+    },
+    {
+        "year": 2021,
+        "countryCode": 351,
+        "shortName": "China",
+        "value": 2.3323524630970147
+    },
+    {
+        "year": 2020,
+        "countryCode": 1,
+        "shortName": "Armenia",
+        "value": 1.4197572095094255
+    },
+    {
+        "year": 2020,
+        "countryCode": 2,
+        "shortName": "Afghanistan",
+        "value": 0.5509296531193996
+    },
+    {
+        "year": 2020,
+        "countryCode": 3,
+        "shortName": "Albania",
+        "value": 1.3036355235454204
+    },
+    {
+        "year": 2020,
+        "countryCode": 4,
+        "shortName": "Algeria",
+        "value": 1.4380202425987443
+    },
+    {
+        "year": 2020,
+        "countryCode": 5,
+        "shortName": "American Samoa",
+        "value": -1
+    },
+    {
+        "year": 2020,
+        "countryCode": 6,
+        "shortName": "Andorra",
+        "value": -1
+    },
+    {
+        "year": 2020,
+        "countryCode": 7,
+        "shortName": "Angola",
+        "value": 0.601649203917594
+    },
+    {
+        "year": 2020,
+        "countryCode": 8,
+        "shortName": "Antigua and Barbuda",
+        "value": 1.905413838078241
+    },
+    {
+        "year": 2020,
+        "countryCode": 9,
+        "shortName": "Argentina",
+        "value": 1.9936172647157155
+    },
+    {
+        "year": 2020,
+        "countryCode": 10,
+        "shortName": "Australia",
+        "value": 3.6805704354901403
+    },
+    {
+        "year": 2020,
+        "countryCode": 11,
+        "shortName": "Austria",
+        "value": 3.559404468139552
+    },
+    {
+        "year": 2020,
+        "countryCode": 12,
+        "shortName": "Bahamas",
+        "value": 0.9404551522528469
+    },
+    {
+        "year": 2020,
+        "countryCode": 13,
+        "shortName": "Bahrain",
+        "value": 4.469527457484369
+    },
+    {
+        "year": 2020,
+        "countryCode": 14,
+        "shortName": "Barbados",
+        "value": 2.003169507887969
+    },
+    {
+        "year": 2020,
+        "countryCode": 16,
+        "shortName": "Bangladesh",
+        "value": 0.44424892427823265
+    },
+    {
+        "year": 2020,
+        "countryCode": 17,
+        "shortName": "Bermuda",
+        "value": -1
+    },
+    {
+        "year": 2020,
+        "countryCode": 18,
+        "shortName": "Bhutan",
+        "value": 3.0704698165592688
+    },
+    {
+        "year": 2020,
+        "countryCode": 19,
+        "shortName": "Bolivia",
+        "value": 1.8282386243024145
+    },
+    {
+        "year": 2020,
+        "countryCode": 20,
+        "shortName": "Botswana",
+        "value": 1.4418813534783308
+    },
+    {
+        "year": 2020,
+        "countryCode": 21,
+        "shortName": "Brazil",
+        "value": 1.6307440009694405
+    },
+    {
+        "year": 2020,
+        "countryCode": 22,
+        "shortName": "Aruba",
+        "value": -1
+    },
+    {
+        "year": 2020,
+        "countryCode": 23,
+        "shortName": "Belize",
+        "value": 4.895488671327244
+    },
+    {
+        "year": 2020,
+        "countryCode": 25,
+        "shortName": "Solomon Islands",
+        "value": 1.1396774977983324
+    },
+    {
+        "year": 2020,
+        "countryCode": 26,
+        "shortName": "Brunei",
+        "value": 4.148690526254844
+    },
+    {
+        "year": 2020,
+        "countryCode": 27,
+        "shortName": "Bulgaria",
+        "value": 2.135481591543157
+    },
+    {
+        "year": 2020,
+        "countryCode": 28,
+        "shortName": "Myanmar",
+        "value": 0.7467247443840593
+    },
+    {
+        "year": 2020,
+        "countryCode": 29,
+        "shortName": "Burundi",
+        "value": 0.40558458957209204
+    },
+    {
+        "year": 2020,
+        "countryCode": 32,
+        "shortName": "Cameroon",
+        "value": 0.7146704266857764
+    },
+    {
+        "year": 2020,
+        "countryCode": 33,
+        "shortName": "Canada",
+        "value": 4.569054446519281
+    },
+    {
+        "year": 2020,
+        "countryCode": 35,
+        "shortName": "Cabo Verde",
+        "value": 0.7964869527016202
+    },
+    {
+        "year": 2020,
+        "countryCode": 36,
+        "shortName": "Cayman Islands",
+        "value": -1
+    },
+    {
+        "year": 2020,
+        "countryCode": 37,
+        "shortName": "Central African Republic",
+        "value": 0.7604959006188962
+    },
+    {
+        "year": 2020,
+        "countryCode": 38,
+        "shortName": "Sri Lanka",
+        "value": 0.6803295521665831
+    },
+    {
+        "year": 2020,
+        "countryCode": 39,
+        "shortName": "Chad",
+        "value": 0.9507482078935542
+    },
+    {
+        "year": 2020,
+        "countryCode": 40,
+        "shortName": "Chile",
+        "value": 2.4446778116216494
+    },
+    {
+        "year": 2020,
+        "countryCode": 44,
+        "shortName": "Colombia",
+        "value": 1.3458073913330686
+    },
+    {
+        "year": 2020,
+        "countryCode": 45,
+        "shortName": "Comoros",
+        "value": 1.3481790309387676
+    },
+    {
+        "year": 2020,
+        "countryCode": 46,
+        "shortName": "Congo",
+        "value": 0.7496521923082062
+    },
+    {
+        "year": 2020,
+        "countryCode": 47,
+        "shortName": "Cook Islands",
+        "value": 1.851238543560196
+    },
+    {
+        "year": 2020,
+        "countryCode": 48,
+        "shortName": "Costa Rica",
+        "value": 1.6772487275479637
+    },
+    {
+        "year": 2020,
+        "countryCode": 49,
+        "shortName": "Cuba",
+        "value": 1.2222843778006458
+    },
+    {
+        "year": 2020,
+        "countryCode": 50,
+        "shortName": "Cyprus",
+        "value": 2.1295003658547986
+    },
+    {
+        "year": 2020,
+        "countryCode": 52,
+        "shortName": "Azerbaijan",
+        "value": 1.4470991606572905
+    },
+    {
+        "year": 2020,
+        "countryCode": 53,
+        "shortName": "Benin",
+        "value": 0.7367879313346096
+    },
+    {
+        "year": 2020,
+        "countryCode": 54,
+        "shortName": "Denmark",
+        "value": 4.536333331139208
+    },
+    {
+        "year": 2020,
+        "countryCode": 55,
+        "shortName": "Dominica",
+        "value": 1.7508039393327317
+    },
+    {
+        "year": 2020,
+        "countryCode": 56,
+        "shortName": "Dominican Republic",
+        "value": 1.1633613451722806
+    },
+    {
+        "year": 2020,
+        "countryCode": 57,
+        "shortName": "Belarus",
+        "value": 2.9477475265751125
+    },
+    {
+        "year": 2020,
+        "countryCode": 58,
+        "shortName": "Ecuador",
+        "value": 1.0902207668674024
+    },
+    {
+        "year": 2020,
+        "countryCode": 59,
+        "shortName": "Egypt",
+        "value": 0.9584166746067295
+    },
+    {
+        "year": 2020,
+        "countryCode": 60,
+        "shortName": "El Salvador",
+        "value": 1.2433333633090475
+    },
+    {
+        "year": 2020,
+        "countryCode": 61,
+        "shortName": "Equatorial Guinea",
+        "value": 1.0718841067142384
+    },
+    {
+        "year": 2020,
+        "countryCode": 63,
+        "shortName": "Estonia",
+        "value": 5.036382170328916
+    },
+    {
+        "year": 2020,
+        "countryCode": 64,
+        "shortName": "Faroe Islands",
+        "value": 20.673557233814687
+    },
+    {
+        "year": 2020,
+        "countryCode": 65,
+        "shortName": "Falkland Islands",
+        "value": -1
+    },
+    {
+        "year": 2020,
+        "countryCode": 66,
+        "shortName": "Fiji",
+        "value": 1.7983771994263784
+    },
+    {
+        "year": 2020,
+        "countryCode": 67,
+        "shortName": "Finland",
+        "value": 3.247747612184089
+    },
+    {
+        "year": 2020,
+        "countryCode": 68,
+        "shortName": "France",
+        "value": 2.734863942579408
+    },
+    {
+        "year": 2020,
+        "countryCode": 69,
+        "shortName": "French Guiana",
+        "value": 1.026698041887643
+    },
+    {
+        "year": 2020,
+        "countryCode": 70,
+        "shortName": "French Polynesia",
+        "value": 2.2375423502836598
+    },
+    {
+        "year": 2020,
+        "countryCode": 72,
+        "shortName": "Djibouti",
+        "value": 1.667873925442431
+    },
+    {
+        "year": 2020,
+        "countryCode": 73,
+        "shortName": "Georgia",
+        "value": 1.6282590269347674
+    },
+    {
+        "year": 2020,
+        "countryCode": 74,
+        "shortName": "Gabon",
+        "value": 1.4081115740799635
+    },
+    {
+        "year": 2020,
+        "countryCode": 75,
+        "shortName": "Gambia",
+        "value": 0.6062776206831464
+    },
+    {
+        "year": 2020,
+        "countryCode": 79,
+        "shortName": "Germany",
+        "value": 2.8175706474997497
+    },
+    {
+        "year": 2020,
+        "countryCode": 80,
+        "shortName": "Bosnia and Herzegovina",
+        "value": 2.644464448609045
+    },
+    {
+        "year": 2020,
+        "countryCode": 81,
+        "shortName": "Ghana",
+        "value": 1.1929910897057052
+    },
+    {
+        "year": 2020,
+        "countryCode": 82,
+        "shortName": "Gibraltar",
+        "value": -1
+    },
+    {
+        "year": 2020,
+        "countryCode": 83,
+        "shortName": "Kiribati",
+        "value": 9.520150691534887
+    },
+    {
+        "year": 2020,
+        "countryCode": 84,
+        "shortName": "Greece",
+        "value": 2.3903391549480766
+    },
+    {
+        "year": 2020,
+        "countryCode": 86,
+        "shortName": "Grenada",
+        "value": 1.136526169374289
+    },
+    {
+        "year": 2020,
+        "countryCode": 87,
+        "shortName": "Guadeloupe",
+        "value": 2.1542016044978594
+    },
+    {
+        "year": 2020,
+        "countryCode": 88,
+        "shortName": "Guam",
+        "value": -1
+    },
+    {
+        "year": 2020,
+        "countryCode": 89,
+        "shortName": "Guatemala",
+        "value": 1.231185783567281
+    },
+    {
+        "year": 2020,
+        "countryCode": 90,
+        "shortName": "Guinea",
+        "value": 1.0448354843803795
+    },
+    {
+        "year": 2020,
+        "countryCode": 91,
+        "shortName": "Guyana",
+        "value": 2.2095185900340617
+    },
+    {
+        "year": 2020,
+        "countryCode": 93,
+        "shortName": "Haiti",
+        "value": 0.39640658991308436
+    },
+    {
+        "year": 2020,
+        "countryCode": 95,
+        "shortName": "Honduras",
+        "value": 0.8759969438489661
+    },
+    {
+        "year": 2020,
+        "countryCode": 97,
+        "shortName": "Hungary",
+        "value": 2.457153653310848
+    },
+    {
+        "year": 2020,
+        "countryCode": 98,
+        "shortName": "Croatia",
+        "value": 2.3163203728846384
+    },
+    {
+        "year": 2020,
+        "countryCode": 99,
+        "shortName": "Iceland",
+        "value": 14.533481535670715
+    },
+    {
+        "year": 2020,
+        "countryCode": 100,
+        "shortName": "India",
+        "value": 0.6287936689367434
+    },
+    {
+        "year": 2020,
+        "countryCode": 101,
+        "shortName": "Indonesia",
+        "value": 1.0086719846719823
+    },
+    {
+        "year": 2020,
+        "countryCode": 102,
+        "shortName": "Iran",
+        "value": 1.9233234028608517
+    },
+    {
+        "year": 2020,
+        "countryCode": 103,
+        "shortName": "Iraq",
+        "value": 1.0188989304599474
+    },
+    {
+        "year": 2020,
+        "countryCode": 104,
+        "shortName": "Ireland",
+        "value": 2.807602760275899
+    },
+    {
+        "year": 2020,
+        "countryCode": 105,
+        "shortName": "Israel",
+        "value": 2.7540046816044965
+    },
+    {
+        "year": 2020,
+        "countryCode": 106,
+        "shortName": "Italy",
+        "value": 2.474551600415296
+    },
+    {
+        "year": 2020,
+        "countryCode": 107,
+        "shortName": "Cote d'Ivoire",
+        "value": 0.5982738939805062
+    },
+    {
+        "year": 2020,
+        "countryCode": 108,
+        "shortName": "Kazakhstan",
+        "value": 2.6968205288387184
+    },
+    {
+        "year": 2020,
+        "countryCode": 109,
+        "shortName": "Jamaica",
+        "value": 1.0848710347964026
+    },
+    {
+        "year": 2020,
+        "countryCode": 110,
+        "shortName": "Japan",
+        "value": 2.5035386603329166
+    },
+    {
+        "year": 2020,
+        "countryCode": 112,
+        "shortName": "Jordan",
+        "value": 0.8903802570721945
+    },
+    {
+        "year": 2020,
+        "countryCode": 113,
+        "shortName": "Kyrgyzstan",
+        "value": 0.9988592751500378
+    },
+    {
+        "year": 2020,
+        "countryCode": 114,
+        "shortName": "Kenya",
+        "value": 0.6013142449171366
+    },
+    {
+        "year": 2020,
+        "countryCode": 115,
+        "shortName": "Cambodia",
+        "value": 0.9026810087460254
+    },
+    {
+        "year": 2020,
+        "countryCode": 116,
+        "shortName": "North Korea",
+        "value": 0.7072176765412815
+    },
+    {
+        "year": 2020,
+        "countryCode": 117,
+        "shortName": "South Korea",
+        "value": 3.545221474624288
+    },
+    {
+        "year": 2020,
+        "countryCode": 118,
+        "shortName": "Kuwait",
+        "value": 4.993129289676764
+    },
+    {
+        "year": 2020,
+        "countryCode": 119,
+        "shortName": "Latvia",
+        "value": 4.919619039853938
+    },
+    {
+        "year": 2020,
+        "countryCode": 120,
+        "shortName": "Laos",
+        "value": 1.113545166156955
+    },
+    {
+        "year": 2020,
+        "countryCode": 121,
+        "shortName": "Lebanon",
+        "value": 1.7923665282955095
+    },
+    {
+        "year": 2020,
+        "countryCode": 122,
+        "shortName": "Lesotho",
+        "value": 0.719479907328426
+    },
+    {
+        "year": 2020,
+        "countryCode": 123,
+        "shortName": "Liberia",
+        "value": 0.8153691431603699
+    },
+    {
+        "year": 2020,
+        "countryCode": 124,
+        "shortName": "Libya",
+        "value": 2.0437001551455984
+    },
+    {
+        "year": 2020,
+        "countryCode": 125,
+        "shortName": "Liechtenstein",
+        "value": -1
+    },
+    {
+        "year": 2020,
+        "countryCode": 126,
+        "shortName": "Lithuania",
+        "value": 3.975157477586996
+    },
+    {
+        "year": 2020,
+        "countryCode": 127,
+        "shortName": "Marshall Islands",
+        "value": 6.532433055026052
+    },
+    {
+        "year": 2020,
+        "countryCode": 129,
+        "shortName": "Madagascar",
+        "value": 0.5449508567665925
+    },
+    {
+        "year": 2020,
+        "countryCode": 130,
+        "shortName": "Malawi",
+        "value": 0.49643648892052483
+    },
+    {
+        "year": 2020,
+        "countryCode": 131,
+        "shortName": "Malaysia",
+        "value": 2.6685265898716692
+    },
+    {
+        "year": 2020,
+        "countryCode": 132,
+        "shortName": "Maldives",
+        "value": 4.647661803781525
+    },
+    {
+        "year": 2020,
+        "countryCode": 133,
+        "shortName": "Mali",
+        "value": 0.6884284784455571
+    },
+    {
+        "year": 2020,
+        "countryCode": 134,
+        "shortName": "Malta",
+        "value": 2.6180202073845824
+    },
+    {
+        "year": 2020,
+        "countryCode": 135,
+        "shortName": "Martinique",
+        "value": 2.203697544859392
+    },
+    {
+        "year": 2020,
+        "countryCode": 136,
+        "shortName": "Mauritania",
+        "value": 1.517394745522197
+    },
+    {
+        "year": 2020,
+        "countryCode": 137,
+        "shortName": "Mauritius",
+        "value": 1.7193992598735814
+    },
+    {
+        "year": 2020,
+        "countryCode": 138,
+        "shortName": "Mexico",
+        "value": 1.4274424418937
+    },
+    {
+        "year": 2020,
+        "countryCode": 141,
+        "shortName": "Mongolia",
+        "value": 5.05978908697872
+    },
+    {
+        "year": 2020,
+        "countryCode": 142,
+        "shortName": "Montserrat",
+        "value": -1
+    },
+    {
+        "year": 2020,
+        "countryCode": 143,
+        "shortName": "Morocco",
+        "value": 1.0134898419340772
+    },
+    {
+        "year": 2020,
+        "countryCode": 144,
+        "shortName": "Mozambique",
+        "value": 0.5177336945157719
+    },
+    {
+        "year": 2020,
+        "countryCode": 145,
+        "shortName": "Micronesia",
+        "value": 18.154155214188563
+    },
+    {
+        "year": 2020,
+        "countryCode": 146,
+        "shortName": "Moldova",
+        "value": 0.9972704762545499
+    },
+    {
+        "year": 2020,
+        "countryCode": 147,
+        "shortName": "Namibia",
+        "value": 1.6318810495339713
+    },
+    {
+        "year": 2020,
+        "countryCode": 148,
+        "shortName": "Nauru",
+        "value": 107.95572791022288
+    },
+    {
+        "year": 2020,
+        "countryCode": 149,
+        "shortName": "Nepal",
+        "value": 0.5815106193334211
+    },
+    {
+        "year": 2020,
+        "countryCode": 150,
+        "shortName": "Netherlands",
+        "value": 3.900457495342934
+    },
+    {
+        "year": 2020,
+        "countryCode": 153,
+        "shortName": "New Caledonia",
+        "value": 5.651172969907115
+    },
+    {
+        "year": 2020,
+        "countryCode": 154,
+        "shortName": "Macedonia",
+        "value": 1.7970218037735801
+    },
+    {
+        "year": 2020,
+        "countryCode": 155,
+        "shortName": "Vanuatu",
+        "value": 1.2353095766452347
+    },
+    {
+        "year": 2020,
+        "countryCode": 156,
+        "shortName": "New Zealand",
+        "value": 3.4011554336089267
+    },
+    {
+        "year": 2020,
+        "countryCode": 157,
+        "shortName": "Nicaragua",
+        "value": 0.9936276361169
+    },
+    {
+        "year": 2020,
+        "countryCode": 158,
+        "shortName": "Niger",
+        "value": 0.9482011501866442
+    },
+    {
+        "year": 2020,
+        "countryCode": 159,
+        "shortName": "Nigeria",
+        "value": 0.5263734903518403
+    },
+    {
+        "year": 2020,
+        "countryCode": 160,
+        "shortName": "Niue",
+        "value": 3.7153574266119724
+    },
+    {
+        "year": 2020,
+        "countryCode": 162,
+        "shortName": "Norway",
+        "value": 3.2800264512041775
+    },
+    {
+        "year": 2020,
+        "countryCode": 163,
+        "shortName": "Northern Mariana Islands",
+        "value": -1
+    },
+    {
+        "year": 2020,
+        "countryCode": 165,
+        "shortName": "Pakistan",
+        "value": 0.46693214772423525
+    },
+    {
+        "year": 2020,
+        "countryCode": 166,
+        "shortName": "Panama",
+        "value": 1.5587676275910618
+    },
+    {
+        "year": 2020,
+        "countryCode": 167,
+        "shortName": "Czech Republic",
+        "value": 3.2690579611848936
+    },
+    {
+        "year": 2020,
+        "countryCode": 168,
+        "shortName": "Papua New Guinea",
+        "value": 0.770061594949406
+    },
+    {
+        "year": 2020,
+        "countryCode": 169,
+        "shortName": "Paraguay",
+        "value": 2.0575614220483125
+    },
+    {
+        "year": 2020,
+        "countryCode": 170,
+        "shortName": "Peru",
+        "value": 1.4648940490006226
+    },
+    {
+        "year": 2020,
+        "countryCode": 171,
+        "shortName": "Philippines",
+        "value": 0.765486973155592
+    },
+    {
+        "year": 2020,
+        "countryCode": 173,
+        "shortName": "Poland",
+        "value": 2.947416223243337
+    },
+    {
+        "year": 2020,
+        "countryCode": 174,
+        "shortName": "Portugal",
+        "value": 2.4149586040719964
+    },
+    {
+        "year": 2020,
+        "countryCode": 175,
+        "shortName": "Guinea-Bissau",
+        "value": 0.8225950870074912
+    },
+    {
+        "year": 2020,
+        "countryCode": 176,
+        "shortName": "Timor-Leste",
+        "value": 0.3729875034150323
+    },
+    {
+        "year": 2020,
+        "countryCode": 177,
+        "shortName": "Puerto Rico",
+        "value": 0.05982312553452426
+    },
+    {
+        "year": 2020,
+        "countryCode": 178,
+        "shortName": "Eritrea",
+        "value": 0.48672409495683633
+    },
+    {
+        "year": 2020,
+        "countryCode": 179,
+        "shortName": "Qatar",
+        "value": 7.402960710256028
+    },
+    {
+        "year": 2020,
+        "countryCode": 180,
+        "shortName": "Palau",
+        "value": -1
+    },
+    {
+        "year": 2020,
+        "countryCode": 181,
+        "shortName": "Zimbabwe",
+        "value": 0.7210807656191857
+    },
+    {
+        "year": 2020,
+        "countryCode": 182,
+        "shortName": "Reunion",
+        "value": 2.3013339448365793
+    },
+    {
+        "year": 2020,
+        "countryCode": 183,
+        "shortName": "Romania",
+        "value": 1.7555794874332955
+    },
+    {
+        "year": 2020,
+        "countryCode": 184,
+        "shortName": "Rwanda",
+        "value": 0.3764466934931556
+    },
+    {
+        "year": 2020,
+        "countryCode": 185,
+        "shortName": "Russia",
+        "value": 3.599271880941143
+    },
+    {
+        "year": 2020,
+        "countryCode": 187,
+        "shortName": "St. Helena",
+        "value": -1
+    },
+    {
+        "year": 2020,
+        "countryCode": 188,
+        "shortName": "St. Kitts and Nevis",
+        "value": 10.347259262262527
+    },
+    {
+        "year": 2020,
+        "countryCode": 189,
+        "shortName": "St. Lucia",
+        "value": 1.0737050364610556
+    },
+    {
+        "year": 2020,
+        "countryCode": 190,
+        "shortName": "St. Pierre and Miquelon",
+        "value": -1
+    },
+    {
+        "year": 2020,
+        "countryCode": 191,
+        "shortName": "St. Vincent and Grenadines",
+        "value": 1.2119468611188333
+    },
+    {
+        "year": 2020,
+        "countryCode": 193,
+        "shortName": "Sao Tome and Principe",
+        "value": 0.7126098918183941
+    },
+    {
+        "year": 2020,
+        "countryCode": 194,
+        "shortName": "Saudi Arabia",
+        "value": 3.5919489010107206
+    },
+    {
+        "year": 2020,
+        "countryCode": 195,
+        "shortName": "Senegal",
+        "value": 0.8393975768175077
+    },
+    {
+        "year": 2020,
+        "countryCode": 196,
+        "shortName": "Seychelles",
+        "value": 7.103597584236141
+    },
+    {
+        "year": 2020,
+        "countryCode": 197,
+        "shortName": "Sierra Leone",
+        "value": 0.7150778281643534
+    },
+    {
+        "year": 2020,
+        "countryCode": 198,
+        "shortName": "Slovenia",
+        "value": 3.175952778808923
+    },
+    {
+        "year": 2020,
+        "countryCode": 199,
+        "shortName": "Slovakia",
+        "value": 2.606247117686603
+    },
+    {
+        "year": 2020,
+        "countryCode": 200,
+        "shortName": "Singapore",
+        "value": 3.9656874617400932
+    },
+    {
+        "year": 2020,
+        "countryCode": 201,
+        "shortName": "Somalia",
+        "value": 0.6183777444025965
+    },
+    {
+        "year": 2020,
+        "countryCode": 202,
+        "shortName": "South Africa",
+        "value": 2.012863137259058
+    },
+    {
+        "year": 2020,
+        "countryCode": 203,
+        "shortName": "Spain",
+        "value": 2.504977824399031
+    },
+    {
+        "year": 2020,
+        "countryCode": 207,
+        "shortName": "Suriname",
+        "value": 2.181512249868492
+    },
+    {
+        "year": 2020,
+        "countryCode": 208,
+        "shortName": "Tajikistan",
+        "value": 0.6607752057896742
+    },
+    {
+        "year": 2020,
+        "countryCode": 209,
+        "shortName": "Swaziland",
+        "value": 1.9296862255800749
+    },
+    {
+        "year": 2020,
+        "countryCode": 210,
+        "shortName": "Sweden",
+        "value": 3.1869414072051283
+    },
+    {
+        "year": 2020,
+        "countryCode": 211,
+        "shortName": "Switzerland",
+        "value": 2.4248853917602937
+    },
+    {
+        "year": 2020,
+        "countryCode": 212,
+        "shortName": "Syria",
+        "value": 0.6952574610917703
+    },
+    {
+        "year": 2020,
+        "countryCode": 213,
+        "shortName": "Turkmenistan",
+        "value": 2.6367391601981685
+    },
+    {
+        "year": 2020,
+        "countryCode": 215,
+        "shortName": "Tanzania",
+        "value": 0.6408913357008741
+    },
+    {
+        "year": 2020,
+        "countryCode": 216,
+        "shortName": "Thailand",
+        "value": 1.5236586651285564
+    },
+    {
+        "year": 2020,
+        "countryCode": 217,
+        "shortName": "Togo",
+        "value": 0.6033589492809246
+    },
+    {
+        "year": 2020,
+        "countryCode": 218,
+        "shortName": "Tokelau",
+        "value": 3.733202039512725
+    },
+    {
+        "year": 2020,
+        "countryCode": 219,
+        "shortName": "Tonga",
+        "value": 2.072234204692218
+    },
+    {
+        "year": 2020,
+        "countryCode": 220,
+        "shortName": "Trinidad and Tobago",
+        "value": 3.3706064243792704
+    },
+    {
+        "year": 2020,
+        "countryCode": 221,
+        "shortName": "Oman",
+        "value": 4.311725228522425
+    },
+    {
+        "year": 2020,
+        "countryCode": 222,
+        "shortName": "Tunisia",
+        "value": 0.8913366801270028
+    },
+    {
+        "year": 2020,
+        "countryCode": 223,
+        "shortName": "Turkey",
+        "value": 2.106176424744498
+    },
+    {
+        "year": 2020,
+        "countryCode": 224,
+        "shortName": "Turks and Caicos Islands",
+        "value": -1
+    },
+    {
+        "year": 2020,
+        "countryCode": 225,
+        "shortName": "United Arab Emirates",
+        "value": 5.395465216102634
+    },
+    {
+        "year": 2020,
+        "countryCode": 226,
+        "shortName": "Uganda",
+        "value": 0.681121108570238
+    },
+    {
+        "year": 2020,
+        "countryCode": 227,
+        "shortName": "Tuvalu",
+        "value": 3.7756187761382924
+    },
+    {
+        "year": 2020,
+        "countryCode": 229,
+        "shortName": "United Kingdom",
+        "value": 2.255267918288139
+    },
+    {
+        "year": 2020,
+        "countryCode": 230,
+        "shortName": "Ukraine",
+        "value": 1.3441597133403678
+    },
+    {
+        "year": 2020,
+        "countryCode": 231,
+        "shortName": "United States",
+        "value": 4.6019425788311725
+    },
+    {
+        "year": 2020,
+        "countryCode": 233,
+        "shortName": "Burkina Faso",
+        "value": 0.6142957195647821
+    },
+    {
+        "year": 2020,
+        "countryCode": 234,
+        "shortName": "Uruguay",
+        "value": 1.4050690843081706
+    },
+    {
+        "year": 2020,
+        "countryCode": 235,
+        "shortName": "Uzbekistan",
+        "value": 1.3200686797769314
+    },
+    {
+        "year": 2020,
+        "countryCode": 236,
+        "shortName": "Venezuela",
+        "value": 1.1530081694336536
+    },
+    {
+        "year": 2020,
+        "countryCode": 237,
+        "shortName": "Viet Nam",
+        "value": 1.4896837800580567
+    },
+    {
+        "year": 2020,
+        "countryCode": 238,
+        "shortName": "Ethiopia",
+        "value": 0.577368379760886
+    },
+    {
+        "year": 2020,
+        "countryCode": 239,
+        "shortName": "British Virgin Islands",
+        "value": -1
+    },
+    {
+        "year": 2020,
+        "countryCode": 240,
+        "shortName": "US Virgin Islands",
+        "value": -1
+    },
+    {
+        "year": 2020,
+        "countryCode": 243,
+        "shortName": "Wallis and Futuna Islands",
+        "value": -1
+    },
+    {
+        "year": 2020,
+        "countryCode": 244,
+        "shortName": "Samoa",
+        "value": 1.664832792124778
+    },
+    {
+        "year": 2020,
+        "countryCode": 249,
+        "shortName": "Yemen",
+        "value": 0.41229335505126363
+    },
+    {
+        "year": 2020,
+        "countryCode": 250,
+        "shortName": "Congo DR",
+        "value": 0.4740397406654784
+    },
+    {
+        "year": 2020,
+        "countryCode": 251,
+        "shortName": "Zambia",
+        "value": 0.8100974687583565
+    },
+    {
+        "year": 2020,
+        "countryCode": 255,
+        "shortName": "Belgium",
+        "value": 4.244075264085305
+    },
+    {
+        "year": 2020,
+        "countryCode": 256,
+        "shortName": "Luxembourg",
+        "value": 6.946451558405909
+    },
+    {
+        "year": 2020,
+        "countryCode": 258,
+        "shortName": "Anguilla",
+        "value": -1
+    },
+    {
+        "year": 2020,
+        "countryCode": 264,
+        "shortName": "Isle of Man",
+        "value": -1
+    },
+    {
+        "year": 2020,
+        "countryCode": 270,
+        "shortName": "Mayotte",
+        "value": -1
+    },
+    {
+        "year": 2020,
+        "countryCode": 272,
+        "shortName": "Serbia",
+        "value": 2.376429417790292
+    },
+    {
+        "year": 2020,
+        "countryCode": 273,
+        "shortName": "Montenegro",
+        "value": 2.578064951070806
+    },
+    {
+        "year": 2020,
+        "countryCode": 276,
+        "shortName": "Sudan",
+        "value": 0.7766851222352641
+    },
+    {
+        "year": 2020,
+        "countryCode": 277,
+        "shortName": "South Sudan",
+        "value": 1.1153343387304226
+    },
+    {
+        "year": 2020,
+        "countryCode": 279,
+        "shortName": "Curaçao",
+        "value": -1
+    },
+    {
+        "year": 2020,
+        "countryCode": 281,
+        "shortName": "St. Martin",
+        "value": -1
+    },
+    {
+        "year": 2020,
+        "countryCode": 299,
+        "shortName": "Palestine",
+        "value": 0.4206141795683642
+    },
+    {
+        "year": 2020,
+        "countryCode": 351,
+        "shortName": "China",
+        "value": 2.3024504282863925
+    },
+    {
+        "year": 2019,
+        "countryCode": 1,
+        "shortName": "Armenia",
+        "value": 1.3557103799164516
+    },
+    {
+        "year": 2019,
+        "countryCode": 2,
+        "shortName": "Afghanistan",
+        "value": 0.5707633815546066
+    },
+    {
+        "year": 2019,
+        "countryCode": 3,
+        "shortName": "Albania",
+        "value": 1.3558042694993502
+    },
+    {
+        "year": 2019,
+        "countryCode": 4,
+        "shortName": "Algeria",
+        "value": 1.5267940144970775
+    },
+    {
+        "year": 2019,
+        "countryCode": 5,
+        "shortName": "American Samoa",
+        "value": -1
+    },
+    {
+        "year": 2019,
+        "countryCode": 6,
+        "shortName": "Andorra",
+        "value": -1
+    },
+    {
+        "year": 2019,
+        "countryCode": 7,
+        "shortName": "Angola",
+        "value": 0.6494259213789338
+    },
+    {
+        "year": 2019,
+        "countryCode": 8,
+        "shortName": "Antigua and Barbuda",
+        "value": 2.5278070367803713
+    },
+    {
+        "year": 2019,
+        "countryCode": 9,
+        "shortName": "Argentina",
+        "value": 2.163471760403976
+    },
+    {
+        "year": 2019,
+        "countryCode": 10,
+        "shortName": "Australia",
+        "value": 3.9613975884903354
+    },
+    {
+        "year": 2019,
+        "countryCode": 11,
+        "shortName": "Austria",
+        "value": 3.7351521557712983
+    },
+    {
+        "year": 2019,
+        "countryCode": 12,
+        "shortName": "Bahamas",
+        "value": 1.053892086837488
+    },
+    {
+        "year": 2019,
+        "countryCode": 13,
+        "shortName": "Bahrain",
+        "value": 5.210330514881645
+    },
+    {
+        "year": 2019,
+        "countryCode": 14,
+        "shortName": "Barbados",
+        "value": 2.086036160104057
+    },
+    {
+        "year": 2019,
+        "countryCode": 16,
+        "shortName": "Bangladesh",
+        "value": 0.4569522316250086
+    },
+    {
+        "year": 2019,
+        "countryCode": 17,
+        "shortName": "Bermuda",
+        "value": -1
+    },
+    {
+        "year": 2019,
+        "countryCode": 18,
+        "shortName": "Bhutan",
+        "value": 3.1153952074114635
+    },
+    {
+        "year": 2019,
+        "countryCode": 19,
+        "shortName": "Bolivia",
+        "value": 1.9243476800278492
+    },
+    {
+        "year": 2019,
+        "countryCode": 20,
+        "shortName": "Botswana",
+        "value": 1.4147426456410948
+    },
+    {
+        "year": 2019,
+        "countryCode": 21,
+        "shortName": "Brazil",
+        "value": 1.6772542480057735
+    },
+    {
+        "year": 2019,
+        "countryCode": 22,
+        "shortName": "Aruba",
+        "value": -1
+    },
+    {
+        "year": 2019,
+        "countryCode": 23,
+        "shortName": "Belize",
+        "value": 5.22492232467164
+    },
+    {
+        "year": 2019,
+        "countryCode": 25,
+        "shortName": "Solomon Islands",
+        "value": 1.078226264305681
+    },
+    {
+        "year": 2019,
+        "countryCode": 26,
+        "shortName": "Brunei",
+        "value": 3.776887054114406
+    },
+    {
+        "year": 2019,
+        "countryCode": 27,
+        "shortName": "Bulgaria",
+        "value": 2.5076596308947403
+    },
+    {
+        "year": 2019,
+        "countryCode": 28,
+        "shortName": "Myanmar",
+        "value": 0.7607970958546684
+    },
+    {
+        "year": 2019,
+        "countryCode": 29,
+        "shortName": "Burundi",
+        "value": 0.4174409821041188
+    },
+    {
+        "year": 2019,
+        "countryCode": 32,
+        "shortName": "Cameroon",
+        "value": 0.7328442728563183
+    },
+    {
+        "year": 2019,
+        "countryCode": 33,
+        "shortName": "Canada",
+        "value": 5.084480724462113
+    },
+    {
+        "year": 2019,
+        "countryCode": 35,
+        "shortName": "Cabo Verde",
+        "value": 0.8255219049691145
+    },
+    {
+        "year": 2019,
+        "countryCode": 36,
+        "shortName": "Cayman Islands",
+        "value": -1
+    },
+    {
+        "year": 2019,
+        "countryCode": 37,
+        "shortName": "Central African Republic",
+        "value": 0.789880125658442
+    },
+    {
+        "year": 2019,
+        "countryCode": 38,
+        "shortName": "Sri Lanka",
+        "value": 0.8021816243790267
+    },
+    {
+        "year": 2019,
+        "countryCode": 39,
+        "shortName": "Chad",
+        "value": 0.9869132939855464
+    },
+    {
+        "year": 2019,
+        "countryCode": 40,
+        "shortName": "Chile",
+        "value": 2.578325717929995
+    },
+    {
+        "year": 2019,
+        "countryCode": 44,
+        "shortName": "Colombia",
+        "value": 1.4037048014502294
+    },
+    {
+        "year": 2019,
+        "countryCode": 45,
+        "shortName": "Comoros",
+        "value": 1.2728026214986103
+    },
+    {
+        "year": 2019,
+        "countryCode": 46,
+        "shortName": "Congo",
+        "value": 0.7359272436010502
+    },
+    {
+        "year": 2019,
+        "countryCode": 47,
+        "shortName": "Cook Islands",
+        "value": 5.166739609153905
+    },
+    {
+        "year": 2019,
+        "countryCode": 48,
+        "shortName": "Costa Rica",
+        "value": 1.7786319453045651
+    },
+    {
+        "year": 2019,
+        "countryCode": 49,
+        "shortName": "Cuba",
+        "value": 1.309642458664376
+    },
+    {
+        "year": 2019,
+        "countryCode": 50,
+        "shortName": "Cyprus",
+        "value": 2.3498418615409804
+    },
+    {
+        "year": 2019,
+        "countryCode": 52,
+        "shortName": "Azerbaijan",
+        "value": 1.5064527958870464
+    },
+    {
+        "year": 2019,
+        "countryCode": 53,
+        "shortName": "Benin",
+        "value": 0.8067695019396105
+    },
+    {
+        "year": 2019,
+        "countryCode": 54,
+        "shortName": "Denmark",
+        "value": 4.709572039321956
+    },
+    {
+        "year": 2019,
+        "countryCode": 55,
+        "shortName": "Dominica",
+        "value": 1.9221496870547574
+    },
+    {
+        "year": 2019,
+        "countryCode": 56,
+        "shortName": "Dominican Republic",
+        "value": 1.242667257706745
+    },
+    {
+        "year": 2019,
+        "countryCode": 57,
+        "shortName": "Belarus",
+        "value": 3.0008370830068594
+    },
+    {
+        "year": 2019,
+        "countryCode": 58,
+        "shortName": "Ecuador",
+        "value": 1.1720752230428302
+    },
+    {
+        "year": 2019,
+        "countryCode": 59,
+        "shortName": "Egypt",
+        "value": 1.042839850625261
+    },
+    {
+        "year": 2019,
+        "countryCode": 60,
+        "shortName": "El Salvador",
+        "value": 1.3126706947891116
+    },
+    {
+        "year": 2019,
+        "countryCode": 61,
+        "shortName": "Equatorial Guinea",
+        "value": 1.0537212255233634
+    },
+    {
+        "year": 2019,
+        "countryCode": 63,
+        "shortName": "Estonia",
+        "value": 5.065972586993064
+    },
+    {
+        "year": 2019,
+        "countryCode": 64,
+        "shortName": "Faroe Islands",
+        "value": 23.080189887003595
+    },
+    {
+        "year": 2019,
+        "countryCode": 65,
+        "shortName": "Falkland Islands",
+        "value": -1
+    },
+    {
+        "year": 2019,
+        "countryCode": 66,
+        "shortName": "Fiji",
+        "value": 1.8240591008214397
+    },
+    {
+        "year": 2019,
+        "countryCode": 67,
+        "shortName": "Finland",
+        "value": 3.3533954145434737
+    },
+    {
+        "year": 2019,
+        "countryCode": 68,
+        "shortName": "France",
+        "value": 3.1256550286950273
+    },
+    {
+        "year": 2019,
+        "countryCode": 69,
+        "shortName": "French Guiana",
+        "value": 1.1836797581942617
+    },
+    {
+        "year": 2019,
+        "countryCode": 70,
+        "shortName": "French Polynesia",
+        "value": 2.313635019229509
+    },
+    {
+        "year": 2019,
+        "countryCode": 72,
+        "shortName": "Djibouti",
+        "value": 1.417507530596891
+    },
+    {
+        "year": 2019,
+        "countryCode": 73,
+        "shortName": "Georgia",
+        "value": 1.6816018797020245
+    },
+    {
+        "year": 2019,
+        "countryCode": 74,
+        "shortName": "Gabon",
+        "value": 1.2767936187961815
+    },
+    {
+        "year": 2019,
+        "countryCode": 75,
+        "shortName": "Gambia",
+        "value": 0.5799903046879572
+    },
+    {
+        "year": 2019,
+        "countryCode": 79,
+        "shortName": "Germany",
+        "value": 3.041101669682957
+    },
+    {
+        "year": 2019,
+        "countryCode": 80,
+        "shortName": "Bosnia and Herzegovina",
+        "value": 2.6935757478636244
+    },
+    {
+        "year": 2019,
+        "countryCode": 81,
+        "shortName": "Ghana",
+        "value": 1.1597159222768452
+    },
+    {
+        "year": 2019,
+        "countryCode": 82,
+        "shortName": "Gibraltar",
+        "value": -1
+    },
+    {
+        "year": 2019,
+        "countryCode": 83,
+        "shortName": "Kiribati",
+        "value": 12.293745144345445
+    },
+    {
+        "year": 2019,
+        "countryCode": 84,
+        "shortName": "Greece",
+        "value": 2.77572190742313
+    },
+    {
+        "year": 2019,
+        "countryCode": 86,
+        "shortName": "Grenada",
+        "value": 1.2518989306386186
+    },
+    {
+        "year": 2019,
+        "countryCode": 87,
+        "shortName": "Guadeloupe",
+        "value": 2.4449003480648135
+    },
+    {
+        "year": 2019,
+        "countryCode": 88,
+        "shortName": "Guam",
+        "value": -1
+    },
+    {
+        "year": 2019,
+        "countryCode": 89,
+        "shortName": "Guatemala",
+        "value": 1.2496346661712525
+    },
+    {
+        "year": 2019,
+        "countryCode": 90,
+        "shortName": "Guinea",
+        "value": 1.0525779934195871
+    },
+    {
+        "year": 2019,
+        "countryCode": 91,
+        "shortName": "Guyana",
+        "value": 2.9465103908678487
+    },
+    {
+        "year": 2019,
+        "countryCode": 93,
+        "shortName": "Haiti",
+        "value": 0.3954046302813364
+    },
+    {
+        "year": 2019,
+        "countryCode": 95,
+        "shortName": "Honduras",
+        "value": 0.9684277074394355
+    },
+    {
+        "year": 2019,
+        "countryCode": 97,
+        "shortName": "Hungary",
+        "value": 2.563253632068525
+    },
+    {
+        "year": 2019,
+        "countryCode": 98,
+        "shortName": "Croatia",
+        "value": 2.454993941879063
+    },
+    {
+        "year": 2019,
+        "countryCode": 99,
+        "shortName": "Iceland",
+        "value": 15.745700548656838
+    },
+    {
+        "year": 2019,
+        "countryCode": 100,
+        "shortName": "India",
+        "value": 0.6894411115937094
+    },
+    {
+        "year": 2019,
+        "countryCode": 101,
+        "shortName": "Indonesia",
+        "value": 1.0860343530419097
+    },
+    {
+        "year": 2019,
+        "countryCode": 102,
+        "shortName": "Iran",
+        "value": 2.038144507786802
+    },
+    {
+        "year": 2019,
+        "countryCode": 103,
+        "shortName": "Iraq",
+        "value": 1.1716376567355442
+    },
+    {
+        "year": 2019,
+        "countryCode": 104,
+        "shortName": "Ireland",
+        "value": 3.149286900593598
+    },
+    {
+        "year": 2019,
+        "countryCode": 105,
+        "shortName": "Israel",
+        "value": 2.940059046927019
+    },
+    {
+        "year": 2019,
+        "countryCode": 106,
+        "shortName": "Italy",
+        "value": 2.711462836912257
+    },
+    {
+        "year": 2019,
+        "countryCode": 107,
+        "shortName": "Cote d'Ivoire",
+        "value": 0.5734858264433593
+    },
+    {
+        "year": 2019,
+        "countryCode": 108,
+        "shortName": "Kazakhstan",
+        "value": 2.406182015172737
+    },
+    {
+        "year": 2019,
+        "countryCode": 109,
+        "shortName": "Jamaica",
+        "value": 1.354965733071189
+    },
+    {
+        "year": 2019,
+        "countryCode": 110,
+        "shortName": "Japan",
+        "value": 2.7317350157259943
+    },
+    {
+        "year": 2019,
+        "countryCode": 112,
+        "shortName": "Jordan",
+        "value": 0.9847295064318099
+    },
+    {
+        "year": 2019,
+        "countryCode": 113,
+        "shortName": "Kyrgyzstan",
+        "value": 1.0826731240204468
+    },
+    {
+        "year": 2019,
+        "countryCode": 114,
+        "shortName": "Kenya",
+        "value": 0.6091271628620295
+    },
+    {
+        "year": 2019,
+        "countryCode": 115,
+        "shortName": "Cambodia",
+        "value": 0.925379385976003
+    },
+    {
+        "year": 2019,
+        "countryCode": 116,
+        "shortName": "North Korea",
+        "value": 0.7734244575934904
+    },
+    {
+        "year": 2019,
+        "countryCode": 117,
+        "shortName": "South Korea",
+        "value": 3.853779778900494
+    },
+    {
+        "year": 2019,
+        "countryCode": 118,
+        "shortName": "Kuwait",
+        "value": 4.948784850937714
+    },
+    {
+        "year": 2019,
+        "countryCode": 119,
+        "shortName": "Latvia",
+        "value": 4.53447846667978
+    },
+    {
+        "year": 2019,
+        "countryCode": 120,
+        "shortName": "Laos",
+        "value": 1.086053628348065
+    },
+    {
+        "year": 2019,
+        "countryCode": 121,
+        "shortName": "Lebanon",
+        "value": 2.073885731008834
+    },
+    {
+        "year": 2019,
+        "countryCode": 122,
+        "shortName": "Lesotho",
+        "value": 0.8648958961546352
+    },
+    {
+        "year": 2019,
+        "countryCode": 123,
+        "shortName": "Liberia",
+        "value": 0.7794597361604647
+    },
+    {
+        "year": 2019,
+        "countryCode": 124,
+        "shortName": "Libya",
+        "value": 2.214159680418972
+    },
+    {
+        "year": 2019,
+        "countryCode": 125,
+        "shortName": "Liechtenstein",
+        "value": -1
+    },
+    {
+        "year": 2019,
+        "countryCode": 126,
+        "shortName": "Lithuania",
+        "value": 3.8293192549587203
+    },
+    {
+        "year": 2019,
+        "countryCode": 127,
+        "shortName": "Marshall Islands",
+        "value": 10.370850430314727
+    },
+    {
+        "year": 2019,
+        "countryCode": 129,
+        "shortName": "Madagascar",
+        "value": 0.5585704981537538
+    },
+    {
+        "year": 2019,
+        "countryCode": 130,
+        "shortName": "Malawi",
+        "value": 0.4860044535057903
+    },
+    {
+        "year": 2019,
+        "countryCode": 131,
+        "shortName": "Malaysia",
+        "value": 2.750170170741525
+    },
+    {
+        "year": 2019,
+        "countryCode": 132,
+        "shortName": "Maldives",
+        "value": 3.988222384070865
+    },
+    {
+        "year": 2019,
+        "countryCode": 133,
+        "shortName": "Mali",
+        "value": 0.7250054987965329
+    },
+    {
+        "year": 2019,
+        "countryCode": 134,
+        "shortName": "Malta",
+        "value": 2.8142980794358508
+    },
+    {
+        "year": 2019,
+        "countryCode": 135,
+        "shortName": "Martinique",
+        "value": 2.5415798381292527
+    },
+    {
+        "year": 2019,
+        "countryCode": 136,
+        "shortName": "Mauritania",
+        "value": 1.5462634939292288
+    },
+    {
+        "year": 2019,
+        "countryCode": 137,
+        "shortName": "Mauritius",
+        "value": 2.0561850086052704
+    },
+    {
+        "year": 2019,
+        "countryCode": 138,
+        "shortName": "Mexico",
+        "value": 1.6255979767995112
+    },
+    {
+        "year": 2019,
+        "countryCode": 141,
+        "shortName": "Mongolia",
+        "value": 4.964192148777715
+    },
+    {
+        "year": 2019,
+        "countryCode": 142,
+        "shortName": "Montserrat",
+        "value": -1
+    },
+    {
+        "year": 2019,
+        "countryCode": 143,
+        "shortName": "Morocco",
+        "value": 1.098619877020862
+    },
+    {
+        "year": 2019,
+        "countryCode": 144,
+        "shortName": "Mozambique",
+        "value": 0.5120071606876679
+    },
+    {
+        "year": 2019,
+        "countryCode": 145,
+        "shortName": "Micronesia",
+        "value": 16.09590854367306
+    },
+    {
+        "year": 2019,
+        "countryCode": 146,
+        "shortName": "Moldova",
+        "value": 1.4216044874107154
+    },
+    {
+        "year": 2019,
+        "countryCode": 147,
+        "shortName": "Namibia",
+        "value": 1.7388490674483983
+    },
+    {
+        "year": 2019,
+        "countryCode": 148,
+        "shortName": "Nauru",
+        "value": 40.05940828768014
+    },
+    {
+        "year": 2019,
+        "countryCode": 149,
+        "shortName": "Nepal",
+        "value": 0.5691819054277353
+    },
+    {
+        "year": 2019,
+        "countryCode": 150,
+        "shortName": "Netherlands",
+        "value": 4.104768258617912
+    },
+    {
+        "year": 2019,
+        "countryCode": 153,
+        "shortName": "New Caledonia",
+        "value": 5.69845661377715
+    },
+    {
+        "year": 2019,
+        "countryCode": 154,
+        "shortName": "Macedonia",
+        "value": 1.9248858475800608
+    },
+    {
+        "year": 2019,
+        "countryCode": 155,
+        "shortName": "Vanuatu",
+        "value": 1.2695958739207163
+    },
+    {
+        "year": 2019,
+        "countryCode": 156,
+        "shortName": "New Zealand",
+        "value": 3.7104973780348636
+    },
+    {
+        "year": 2019,
+        "countryCode": 157,
+        "shortName": "Nicaragua",
+        "value": 1.020406921589011
+    },
+    {
+        "year": 2019,
+        "countryCode": 158,
+        "shortName": "Niger",
+        "value": 0.908189082181703
+    },
+    {
+        "year": 2019,
+        "countryCode": 159,
+        "shortName": "Nigeria",
+        "value": 0.5487316871195654
+    },
+    {
+        "year": 2019,
+        "countryCode": 160,
+        "shortName": "Niue",
+        "value": 3.7285850257412636
+    },
+    {
+        "year": 2019,
+        "countryCode": 162,
+        "shortName": "Norway",
+        "value": 3.4336842206167515
+    },
+    {
+        "year": 2019,
+        "countryCode": 163,
+        "shortName": "Northern Mariana Islands",
+        "value": -1
+    },
+    {
+        "year": 2019,
+        "countryCode": 165,
+        "shortName": "Pakistan",
+        "value": 0.45486389950504913
+    },
+    {
+        "year": 2019,
+        "countryCode": 166,
+        "shortName": "Panama",
+        "value": 1.7662344317522096
+    },
+    {
+        "year": 2019,
+        "countryCode": 167,
+        "shortName": "Czech Republic",
+        "value": 3.6656174712356386
+    },
+    {
+        "year": 2019,
+        "countryCode": 168,
+        "shortName": "Papua New Guinea",
+        "value": 0.8528747210067881
+    },
+    {
+        "year": 2019,
+        "countryCode": 169,
+        "shortName": "Paraguay",
+        "value": 1.8690971308679527
+    },
+    {
+        "year": 2019,
+        "countryCode": 170,
+        "shortName": "Peru",
+        "value": 1.5136149632246325
+    },
+    {
+        "year": 2019,
+        "countryCode": 171,
+        "shortName": "Philippines",
+        "value": 0.8279284356375095
+    },
+    {
+        "year": 2019,
+        "countryCode": 173,
+        "shortName": "Poland",
+        "value": 2.921738158497113
+    },
+    {
+        "year": 2019,
+        "countryCode": 174,
+        "shortName": "Portugal",
+        "value": 2.698963421270397
+    },
+    {
+        "year": 2019,
+        "countryCode": 175,
+        "shortName": "Guinea-Bissau",
+        "value": 0.828398552640807
+    },
+    {
+        "year": 2019,
+        "countryCode": 176,
+        "shortName": "Timor-Leste",
+        "value": 0.32484503686502253
+    },
+    {
+        "year": 2019,
+        "countryCode": 177,
+        "shortName": "Puerto Rico",
+        "value": 0.032562587078060284
+    },
+    {
+        "year": 2019,
+        "countryCode": 178,
+        "shortName": "Eritrea",
+        "value": 0.5069536381476507
+    },
+    {
+        "year": 2019,
+        "countryCode": 179,
+        "shortName": "Qatar",
+        "value": 7.732513597864483
+    },
+    {
+        "year": 2019,
+        "countryCode": 180,
+        "shortName": "Palau",
+        "value": -1
+    },
+    {
+        "year": 2019,
+        "countryCode": 181,
+        "shortName": "Zimbabwe",
+        "value": 0.7007618080179738
+    },
+    {
+        "year": 2019,
+        "countryCode": 182,
+        "shortName": "Reunion",
+        "value": 2.714007454704041
+    },
+    {
+        "year": 2019,
+        "countryCode": 183,
+        "shortName": "Romania",
+        "value": 2.147137606758678
+    },
+    {
+        "year": 2019,
+        "countryCode": 184,
+        "shortName": "Rwanda",
+        "value": 0.39033979421488524
+    },
+    {
+        "year": 2019,
+        "countryCode": 185,
+        "shortName": "Russia",
+        "value": 3.751213915374812
+    },
+    {
+        "year": 2019,
+        "countryCode": 187,
+        "shortName": "St. Helena",
+        "value": -1
+    },
+    {
+        "year": 2019,
+        "countryCode": 188,
+        "shortName": "St. Kitts and Nevis",
+        "value": 10.484631363553978
+    },
+    {
+        "year": 2019,
+        "countryCode": 189,
+        "shortName": "St. Lucia",
+        "value": 1.251225494972123
+    },
+    {
+        "year": 2019,
+        "countryCode": 190,
+        "shortName": "St. Pierre and Miquelon",
+        "value": -1
+    },
+    {
+        "year": 2019,
+        "countryCode": 191,
+        "shortName": "St. Vincent and Grenadines",
+        "value": 1.414429536272111
+    },
+    {
+        "year": 2019,
+        "countryCode": 193,
+        "shortName": "Sao Tome and Principe",
+        "value": 0.6072750018211244
+    },
+    {
+        "year": 2019,
+        "countryCode": 194,
+        "shortName": "Saudi Arabia",
+        "value": 3.7086839470895603
+    },
+    {
+        "year": 2019,
+        "countryCode": 195,
+        "shortName": "Senegal",
+        "value": 0.8284352797741464
+    },
+    {
+        "year": 2019,
+        "countryCode": 196,
+        "shortName": "Seychelles",
+        "value": 7.937951158790316
+    },
+    {
+        "year": 2019,
+        "countryCode": 197,
+        "shortName": "Sierra Leone",
+        "value": 0.6364369256340577
+    },
+    {
+        "year": 2019,
+        "countryCode": 198,
+        "shortName": "Slovenia",
+        "value": 3.371181200470652
+    },
+    {
+        "year": 2019,
+        "countryCode": 199,
+        "shortName": "Slovakia",
+        "value": 2.9368918319139583
+    },
+    {
+        "year": 2019,
+        "countryCode": 200,
+        "shortName": "Singapore",
+        "value": 4.38275165001396
+    },
+    {
+        "year": 2019,
+        "countryCode": 201,
+        "shortName": "Somalia",
+        "value": 0.6279511057957142
+    },
+    {
+        "year": 2019,
+        "countryCode": 202,
+        "shortName": "South Africa",
+        "value": 2.171113562623548
+    },
+    {
+        "year": 2019,
+        "countryCode": 203,
+        "shortName": "Spain",
+        "value": 2.596777331689172
+    },
+    {
+        "year": 2019,
+        "countryCode": 207,
+        "shortName": "Suriname",
+        "value": 2.2003024014061214
+    },
+    {
+        "year": 2019,
+        "countryCode": 208,
+        "shortName": "Tajikistan",
+        "value": 0.6660001106891771
+    },
+    {
+        "year": 2019,
+        "countryCode": 209,
+        "shortName": "Swaziland",
+        "value": 1.9762845893432683
+    },
+    {
+        "year": 2019,
+        "countryCode": 210,
+        "shortName": "Sweden",
+        "value": 3.5767240779865634
+    },
+    {
+        "year": 2019,
+        "countryCode": 211,
+        "shortName": "Switzerland",
+        "value": 2.5669753238616244
+    },
+    {
+        "year": 2019,
+        "countryCode": 212,
+        "shortName": "Syria",
+        "value": 0.8433779027212018
+    },
+    {
+        "year": 2019,
+        "countryCode": 213,
+        "shortName": "Turkmenistan",
+        "value": 2.6758505250537463
+    },
+    {
+        "year": 2019,
+        "countryCode": 215,
+        "shortName": "Tanzania",
+        "value": 0.6574609138624014
+    },
+    {
+        "year": 2019,
+        "countryCode": 216,
+        "shortName": "Thailand",
+        "value": 1.559261062462208
+    },
+    {
+        "year": 2019,
+        "countryCode": 217,
+        "shortName": "Togo",
+        "value": 0.5819078503058145
+    },
+    {
+        "year": 2019,
+        "countryCode": 218,
+        "shortName": "Tokelau",
+        "value": 4.032389315917879
+    },
+    {
+        "year": 2019,
+        "countryCode": 219,
+        "shortName": "Tonga",
+        "value": 2.210716718008408
+    },
+    {
+        "year": 2019,
+        "countryCode": 220,
+        "shortName": "Trinidad and Tobago",
+        "value": 3.92551548013948
+    },
+    {
+        "year": 2019,
+        "countryCode": 221,
+        "shortName": "Oman",
+        "value": 4.128570306432358
+    },
+    {
+        "year": 2019,
+        "countryCode": 222,
+        "shortName": "Tunisia",
+        "value": 1.1839129660517898
+    },
+    {
+        "year": 2019,
+        "countryCode": 223,
+        "shortName": "Turkey",
+        "value": 2.118091706311802
+    },
+    {
+        "year": 2019,
+        "countryCode": 224,
+        "shortName": "Turks and Caicos Islands",
+        "value": -1
+    },
+    {
+        "year": 2019,
+        "countryCode": 225,
+        "shortName": "United Arab Emirates",
+        "value": 5.722261476790594
+    },
+    {
+        "year": 2019,
+        "countryCode": 226,
+        "shortName": "Uganda",
+        "value": 0.7127870074483081
+    },
+    {
+        "year": 2019,
+        "countryCode": 227,
+        "shortName": "Tuvalu",
+        "value": 0.8238817699308686
+    },
+    {
+        "year": 2019,
+        "countryCode": 229,
+        "shortName": "United Kingdom",
+        "value": 2.4983474486816424
+    },
+    {
+        "year": 2019,
+        "countryCode": 230,
+        "shortName": "Ukraine",
+        "value": 1.8036585587533691
+    },
+    {
+        "year": 2019,
+        "countryCode": 231,
+        "shortName": "United States",
+        "value": 5.015032762955579
+    },
+    {
+        "year": 2019,
+        "countryCode": 233,
+        "shortName": "Burkina Faso",
+        "value": 0.6334992950405117
+    },
+    {
+        "year": 2019,
+        "countryCode": 234,
+        "shortName": "Uruguay",
+        "value": 1.3086186847553285
+    },
+    {
+        "year": 2019,
+        "countryCode": 235,
+        "shortName": "Uzbekistan",
+        "value": 1.3645635033770802
+    },
+    {
+        "year": 2019,
+        "countryCode": 236,
+        "shortName": "Venezuela",
+        "value": 1.3915872705539065
+    },
+    {
+        "year": 2019,
+        "countryCode": 237,
+        "shortName": "Viet Nam",
+        "value": 1.5120048716468584
+    },
+    {
+        "year": 2019,
+        "countryCode": 238,
+        "shortName": "Ethiopia",
+        "value": 0.5828768244598248
+    },
+    {
+        "year": 2019,
+        "countryCode": 239,
+        "shortName": "British Virgin Islands",
+        "value": -1
+    },
+    {
+        "year": 2019,
+        "countryCode": 240,
+        "shortName": "US Virgin Islands",
+        "value": -1
+    },
+    {
+        "year": 2019,
+        "countryCode": 243,
+        "shortName": "Wallis and Futuna Islands",
+        "value": -1
+    },
+    {
+        "year": 2019,
+        "countryCode": 244,
+        "shortName": "Samoa",
+        "value": 1.7498584009499687
+    },
+    {
+        "year": 2019,
+        "countryCode": 249,
+        "shortName": "Yemen",
+        "value": 0.4093449456212663
+    },
+    {
+        "year": 2019,
+        "countryCode": 250,
+        "shortName": "Congo DR",
+        "value": 0.48360201287854765
+    },
+    {
+        "year": 2019,
+        "countryCode": 251,
+        "shortName": "Zambia",
+        "value": 0.851144590267271
+    },
+    {
+        "year": 2019,
+        "countryCode": 255,
+        "shortName": "Belgium",
+        "value": 4.657801465074492
+    },
+    {
+        "year": 2019,
+        "countryCode": 256,
+        "shortName": "Luxembourg",
+        "value": 7.909759975457879
+    },
+    {
+        "year": 2019,
+        "countryCode": 258,
+        "shortName": "Anguilla",
+        "value": -1
+    },
+    {
+        "year": 2019,
+        "countryCode": 264,
+        "shortName": "Isle of Man",
+        "value": -1
+    },
+    {
+        "year": 2019,
+        "countryCode": 270,
+        "shortName": "Mayotte",
+        "value": -1
+    },
+    {
+        "year": 2019,
+        "countryCode": 272,
+        "shortName": "Serbia",
+        "value": 2.324288763052073
+    },
+    {
+        "year": 2019,
+        "countryCode": 273,
+        "shortName": "Montenegro",
+        "value": 2.9084339599253166
+    },
+    {
+        "year": 2019,
+        "countryCode": 276,
+        "shortName": "Sudan",
+        "value": 0.7952810233779789
+    },
+    {
+        "year": 2019,
+        "countryCode": 277,
+        "shortName": "South Sudan",
+        "value": 1.1134225582333745
+    },
+    {
+        "year": 2019,
+        "countryCode": 279,
+        "shortName": "Curaçao",
+        "value": -1
+    },
+    {
+        "year": 2019,
+        "countryCode": 281,
+        "shortName": "St. Martin",
+        "value": -1
+    },
+    {
+        "year": 2019,
+        "countryCode": 299,
+        "shortName": "Palestine",
+        "value": 0.5194090781178432
+    },
+    {
+        "year": 2019,
+        "countryCode": 351,
+        "shortName": "China",
+        "value": 2.263689730155731
+    }
+]

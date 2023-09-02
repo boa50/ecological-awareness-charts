@@ -1,0 +1,44 @@
+[
+    {
+        "year": 2022,
+        "isoa2": "GB",
+        "shortName": "United Kingdom",
+        "value": 2.360786913507283
+    },
+    {
+        "year": 2022,
+        "isoa2": "US",
+        "shortName": "United States",
+        "value": 4.940111353127781
+    },
+    {
+        "year": 2022,
+        "isoa2": "UY",
+        "shortName": "Uruguay",
+        "value": 1.4316649982204694
+    },
+    {
+        "year": 2022,
+        "isoa2": "CN",
+        "shortName": "China",
+        "value": 2.396114420883761
+    },
+    {
+        "year": 2021,
+        "isoa2": "GB",
+        "shortName": "United Kingdom",
+        "value": 2.4013762979932856
+    },
+    {
+        "year": 2021,
+        "isoa2": "US",
+        "shortName": "United States",
+        "value": 4.886612888989464
+    },
+    {
+        "year": 2021,
+        "isoa2": "UY",
+        "shortName": "Uruguay",
+        "value": 1.440966428340269
+    }
+]

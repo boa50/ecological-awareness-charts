@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 import os
 import requests
 import json
+from pathlib import Path
+import time
 
 load_dotenv()
 user_name = os.environ.get("user_name")
@@ -64,33 +66,37 @@ else:
 
 if GET_EARTH:
     urls_param = []
-    for element in years:
-        year = str(element["year"])
-        for element in countries:
-            countryCode = element["countryCode"]
-            url_param = "data/" + countryCode + "/" + year + "/earth"
-            urls_param.append(url_param)
+    # for element in years[0:1]:
+    #     year = str(element["year"])
+    #     for element in countries:
+    #         countryCode = element["countryCode"]
+    #         url_param = "data/" + countryCode + "/" + year + "/earth"
+    #         urls_param.append(url_param)
+
+    ### Creating URLs for a single year
+    year = "2022"
+    for element in countries:
+        countryCode = element["countryCode"]
+        url_param = "data/" + countryCode + "/" + year + "/earth"
+        urls_param.append(url_param)
 
 
     file_name = "earth_data.json"
-    save_file(json.loads("[]"), file_name)
     file_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), file_name)
 
-    for url_param in urls_param:
+    data_file = Path(file_path)
+    if not data_file.is_file():
+        save_file(json.loads("[]"), file_name)
+
+    for url_param in urls_param[0:6]:
         with open(file_path, encoding="utf-8") as f:
             earth_data = json.load(f)
 
-        data = [
-            {
-                "year": x["year"],
-                "isoa2": x["isoa2"],
-                "shortName": x["shortName"],
-                "value": x["value"],
-            }
-            for x in get_data(url_param)
-        ]
+        data = get_data(url_param)
 
         if data:
             earth_data.append(data[0])
 
             save_file(earth_data, file_name)
+
+        time.sleep(1)

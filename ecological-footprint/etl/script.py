@@ -88,11 +88,20 @@ if GET_EARTH:
     if not data_file.is_file():
         save_file(json.loads("[]"), file_name)
 
-    for url_param in urls_param[0:6]:
+
+    for url_param in urls_param:
         with open(file_path, encoding="utf-8") as f:
             earth_data = json.load(f)
 
-        data = get_data(url_param)
+        data = [
+            {
+                "year": x.get("year", 1900),
+                "countryCode": x.get("countryCode", -1),
+                "shortName": x.get("shortName", ""),
+                "value": x.get("value", -1)
+            }
+            for x in get_data(url_param)
+        ]
 
         if data:
             earth_data.append(data[0])

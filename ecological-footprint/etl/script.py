@@ -74,7 +74,7 @@ if GET_EARTH:
     #         urls_param.append(url_param)
 
     ### Creating URLs for a single year
-    year = "2018"
+    year = "2014"
     for element in countries:
         countryCode = element["countryCode"]
         url_param = "data/" + countryCode + "/" + year + "/earth"

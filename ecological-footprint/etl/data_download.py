@@ -17,7 +17,7 @@ headers = {"HTTP_ACCEPT": "application/json"}
 ### Control variables for testing purposes
 GET_COUNTRIES = False
 GET_YEARS = False
-GET_EARTH = True
+GET_EARTH = False
 
 
 ### Auxiliary functions
@@ -41,7 +41,11 @@ def save_file(data: json, file_name: str):
 ### Data proessing
 if GET_COUNTRIES:
     countries = [
-        {"shortName": x["shortName"], "countryCode": x["countryCode"]}
+        {
+            "shortName": x["shortName"], 
+            "countryCode": x["countryCode"],
+            "isoa2": x["isoa2"]
+        }
         for x in get_data("countries")
         if x["isoa2"] != None and x["isoa2"] != ""
     ]

@@ -1,946 +1,1182 @@
 [
     {
         "shortName": "Armenia",
-        "countryCode": "1"
+        "countryCode": "1",
+        "isoa2": "AM"
     },
     {
         "shortName": "Afghanistan",
-        "countryCode": "2"
+        "countryCode": "2",
+        "isoa2": "AF"
     },
     {
         "shortName": "Albania",
-        "countryCode": "3"
+        "countryCode": "3",
+        "isoa2": "AL"
     },
     {
         "shortName": "Algeria",
-        "countryCode": "4"
+        "countryCode": "4",
+        "isoa2": "DZ"
     },
     {
         "shortName": "American Samoa",
-        "countryCode": "5"
+        "countryCode": "5",
+        "isoa2": "AS"
     },
     {
         "shortName": "Andorra",
-        "countryCode": "6"
+        "countryCode": "6",
+        "isoa2": "AD"
     },
     {
         "shortName": "Angola",
-        "countryCode": "7"
+        "countryCode": "7",
+        "isoa2": "AO"
     },
     {
         "shortName": "Antigua and Barbuda",
-        "countryCode": "8"
+        "countryCode": "8",
+        "isoa2": "AG"
     },
     {
         "shortName": "Argentina",
-        "countryCode": "9"
+        "countryCode": "9",
+        "isoa2": "AR"
     },
     {
         "shortName": "Australia",
-        "countryCode": "10"
+        "countryCode": "10",
+        "isoa2": "AU"
     },
     {
         "shortName": "Austria",
-        "countryCode": "11"
+        "countryCode": "11",
+        "isoa2": "AT"
     },
     {
         "shortName": "Bahamas",
-        "countryCode": "12"
+        "countryCode": "12",
+        "isoa2": "BS"
     },
     {
         "shortName": "Bahrain",
-        "countryCode": "13"
+        "countryCode": "13",
+        "isoa2": "BH"
     },
     {
         "shortName": "Barbados",
-        "countryCode": "14"
+        "countryCode": "14",
+        "isoa2": "BB"
     },
     {
         "shortName": "Bangladesh",
-        "countryCode": "16"
+        "countryCode": "16",
+        "isoa2": "BD"
     },
     {
         "shortName": "Bermuda",
-        "countryCode": "17"
+        "countryCode": "17",
+        "isoa2": "BM"
     },
     {
         "shortName": "Bhutan",
-        "countryCode": "18"
+        "countryCode": "18",
+        "isoa2": "BT"
     },
     {
         "shortName": "Bolivia",
-        "countryCode": "19"
+        "countryCode": "19",
+        "isoa2": "BO"
     },
     {
         "shortName": "Botswana",
-        "countryCode": "20"
+        "countryCode": "20",
+        "isoa2": "BW"
     },
     {
         "shortName": "Brazil",
-        "countryCode": "21"
+        "countryCode": "21",
+        "isoa2": "BR"
     },
     {
         "shortName": "Aruba",
-        "countryCode": "22"
+        "countryCode": "22",
+        "isoa2": "AW"
     },
     {
         "shortName": "Belize",
-        "countryCode": "23"
+        "countryCode": "23",
+        "isoa2": "BZ"
     },
     {
         "shortName": "British Indian Ocean Ter",
-        "countryCode": "24"
+        "countryCode": "24",
+        "isoa2": "IO"
     },
     {
         "shortName": "Solomon Islands",
-        "countryCode": "25"
+        "countryCode": "25",
+        "isoa2": "SB"
     },
     {
         "shortName": "Brunei",
-        "countryCode": "26"
+        "countryCode": "26",
+        "isoa2": "BN"
     },
     {
         "shortName": "Bulgaria",
-        "countryCode": "27"
+        "countryCode": "27",
+        "isoa2": "BG"
     },
     {
         "shortName": "Myanmar",
-        "countryCode": "28"
+        "countryCode": "28",
+        "isoa2": "MM"
     },
     {
         "shortName": "Burundi",
-        "countryCode": "29"
+        "countryCode": "29",
+        "isoa2": "BI"
     },
     {
         "shortName": "Cameroon",
-        "countryCode": "32"
+        "countryCode": "32",
+        "isoa2": "CM"
     },
     {
         "shortName": "Canada",
-        "countryCode": "33"
+        "countryCode": "33",
+        "isoa2": "CA"
     },
     {
         "shortName": "Cabo Verde",
-        "countryCode": "35"
+        "countryCode": "35",
+        "isoa2": "CV"
     },
     {
         "shortName": "Cayman Islands",
-        "countryCode": "36"
+        "countryCode": "36",
+        "isoa2": "KY"
     },
     {
         "shortName": "Central African Republic",
-        "countryCode": "37"
+        "countryCode": "37",
+        "isoa2": "CF"
     },
     {
         "shortName": "Sri Lanka",
-        "countryCode": "38"
+        "countryCode": "38",
+        "isoa2": "LK"
     },
     {
         "shortName": "Chad",
-        "countryCode": "39"
+        "countryCode": "39",
+        "isoa2": "TD"
     },
     {
         "shortName": "Chile",
-        "countryCode": "40"
+        "countryCode": "40",
+        "isoa2": "CL"
     },
     {
         "shortName": "Christmas Island",
-        "countryCode": "42"
+        "countryCode": "42",
+        "isoa2": "CX"
     },
     {
         "shortName": "Cocos (Keeling) Islands",
-        "countryCode": "43"
+        "countryCode": "43",
+        "isoa2": "CC"
     },
     {
         "shortName": "Colombia",
-        "countryCode": "44"
+        "countryCode": "44",
+        "isoa2": "CO"
     },
     {
         "shortName": "Comoros",
-        "countryCode": "45"
+        "countryCode": "45",
+        "isoa2": "KM"
     },
     {
         "shortName": "Congo",
-        "countryCode": "46"
+        "countryCode": "46",
+        "isoa2": "CG"
     },
     {
         "shortName": "Cook Islands",
-        "countryCode": "47"
+        "countryCode": "47",
+        "isoa2": "CK"
     },
     {
         "shortName": "Costa Rica",
-        "countryCode": "48"
+        "countryCode": "48",
+        "isoa2": "CR"
     },
     {
         "shortName": "Cuba",
-        "countryCode": "49"
+        "countryCode": "49",
+        "isoa2": "CU"
     },
     {
         "shortName": "Cyprus",
-        "countryCode": "50"
+        "countryCode": "50",
+        "isoa2": "CY"
     },
     {
         "shortName": "Azerbaijan",
-        "countryCode": "52"
+        "countryCode": "52",
+        "isoa2": "AZ"
     },
     {
         "shortName": "Benin",
-        "countryCode": "53"
+        "countryCode": "53",
+        "isoa2": "BJ"
     },
     {
         "shortName": "Denmark",
-        "countryCode": "54"
+        "countryCode": "54",
+        "isoa2": "DK"
     },
     {
         "shortName": "Dominica",
-        "countryCode": "55"
+        "countryCode": "55",
+        "isoa2": "DM"
     },
     {
         "shortName": "Dominican Republic",
-        "countryCode": "56"
+        "countryCode": "56",
+        "isoa2": "DO"
     },
     {
         "shortName": "Belarus",
-        "countryCode": "57"
+        "countryCode": "57",
+        "isoa2": "BY"
     },
     {
         "shortName": "Ecuador",
-        "countryCode": "58"
+        "countryCode": "58",
+        "isoa2": "EC"
     },
     {
         "shortName": "Egypt",
-        "countryCode": "59"
+        "countryCode": "59",
+        "isoa2": "EG"
     },
     {
         "shortName": "El Salvador",
-        "countryCode": "60"
+        "countryCode": "60",
+        "isoa2": "SV"
     },
     {
         "shortName": "Equatorial Guinea",
-        "countryCode": "61"
+        "countryCode": "61",
+        "isoa2": "GQ"
     },
     {
         "shortName": "Estonia",
-        "countryCode": "63"
+        "countryCode": "63",
+        "isoa2": "EE"
     },
     {
         "shortName": "Faroe Islands",
-        "countryCode": "64"
+        "countryCode": "64",
+        "isoa2": "FO"
     },
     {
         "shortName": "Falkland Islands",
-        "countryCode": "65"
+        "countryCode": "65",
+        "isoa2": "FK"
     },
     {
         "shortName": "Fiji",
-        "countryCode": "66"
+        "countryCode": "66",
+        "isoa2": "FJ"
     },
     {
         "shortName": "Finland",
-        "countryCode": "67"
+        "countryCode": "67",
+        "isoa2": "FI"
     },
     {
         "shortName": "France",
-        "countryCode": "68"
+        "countryCode": "68",
+        "isoa2": "FR"
     },
     {
         "shortName": "French Guiana",
-        "countryCode": "69"
+        "countryCode": "69",
+        "isoa2": "GF"
     },
     {
         "shortName": "French Polynesia",
-        "countryCode": "70"
+        "countryCode": "70",
+        "isoa2": "PF"
     },
     {
         "shortName": "Djibouti",
-        "countryCode": "72"
+        "countryCode": "72",
+        "isoa2": "DJ"
     },
     {
         "shortName": "Georgia",
-        "countryCode": "73"
+        "countryCode": "73",
+        "isoa2": "GE"
     },
     {
         "shortName": "Gabon",
-        "countryCode": "74"
+        "countryCode": "74",
+        "isoa2": "GA"
     },
     {
         "shortName": "Gambia",
-        "countryCode": "75"
+        "countryCode": "75",
+        "isoa2": "GM"
     },
     {
         "shortName": "Germany",
-        "countryCode": "79"
+        "countryCode": "79",
+        "isoa2": "DE"
     },
     {
         "shortName": "Bosnia and Herzegovina",
-        "countryCode": "80"
+        "countryCode": "80",
+        "isoa2": "BA"
     },
     {
         "shortName": "Ghana",
-        "countryCode": "81"
+        "countryCode": "81",
+        "isoa2": "GH"
     },
     {
         "shortName": "Gibraltar",
-        "countryCode": "82"
+        "countryCode": "82",
+        "isoa2": "GI"
     },
     {
         "shortName": "Kiribati",
-        "countryCode": "83"
+        "countryCode": "83",
+        "isoa2": "KI"
     },
     {
         "shortName": "Greece",
-        "countryCode": "84"
+        "countryCode": "84",
+        "isoa2": "GR"
     },
     {
         "shortName": "Grenada",
-        "countryCode": "86"
+        "countryCode": "86",
+        "isoa2": "GD"
     },
     {
         "shortName": "Guadeloupe",
-        "countryCode": "87"
+        "countryCode": "87",
+        "isoa2": "GP"
     },
     {
         "shortName": "Guam",
-        "countryCode": "88"
+        "countryCode": "88",
+        "isoa2": "GU"
     },
     {
         "shortName": "Guatemala",
-        "countryCode": "89"
+        "countryCode": "89",
+        "isoa2": "GT"
     },
     {
         "shortName": "Guinea",
-        "countryCode": "90"
+        "countryCode": "90",
+        "isoa2": "GN"
     },
     {
         "shortName": "Guyana",
-        "countryCode": "91"
+        "countryCode": "91",
+        "isoa2": "GY"
     },
     {
         "shortName": "Haiti",
-        "countryCode": "93"
+        "countryCode": "93",
+        "isoa2": "HT"
     },
     {
         "shortName": "Honduras",
-        "countryCode": "95"
+        "countryCode": "95",
+        "isoa2": "HN"
     },
     {
         "shortName": "Hungary",
-        "countryCode": "97"
+        "countryCode": "97",
+        "isoa2": "HU"
     },
     {
         "shortName": "Croatia",
-        "countryCode": "98"
+        "countryCode": "98",
+        "isoa2": "HR"
     },
     {
         "shortName": "Iceland",
-        "countryCode": "99"
+        "countryCode": "99",
+        "isoa2": "IS"
     },
     {
         "shortName": "India",
-        "countryCode": "100"
+        "countryCode": "100",
+        "isoa2": "IN"
     },
     {
         "shortName": "Indonesia",
-        "countryCode": "101"
+        "countryCode": "101",
+        "isoa2": "ID"
     },
     {
         "shortName": "Iran",
-        "countryCode": "102"
+        "countryCode": "102",
+        "isoa2": "IR"
     },
     {
         "shortName": "Iraq",
-        "countryCode": "103"
+        "countryCode": "103",
+        "isoa2": "IQ"
     },
     {
         "shortName": "Ireland",
-        "countryCode": "104"
+        "countryCode": "104",
+        "isoa2": "IE"
     },
     {
         "shortName": "Israel",
-        "countryCode": "105"
+        "countryCode": "105",
+        "isoa2": "IL"
     },
     {
         "shortName": "Italy",
-        "countryCode": "106"
+        "countryCode": "106",
+        "isoa2": "IT"
     },
     {
         "shortName": "Cote d'Ivoire",
-        "countryCode": "107"
+        "countryCode": "107",
+        "isoa2": "CI"
     },
     {
         "shortName": "Kazakhstan",
-        "countryCode": "108"
+        "countryCode": "108",
+        "isoa2": "KZ"
     },
     {
         "shortName": "Jamaica",
-        "countryCode": "109"
+        "countryCode": "109",
+        "isoa2": "JM"
     },
     {
         "shortName": "Japan",
-        "countryCode": "110"
+        "countryCode": "110",
+        "isoa2": "JP"
     },
     {
         "shortName": "Jordan",
-        "countryCode": "112"
+        "countryCode": "112",
+        "isoa2": "JO"
     },
     {
         "shortName": "Kyrgyzstan",
-        "countryCode": "113"
+        "countryCode": "113",
+        "isoa2": "KG"
     },
     {
         "shortName": "Kenya",
-        "countryCode": "114"
+        "countryCode": "114",
+        "isoa2": "KE"
     },
     {
         "shortName": "Cambodia",
-        "countryCode": "115"
+        "countryCode": "115",
+        "isoa2": "KH"
     },
     {
         "shortName": "North Korea",
-        "countryCode": "116"
+        "countryCode": "116",
+        "isoa2": "KP"
     },
     {
         "shortName": "South Korea",
-        "countryCode": "117"
+        "countryCode": "117",
+        "isoa2": "KR"
     },
     {
         "shortName": "Kuwait",
-        "countryCode": "118"
+        "countryCode": "118",
+        "isoa2": "KW"
     },
     {
         "shortName": "Latvia",
-        "countryCode": "119"
+        "countryCode": "119",
+        "isoa2": "LV"
     },
     {
         "shortName": "Laos",
-        "countryCode": "120"
+        "countryCode": "120",
+        "isoa2": "LA"
     },
     {
         "shortName": "Lebanon",
-        "countryCode": "121"
+        "countryCode": "121",
+        "isoa2": "LB"
     },
     {
         "shortName": "Lesotho",
-        "countryCode": "122"
+        "countryCode": "122",
+        "isoa2": "LS"
     },
     {
         "shortName": "Liberia",
-        "countryCode": "123"
+        "countryCode": "123",
+        "isoa2": "LR"
     },
     {
         "shortName": "Libya",
-        "countryCode": "124"
+        "countryCode": "124",
+        "isoa2": "LY"
     },
     {
         "shortName": "Liechtenstein",
-        "countryCode": "125"
+        "countryCode": "125",
+        "isoa2": "LI"
     },
     {
         "shortName": "Lithuania",
-        "countryCode": "126"
+        "countryCode": "126",
+        "isoa2": "LT"
     },
     {
         "shortName": "Marshall Islands",
-        "countryCode": "127"
+        "countryCode": "127",
+        "isoa2": "MH"
     },
     {
         "shortName": "Madagascar",
-        "countryCode": "129"
+        "countryCode": "129",
+        "isoa2": "MG"
     },
     {
         "shortName": "Malawi",
-        "countryCode": "130"
+        "countryCode": "130",
+        "isoa2": "MW"
     },
     {
         "shortName": "Malaysia",
-        "countryCode": "131"
+        "countryCode": "131",
+        "isoa2": "MY"
     },
     {
         "shortName": "Maldives",
-        "countryCode": "132"
+        "countryCode": "132",
+        "isoa2": "MV"
     },
     {
         "shortName": "Mali",
-        "countryCode": "133"
+        "countryCode": "133",
+        "isoa2": "ML"
     },
     {
         "shortName": "Malta",
-        "countryCode": "134"
+        "countryCode": "134",
+        "isoa2": "MT"
     },
     {
         "shortName": "Martinique",
-        "countryCode": "135"
+        "countryCode": "135",
+        "isoa2": "MQ"
     },
     {
         "shortName": "Mauritania",
-        "countryCode": "136"
+        "countryCode": "136",
+        "isoa2": "MR"
     },
     {
         "shortName": "Mauritius",
-        "countryCode": "137"
+        "countryCode": "137",
+        "isoa2": "MU"
     },
     {
         "shortName": "Mexico",
-        "countryCode": "138"
+        "countryCode": "138",
+        "isoa2": "MX"
     },
     {
         "shortName": "Mongolia",
-        "countryCode": "141"
+        "countryCode": "141",
+        "isoa2": "MN"
     },
     {
         "shortName": "Montserrat",
-        "countryCode": "142"
+        "countryCode": "142",
+        "isoa2": "MS"
     },
     {
         "shortName": "Morocco",
-        "countryCode": "143"
+        "countryCode": "143",
+        "isoa2": "MA"
     },
     {
         "shortName": "Mozambique",
-        "countryCode": "144"
+        "countryCode": "144",
+        "isoa2": "MZ"
     },
     {
         "shortName": "Micronesia",
-        "countryCode": "145"
+        "countryCode": "145",
+        "isoa2": "FM"
     },
     {
         "shortName": "Moldova",
-        "countryCode": "146"
+        "countryCode": "146",
+        "isoa2": "MD"
     },
     {
         "shortName": "Namibia",
-        "countryCode": "147"
+        "countryCode": "147",
+        "isoa2": "NA"
     },
     {
         "shortName": "Nauru",
-        "countryCode": "148"
+        "countryCode": "148",
+        "isoa2": "NR"
     },
     {
         "shortName": "Nepal",
-        "countryCode": "149"
+        "countryCode": "149",
+        "isoa2": "NP"
     },
     {
         "shortName": "Netherlands",
-        "countryCode": "150"
+        "countryCode": "150",
+        "isoa2": "NL"
     },
     {
         "shortName": "Netherlands Antilles",
-        "countryCode": "151"
+        "countryCode": "151",
+        "isoa2": "AN"
     },
     {
         "shortName": "New Caledonia",
-        "countryCode": "153"
+        "countryCode": "153",
+        "isoa2": "NC"
     },
     {
         "shortName": "Macedonia",
-        "countryCode": "154"
+        "countryCode": "154",
+        "isoa2": "MK"
     },
     {
         "shortName": "Vanuatu",
-        "countryCode": "155"
+        "countryCode": "155",
+        "isoa2": "VU"
     },
     {
         "shortName": "New Zealand",
-        "countryCode": "156"
+        "countryCode": "156",
+        "isoa2": "NZ"
     },
     {
         "shortName": "Nicaragua",
-        "countryCode": "157"
+        "countryCode": "157",
+        "isoa2": "NI"
     },
     {
         "shortName": "Niger",
-        "countryCode": "158"
+        "countryCode": "158",
+        "isoa2": "NE"
     },
     {
         "shortName": "Nigeria",
-        "countryCode": "159"
+        "countryCode": "159",
+        "isoa2": "NG"
     },
     {
         "shortName": "Niue",
-        "countryCode": "160"
+        "countryCode": "160",
+        "isoa2": "NU"
     },
     {
         "shortName": "Norfolk Island",
-        "countryCode": "161"
+        "countryCode": "161",
+        "isoa2": "NF"
     },
     {
         "shortName": "Norway",
-        "countryCode": "162"
+        "countryCode": "162",
+        "isoa2": "NO"
     },
     {
         "shortName": "Northern Mariana Islands",
-        "countryCode": "163"
+        "countryCode": "163",
+        "isoa2": "MP"
     },
     {
         "shortName": "Pacific Islands Trust",
-        "countryCode": "164"
+        "countryCode": "164",
+        "isoa2": "PCI"
     },
     {
         "shortName": "Pakistan",
-        "countryCode": "165"
+        "countryCode": "165",
+        "isoa2": "PK"
     },
     {
         "shortName": "Panama",
-        "countryCode": "166"
+        "countryCode": "166",
+        "isoa2": "PA"
     },
     {
         "shortName": "Czech Republic",
-        "countryCode": "167"
+        "countryCode": "167",
+        "isoa2": "CZ"
     },
     {
         "shortName": "Papua New Guinea",
-        "countryCode": "168"
+        "countryCode": "168",
+        "isoa2": "PG"
     },
     {
         "shortName": "Paraguay",
-        "countryCode": "169"
+        "countryCode": "169",
+        "isoa2": "PY"
     },
     {
         "shortName": "Peru",
-        "countryCode": "170"
+        "countryCode": "170",
+        "isoa2": "PE"
     },
     {
         "shortName": "Philippines",
-        "countryCode": "171"
+        "countryCode": "171",
+        "isoa2": "PH"
     },
     {
         "shortName": "Pitcairn",
-        "countryCode": "172"
+        "countryCode": "172",
+        "isoa2": "PN"
     },
     {
         "shortName": "Poland",
-        "countryCode": "173"
+        "countryCode": "173",
+        "isoa2": "PL"
     },
     {
         "shortName": "Portugal",
-        "countryCode": "174"
+        "countryCode": "174",
+        "isoa2": "PT"
     },
     {
         "shortName": "Guinea-Bissau",
-        "countryCode": "175"
+        "countryCode": "175",
+        "isoa2": "GW"
     },
     {
         "shortName": "Timor-Leste",
-        "countryCode": "176"
+        "countryCode": "176",
+        "isoa2": "TL"
     },
     {
         "shortName": "Puerto Rico",
-        "countryCode": "177"
+        "countryCode": "177",
+        "isoa2": "PR"
     },
     {
         "shortName": "Eritrea",
-        "countryCode": "178"
+        "countryCode": "178",
+        "isoa2": "ER"
     },
     {
         "shortName": "Qatar",
-        "countryCode": "179"
+        "countryCode": "179",
+        "isoa2": "QA"
     },
     {
         "shortName": "Palau",
-        "countryCode": "180"
+        "countryCode": "180",
+        "isoa2": "PW"
     },
     {
         "shortName": "Zimbabwe",
-        "countryCode": "181"
+        "countryCode": "181",
+        "isoa2": "ZW"
     },
     {
         "shortName": "Reunion",
-        "countryCode": "182"
+        "countryCode": "182",
+        "isoa2": "RE"
     },
     {
         "shortName": "Romania",
-        "countryCode": "183"
+        "countryCode": "183",
+        "isoa2": "RO"
     },
     {
         "shortName": "Rwanda",
-        "countryCode": "184"
+        "countryCode": "184",
+        "isoa2": "RW"
     },
     {
         "shortName": "Russia",
-        "countryCode": "185"
+        "countryCode": "185",
+        "isoa2": "RU"
     },
     {
         "shortName": "Serbia and Montenegro",
-        "countryCode": "186"
+        "countryCode": "186",
+        "isoa2": "CS"
     },
     {
         "shortName": "St. Helena",
-        "countryCode": "187"
+        "countryCode": "187",
+        "isoa2": "SH"
     },
     {
         "shortName": "St. Kitts and Nevis",
-        "countryCode": "188"
+        "countryCode": "188",
+        "isoa2": "KN"
     },
     {
         "shortName": "St. Lucia",
-        "countryCode": "189"
+        "countryCode": "189",
+        "isoa2": "LC"
     },
     {
         "shortName": "St. Pierre and Miquelon",
-        "countryCode": "190"
+        "countryCode": "190",
+        "isoa2": "PM"
     },
     {
         "shortName": "St. Vincent and Grenadines",
-        "countryCode": "191"
+        "countryCode": "191",
+        "isoa2": "VC"
     },
     {
         "shortName": "Sao Tome and Principe",
-        "countryCode": "193"
+        "countryCode": "193",
+        "isoa2": "ST"
     },
     {
         "shortName": "Saudi Arabia",
-        "countryCode": "194"
+        "countryCode": "194",
+        "isoa2": "SA"
     },
     {
         "shortName": "Senegal",
-        "countryCode": "195"
+        "countryCode": "195",
+        "isoa2": "SN"
     },
     {
         "shortName": "Seychelles",
-        "countryCode": "196"
+        "countryCode": "196",
+        "isoa2": "SC"
     },
     {
         "shortName": "Sierra Leone",
-        "countryCode": "197"
+        "countryCode": "197",
+        "isoa2": "SL"
     },
     {
         "shortName": "Slovenia",
-        "countryCode": "198"
+        "countryCode": "198",
+        "isoa2": "SI"
     },
     {
         "shortName": "Slovakia",
-        "countryCode": "199"
+        "countryCode": "199",
+        "isoa2": "SK"
     },
     {
         "shortName": "Singapore",
-        "countryCode": "200"
+        "countryCode": "200",
+        "isoa2": "SG"
     },
     {
         "shortName": "Somalia",
-        "countryCode": "201"
+        "countryCode": "201",
+        "isoa2": "SO"
     },
     {
         "shortName": "South Africa",
-        "countryCode": "202"
+        "countryCode": "202",
+        "isoa2": "ZA"
     },
     {
         "shortName": "Spain",
-        "countryCode": "203"
+        "countryCode": "203",
+        "isoa2": "ES"
     },
     {
         "shortName": "Suriname",
-        "countryCode": "207"
+        "countryCode": "207",
+        "isoa2": "SR"
     },
     {
         "shortName": "Tajikistan",
-        "countryCode": "208"
+        "countryCode": "208",
+        "isoa2": "TJ"
     },
     {
         "shortName": "Swaziland",
-        "countryCode": "209"
+        "countryCode": "209",
+        "isoa2": "SZ"
     },
     {
         "shortName": "Sweden",
-        "countryCode": "210"
+        "countryCode": "210",
+        "isoa2": "SE"
     },
     {
         "shortName": "Switzerland",
-        "countryCode": "211"
+        "countryCode": "211",
+        "isoa2": "CH"
     },
     {
         "shortName": "Syria",
-        "countryCode": "212"
+        "countryCode": "212",
+        "isoa2": "SY"
     },
     {
         "shortName": "Turkmenistan",
-        "countryCode": "213"
+        "countryCode": "213",
+        "isoa2": "TM"
     },
     {
         "shortName": "Tanzania",
-        "countryCode": "215"
+        "countryCode": "215",
+        "isoa2": "TZ"
     },
     {
         "shortName": "Thailand",
-        "countryCode": "216"
+        "countryCode": "216",
+        "isoa2": "TH"
     },
     {
         "shortName": "Togo",
-        "countryCode": "217"
+        "countryCode": "217",
+        "isoa2": "TG"
     },
     {
         "shortName": "Tokelau",
-        "countryCode": "218"
+        "countryCode": "218",
+        "isoa2": "TK"
     },
     {
         "shortName": "Tonga",
-        "countryCode": "219"
+        "countryCode": "219",
+        "isoa2": "TO"
     },
     {
         "shortName": "Trinidad and Tobago",
-        "countryCode": "220"
+        "countryCode": "220",
+        "isoa2": "TT"
     },
     {
         "shortName": "Oman",
-        "countryCode": "221"
+        "countryCode": "221",
+        "isoa2": "OM"
     },
     {
         "shortName": "Tunisia",
-        "countryCode": "222"
+        "countryCode": "222",
+        "isoa2": "TN"
     },
     {
         "shortName": "Turkey",
-        "countryCode": "223"
+        "countryCode": "223",
+        "isoa2": "TR"
     },
     {
         "shortName": "Turks and Caicos Islands",
-        "countryCode": "224"
+        "countryCode": "224",
+        "isoa2": "TC"
     },
     {
         "shortName": "United Arab Emirates",
-        "countryCode": "225"
+        "countryCode": "225",
+        "isoa2": "AE"
     },
     {
         "shortName": "Uganda",
-        "countryCode": "226"
+        "countryCode": "226",
+        "isoa2": "UG"
     },
     {
         "shortName": "Tuvalu",
-        "countryCode": "227"
+        "countryCode": "227",
+        "isoa2": "TV"
     },
     {
         "shortName": "USSR",
-        "countryCode": "228"
+        "countryCode": "228",
+        "isoa2": "SUN"
     },
     {
         "shortName": "United Kingdom",
-        "countryCode": "229"
+        "countryCode": "229",
+        "isoa2": "GB"
     },
     {
         "shortName": "Ukraine",
-        "countryCode": "230"
+        "countryCode": "230",
+        "isoa2": "UA"
     },
     {
         "shortName": "United States",
-        "countryCode": "231"
+        "countryCode": "231",
+        "isoa2": "US"
     },
     {
         "shortName": "Burkina Faso",
-        "countryCode": "233"
+        "countryCode": "233",
+        "isoa2": "BF"
     },
     {
         "shortName": "Uruguay",
-        "countryCode": "234"
+        "countryCode": "234",
+        "isoa2": "UY"
     },
     {
         "shortName": "Uzbekistan",
-        "countryCode": "235"
+        "countryCode": "235",
+        "isoa2": "UZ"
     },
     {
         "shortName": "Venezuela",
-        "countryCode": "236"
+        "countryCode": "236",
+        "isoa2": "VE"
     },
     {
         "shortName": "Viet Nam",
-        "countryCode": "237"
+        "countryCode": "237",
+        "isoa2": "VN"
     },
     {
         "shortName": "Ethiopia",
-        "countryCode": "238"
+        "countryCode": "238",
+        "isoa2": "ET"
     },
     {
         "shortName": "British Virgin Islands",
-        "countryCode": "239"
+        "countryCode": "239",
+        "isoa2": "VG"
     },
     {
         "shortName": "US Virgin Islands",
-        "countryCode": "240"
+        "countryCode": "240",
+        "isoa2": "VI"
     },
     {
         "shortName": "Wake Island",
-        "countryCode": "242"
+        "countryCode": "242",
+        "isoa2": "WAK"
     },
     {
         "shortName": "Wallis and Futuna Islands",
-        "countryCode": "243"
+        "countryCode": "243",
+        "isoa2": "WF"
     },
     {
         "shortName": "Samoa",
-        "countryCode": "244"
+        "countryCode": "244",
+        "isoa2": "WS"
     },
     {
         "shortName": "Yugoslavia",
-        "countryCode": "248"
+        "countryCode": "248",
+        "isoa2": "YUCS"
     },
     {
         "shortName": "Yemen",
-        "countryCode": "249"
+        "countryCode": "249",
+        "isoa2": "YE"
     },
     {
         "shortName": "Congo DR",
-        "countryCode": "250"
+        "countryCode": "250",
+        "isoa2": "CD"
     },
     {
         "shortName": "Zambia",
-        "countryCode": "251"
+        "countryCode": "251",
+        "isoa2": "ZM"
     },
     {
         "shortName": "Belgium",
-        "countryCode": "255"
+        "countryCode": "255",
+        "isoa2": "BE"
     },
     {
         "shortName": "Luxembourg",
-        "countryCode": "256"
+        "countryCode": "256",
+        "isoa2": "LU"
     },
     {
         "shortName": "Anguilla",
-        "countryCode": "258"
+        "countryCode": "258",
+        "isoa2": "AI"
     },
     {
         "shortName": "Isle of Man",
-        "countryCode": "264"
+        "countryCode": "264",
+        "isoa2": "IM"
     },
     {
         "shortName": "Mayotte",
-        "countryCode": "270"
+        "countryCode": "270",
+        "isoa2": "YT"
     },
     {
         "shortName": "Serbia",
-        "countryCode": "272"
+        "countryCode": "272",
+        "isoa2": "RS"
     },
     {
         "shortName": "Montenegro",
-        "countryCode": "273"
+        "countryCode": "273",
+        "isoa2": "ME"
     },
     {
         "shortName": "Sudan",
-        "countryCode": "276"
+        "countryCode": "276",
+        "isoa2": "SD"
     },
     {
         "shortName": "South Sudan",
-        "countryCode": "277"
+        "countryCode": "277",
+        "isoa2": "SS"
     },
     {
         "shortName": "BES islands",
-        "countryCode": "278"
+        "countryCode": "278",
+        "isoa2": "BQ"
     },
     {
         "shortName": "Curaçao",
-        "countryCode": "279"
+        "countryCode": "279",
+        "isoa2": "CW"
     },
     {
         "shortName": "St. Martin",
-        "countryCode": "281"
+        "countryCode": "281",
+        "isoa2": "MF"
     },
     {
         "shortName": "Saint Barthélemy",
-        "countryCode": "282"
+        "countryCode": "282",
+        "isoa2": "BL"
     },
     {
         "shortName": "Palestine",
-        "countryCode": "299"
+        "countryCode": "299",
+        "isoa2": "PS"
     },
     {
         "shortName": "China",
-        "countryCode": "351"
+        "countryCode": "351",
+        "isoa2": "CN"
     }
 ]

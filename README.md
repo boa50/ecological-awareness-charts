@@ -1,3 +1,3 @@
-# Ecological Awareness Charts
+# Sustainability Charts
 
-Charts developed using data related to ecological e sustainability topics
+Charts developed using data related to sustainability topics

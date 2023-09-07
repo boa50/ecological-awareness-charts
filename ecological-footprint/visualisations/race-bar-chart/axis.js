@@ -15,7 +15,7 @@ export const axis = svg => {
     return (_, transition) => {
         g.transition(transition).call(axis)
         g.select('.tick:first-of-type text').remove()
-        g.selectAll('.tick:not(:first-of-type) line').attr('stroke', 'line')
+        g.selectAll('.tick:not(:first-of-type) line').remove()
         g.select('.domain').remove()
     }
 }

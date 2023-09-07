@@ -17,7 +17,7 @@ headers = {"HTTP_ACCEPT": "application/json"}
 ### Control variables for testing purposes
 GET_COUNTRIES = False
 GET_YEARS = False
-GET_EARTH = False
+GET_EARTH = True
 
 
 ### Auxiliary functions
@@ -78,7 +78,7 @@ if GET_EARTH:
     #         urls_param.append(url_param)
 
     ### Creating URLs for a single year
-    year = "2014"
+    year = "2013"
     for element in countries:
         countryCode = element["countryCode"]
         url_param = "data/" + countryCode + "/" + year + "/earth"

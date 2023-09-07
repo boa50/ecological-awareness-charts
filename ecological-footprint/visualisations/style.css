@@ -1,0 +1,26 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.label {
+    font-weight: bold;
+    text-anchor: end;
+    font-variant-numeric: tabular-nums;
+    fill: #333333;
+}
+
+.label tspan {
+    fill-opacity: 0.7;
+    font-weight: normal;
+}
+
+.tick {
+    color: #777777;
+}
+
+.ticker {
+    font-weight: bold;
+    text-anchor: end;
+    font-variant-numeric: tabular-nums;
+    fill: #bbbbbb;
+}

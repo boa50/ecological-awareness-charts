@@ -1,7 +1,7 @@
 import { barSize, n } from "./constants.js"
 import { getValue, getRank, x, y } from "./aux.js"
 
-const formatNumber = d3.format(',d')
+const formatNumber = d3.format('.2f')
 
 function textTween(a, b) {
     const i = d3.interpolateNumber(a, b)
@@ -13,11 +13,8 @@ function textTween(a, b) {
 export const labels = (svg, prev, next) => {
     let label = svg
         .append('g')
-        // .style('font', `bold ${barSize}px var(--sans-serif)`)
-        .attr('font-weight', 'bold')
+        .classed('label', true)
         .attr('font-size', barSize / 2.5)
-        // .style('font-variant-numeric', 'tabular-nums')
-        .attr('text-anchor', 'end')
         .selectAll('text')
 
     return ([date, data], transition) => label = label
@@ -33,8 +30,6 @@ export const labels = (svg, prev, next) => {
                 .call(
                     text => text
                         .append('tspan')
-                        .attr('fill-opacity', 0.7)
-                        .attr('font-weight', 'normal')
                         .attr('x', -6)
                         .attr('dy', '1.15em')
                 ),

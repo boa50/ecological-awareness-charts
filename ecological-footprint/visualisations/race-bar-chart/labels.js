@@ -18,7 +18,7 @@ export const labels = (svg, prev, next) => {
         .selectAll('text')
 
     return ([date, data], transition) => label = label
-        .data(data.slice(0, n), d => d.company)
+        .data(data.slice(0, n), d => d.name)
         .join(
             enter => enter
                 .append('text')
@@ -26,7 +26,7 @@ export const labels = (svg, prev, next) => {
                 .attr('y', y.bandwidth() / 2)
                 .attr('x', -6)
                 .attr('dy', '-0.25em')
-                .text(d => d.company)
+                .text(d => d.name)
                 .call(
                     text => text
                         .append('tspan')

@@ -9,10 +9,10 @@ const colour = (data, d) => {
     if (data.some(d => d.category !== undefined)) {
         const categoryByName = new Map(data.map(d => [d.name, d.category]))
         scale.domain(Array.from(categoryByName.values()))
-        return scale(categoryByName.get(d.company))
+        return scale(categoryByName.get(d.name))
     }
 
-    return scale(d.company)
+    return scale(d.name)
 }
 
 export const bars = (svg, rawData, prev, next) => {
@@ -22,7 +22,7 @@ export const bars = (svg, rawData, prev, next) => {
         .selectAll('rect')
 
     return ([date, data], transition) => bar = bar
-        .data(data.slice(0, n), d => d.company)
+        .data(data.slice(0, n), d => d.name)
         .join(
             enter => enter
                 .append('rect')

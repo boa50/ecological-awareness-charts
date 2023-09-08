@@ -3,6 +3,7 @@ import { x } from "./aux.js"
 import { prepareData } from "./prepareData.js"
 import { bars } from "./bars.js"
 import { labels } from "./labels.js"
+import { images } from "./images.js"
 import { axis } from "./axis.js"
 import { ticker } from "./ticker.js"
 
@@ -20,6 +21,7 @@ getData().then(data => {
 
         const updateBars = bars(svg, data, prev, next)
         const updateLabels = labels(svg, prev, next)
+        const updateImages = images(svg, prev, next)
         const updateAxis = axis(svg)
         const updateTicker = ticker(svg, keyframes)
 
@@ -34,6 +36,7 @@ getData().then(data => {
 
             updateBars(keyframe, transition)
             updateLabels(keyframe, transition)
+            updateImages(keyframe, transition)
             updateAxis(keyframe, transition)
             updateTicker(keyframe, transition)
 

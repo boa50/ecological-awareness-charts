@@ -1,4 +1,4 @@
-import { margin, width, barSize, n } from "./constants.js"
+import { margin, width, barSize, n, countryNameCode } from "./constants.js"
 
 export const x = d3
     .scaleLinear()
@@ -13,3 +13,5 @@ export const y = d3
 
 export const getRank = (mapping, d) => (mapping.get(d) || d).rank
 export const getValue = (mapping, d) => (mapping.get(d) || d).value
+
+export const getImgUrl = name => `https://flagpedia.net/data/flags/w580/${countryNameCode[name]}.webp`

@@ -1,48 +1,29 @@
-import { width, height, duration } from "./constants.js"
 import { x } from "./aux.js"
-import { prepareData } from "./prepareData.js"
 import { bars } from "./bars.js"
 import { labels } from "./labels.js"
 import { images } from "./images.js"
 import { axis } from "./axis.js"
 import { ticker } from "./ticker.js"
 
-const getData = async () => d3.json('../etl/dataset.json')
+export const createBarChart = (svg, data, keyframes, prev, next) => {
+    const updateBars = bars(svg, data, prev, next)
+    const updateLabels = labels(svg, prev, next)
+    const updateImages = images(svg, prev, next)
+    const updateAxis = axis(svg)
+    const updateTicker = ticker(svg, keyframes)
 
-getData().then(data => {
-    const { keyframes, prev, next } = prepareData(data)
+    return { updateBars, updateLabels, updateImages, updateAxis, updateTicker }
+}
 
-    const chart = async () => {
-        const svg = d3
-            .select('body')
-            .append('svg')
-            .attr('width', width)
-            .attr('height', height)
+export const updateBarChart = (barChartFuncs, keyframe, transition) => {
+    const { updateBars, updateLabels, updateImages, updateAxis, updateTicker } = barChartFuncs
 
-        const updateBars = bars(svg, data, prev, next)
-        const updateLabels = labels(svg, prev, next)
-        const updateImages = images(svg, prev, next)
-        const updateAxis = axis(svg)
-        const updateTicker = ticker(svg, keyframes)
+    // Extract the top bar’s value
+    x.domain([0, keyframe[1][0].value])
 
-        for (const keyframe of keyframes) {
-            const transition = svg
-                .transition()
-                .duration(duration)
-                .ease(d3.easeLinear)
-
-            // Extract the top bar’s value
-            x.domain([0, keyframe[1][0].value])
-
-            updateBars(keyframe, transition)
-            updateLabels(keyframe, transition)
-            updateImages(keyframe, transition)
-            updateAxis(keyframe, transition)
-            updateTicker(keyframe, transition)
-
-            await transition.end()
-        }
-    }
-
-    chart()
-})
+    updateBars(keyframe, transition)
+    updateLabels(keyframe, transition)
+    updateImages(keyframe, transition)
+    updateAxis(keyframe, transition)
+    updateTicker(keyframe, transition)
+}

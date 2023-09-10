@@ -14,6 +14,7 @@ def save_file(data: json, file_name: str):
         json.dump(data, f, ensure_ascii=False)
 
 
+### Detailed dataset
 pop_url = "https://api.worldbank.org/v2/en/indicator/SP.POP.TOTL?downloadformat=csv"
 zip_temp_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "zip_temp")
 os.mkdir(zip_temp_path)
@@ -41,7 +42,6 @@ countries_file_path = os.path.join(
 )
 countries_df = pd.read_csv(countries_file_path)
 
-pop_df = pop_df[["Country Name", "Country Code", "2022"]]
 countries_df["Country Code"] = countries_df["ISO3166-1-Alpha-3"].str.strip()
 countries_df["isoa2"] = countries_df["ISO3166-1-Alpha-2"].str.strip()
 countries_df["Continent"] = countries_df["Continent"].fillna("NA")
@@ -86,3 +86,38 @@ dataset = [
 save_file(dataset, "dataset.json")
 
 shutil.rmtree(zip_temp_path)
+
+### Aggregaeted dataset
+available_years = sorted({str(x["year"]) for x in earth_data})
+
+countries_population = {}
+for country in countries:
+    if not filtered_df[filtered_df["isoa2"] == country["isoa2"]].empty:
+        for year in available_years:
+            if country["shortName"] not in countries_population:
+                countries_population[country["shortName"]] = {}
+
+            countries_population[country["shortName"]][year] = filtered_df[
+                filtered_df["isoa2"] == country["isoa2"]
+            ].iloc[0][year]
+
+grouped = {}
+for data in dataset:
+    year = data["date"][:4]
+
+    if data["date"] in grouped:
+        grouped[data["date"]]["qtd"] += countries_population[data["name"]][year]
+        grouped[data["date"]]["value"] += (
+            data["value"] * countries_population[data["name"]][year]
+        )
+    else:
+        grouped[data["date"]] = {
+            "qtd": countries_population[data["name"]][year],
+            "value": data["value"] * countries_population[data["name"]][year],
+        }
+
+grouped_dataset = [
+    {"date": k, "value": v["value"] / v["qtd"]} for k, v in grouped.items()
+]
+
+save_file(grouped_dataset, "dataset_grouped.json")

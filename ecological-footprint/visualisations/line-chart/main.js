@@ -1,31 +1,30 @@
 import { width, height } from "./constants.js"
 
+const prepareData = data =>
+    Array.from(data)
+        .map(d => ({ 'date': new Date(d.date), 'value': d.value }))
+        .sort((a, b) => d3.ascending(a.date, b.date))
+
 export const createLineChart = (svg, data, transition) => {
-    // Test data
-    const dataset = []
-    for (const x of data) {
-        if (x.name === 'Brazil') {
-            dataset.push(x)
-        }
-    }
+    const prearedData = prepareData(data)
 
     const x = d3
         .scaleTime()
-        .domain(d3.extent(dataset, d => new Date(d.date)))
+        .domain(d3.extent(prearedData, d => d.date))
         .range([0, width])
     const y = d3
         .scaleLinear()
-        .domain([0, d3.max(dataset, d => d.value)])
+        .domain([0, d3.max(prearedData, d => d.value)])
         .range([height, 0])
 
     const lineGenerator = d3
         .line()
-        .x(d => x(new Date(d.date)))
+        .x(d => x(d.date))
         .y(d => y(d.value))
 
     const path = svg
         .append('path')
-        .datum(dataset)
+        .datum(prearedData)
         .style('fill', 'none')
         .attr('stroke-width', 2)
         .attr('stroke', 'steelblue')

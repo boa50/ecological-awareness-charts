@@ -1,4 +1,5 @@
 import { line } from "./line.js"
+import { axis } from "./axis.js"
 
 const prepareData = data =>
     Array.from(data)
@@ -9,4 +10,5 @@ export const createLineChart = (svg, data, transition) => {
     const prearedData = prepareData(data)
 
     line(svg, prearedData, transition)
+    axis(svg, prearedData)
 }

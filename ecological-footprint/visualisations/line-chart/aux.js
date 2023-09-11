@@ -8,7 +8,7 @@ export const getScales = data => {
 
     const y = d3
         .scaleLinear()
-        .domain([0, d3.max(data, d => d.value)])
+        .domain([1, d3.max(data, d => d.value) * 1.2])
         .range([height, 0])
 
     return { x, y }

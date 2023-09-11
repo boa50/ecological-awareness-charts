@@ -32,7 +32,7 @@ getData().then(dataset => {
 
         const transitionLine = svgLine
             .transition()
-            .duration(duration * (keyframes.length + 6))
+            .duration(duration * (keyframes.length + 4))
             .ease(d3.easeLinear)
 
         createLineChart(svgLine, dataGrouped, transitionLine)

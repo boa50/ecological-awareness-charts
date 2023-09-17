@@ -18,6 +18,10 @@ body {
     color: #777777;
 }
 
+.domain {
+    color: #777777;
+}
+
 .ticker {
     font-weight: bold;
     text-anchor: end;

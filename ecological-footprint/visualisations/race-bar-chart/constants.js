@@ -1,10 +1,9 @@
-export const width = 600
-export const margin = ({ top: 16, right: 6, bottom: 6, left: 48 })
+import { margin } from "../constants.js"
+export { width, margin, duration, k } from "../constants.js"
+
 export const barSize = 36
 export const n = 10
 export const height = margin.top + barSize * n + margin.bottom
-export const duration = 250
-export const k = 7
 
 export const countryNameCode = {
     'Andorra': 'ad',

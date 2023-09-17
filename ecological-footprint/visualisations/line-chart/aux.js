@@ -1,15 +1,15 @@
-import { width, height } from "./constants.js"
+import { width, height, margin } from "./constants.js"
 
 export const getScales = data => {
     const x = d3
         .scaleTime()
         .domain(d3.extent(data, d => d.date))
-        .range([0, width])
+        .range([margin.left, width - margin.right])
 
     const y = d3
         .scaleLinear()
-        .domain([1, d3.max(data, d => d.value) * 1.2])
-        .range([height, 0])
+        .domain([1, 2])
+        .range([height - margin.bottom, margin.top])
 
     return { x, y }
 }

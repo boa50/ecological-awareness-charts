@@ -1,5 +1,7 @@
 import { prepareData } from "./prepareData.js"
-import { width, height, duration } from "./race-bar-chart/constants.js"
+import { width, duration } from "./constants.js"
+import { height as barHeight } from "./race-bar-chart/constants.js"
+import { height as lineHeight } from "./line-chart/constants.js"
 import { createBarChart, updateBarChart } from "./race-bar-chart/main.js"
 import { createLineChart } from "./line-chart/main.js"
 
@@ -18,15 +20,17 @@ getData().then(dataset => {
     const chart = async () => {
         const svgBar = d3
             .select('body')
+            .append('div')
             .append('svg')
             .attr('width', width)
-            .attr('height', height)
+            .attr('height', barHeight)
 
         const svgLine = d3
             .select('body')
+            .append('div')
             .append('svg')
             .attr('width', width)
-            .attr('height', height)
+            .attr('height', lineHeight)
 
         const barChartFuncs = createBarChart(svgBar, data, keyframes, prev, next)
 

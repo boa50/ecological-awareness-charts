@@ -22,6 +22,11 @@ body {
     color: #777777;
 }
 
+.axis-label {
+    fill: #777777;
+    font-size: 0.7rem;
+}
+
 .ticker {
     font-weight: bold;
     text-anchor: end;

@@ -20,4 +20,14 @@ export const axis = (svg, data) => {
         .append('g')
         .attr('transform', `translate(${margin.left},0)`)
         .call(yAxis)
+
+    svg
+        .append('g')
+        .append('text')
+        .classed('axis-label', true)
+        .attr('x', -height/2)
+        .attr('y', margin.left - 32)
+        .attr('text-anchor', 'middle')
+        .attr('transform', 'rotate(-90)')
+        .text('GLOBAL AVERAGE')
 }

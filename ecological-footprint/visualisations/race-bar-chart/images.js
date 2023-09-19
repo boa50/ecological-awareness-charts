@@ -1,4 +1,4 @@
-import { barSize, n, margin } from "./constants.js"
+import { barSize, n, margin, flagWidth } from "./constants.js"
 import { getRank, y, getImgUrl } from "./aux.js"
 
 export const images = (svg, prev, next) => {
@@ -12,11 +12,11 @@ export const images = (svg, prev, next) => {
             enter => enter
                 .append('image')
                 .attr('xlink:href', d => getImgUrl(d.name))
-                .attr('width', margin.left - 8)
+                .attr('width', flagWidth)
                 .attr('height', barSize / 1.5)
                 .attr('transform', d => `translate(0, ${y(getRank(prev, d))})`)
                 .attr('y', y.bandwidth() / 8)
-                .attr('x', 4),
+                .attr('x', margin.left - flagWidth - 4),
             update => update,
             exit => exit
                 .transition(transition)

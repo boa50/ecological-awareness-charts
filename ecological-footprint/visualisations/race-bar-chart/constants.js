@@ -4,6 +4,7 @@ export { width, margin, duration, k } from "../constants.js"
 export const barSize = 36
 export const n = 10
 export const height = margin.top + barSize * n + margin.bottom
+export const flagWidth = 40
 
 export const countryNameCode = {
     'Andorra': 'ad',

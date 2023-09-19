@@ -23956,5 +23956,1319 @@
         "countryCode": 351,
         "shortName": "China",
         "value": 1.3496502513475603
+    },
+    {
+        "year": 2004,
+        "countryCode": 1,
+        "shortName": "Armenia",
+        "value": 0.797137424151924
+    },
+    {
+        "year": 2004,
+        "countryCode": 2,
+        "shortName": "Afghanistan",
+        "value": 0.44646641707873735
+    },
+    {
+        "year": 2004,
+        "countryCode": 3,
+        "shortName": "Albania",
+        "value": 1.0473785050789837
+    },
+    {
+        "year": 2004,
+        "countryCode": 4,
+        "shortName": "Algeria",
+        "value": 1.0338414444663908
+    },
+    {
+        "year": 2004,
+        "countryCode": 5,
+        "shortName": "American Samoa",
+        "value": -1
+    },
+    {
+        "year": 2004,
+        "countryCode": 6,
+        "shortName": "Andorra",
+        "value": -1
+    },
+    {
+        "year": 2004,
+        "countryCode": 7,
+        "shortName": "Angola",
+        "value": 0.44420373065354724
+    },
+    {
+        "year": 2004,
+        "countryCode": 8,
+        "shortName": "Antigua and Barbuda",
+        "value": 2.4077532578374425
+    },
+    {
+        "year": 2004,
+        "countryCode": 9,
+        "shortName": "Argentina",
+        "value": 1.865678264716113
+    },
+    {
+        "year": 2004,
+        "countryCode": 10,
+        "shortName": "Australia",
+        "value": 4.925417387603067
+    },
+    {
+        "year": 2004,
+        "countryCode": 11,
+        "shortName": "Austria",
+        "value": 3.509932035478389
+    },
+    {
+        "year": 2004,
+        "countryCode": 12,
+        "shortName": "Bahamas",
+        "value": 0.8717569948941205
+    },
+    {
+        "year": 2004,
+        "countryCode": 13,
+        "shortName": "Bahrain",
+        "value": 5.389353080699395
+    },
+    {
+        "year": 2004,
+        "countryCode": 14,
+        "shortName": "Barbados",
+        "value": 2.4634913006219357
+    },
+    {
+        "year": 2004,
+        "countryCode": 16,
+        "shortName": "Bangladesh",
+        "value": 0.26182695777530823
+    },
+    {
+        "year": 2004,
+        "countryCode": 17,
+        "shortName": "Bermuda",
+        "value": -1
+    },
+    {
+        "year": 2004,
+        "countryCode": 18,
+        "shortName": "Bhutan",
+        "value": 2.291078540864775
+    },
+    {
+        "year": 2004,
+        "countryCode": 19,
+        "shortName": "Bolivia",
+        "value": 1.3880667522664771
+    },
+    {
+        "year": 2004,
+        "countryCode": 20,
+        "shortName": "Botswana",
+        "value": 1.6819788457305291
+    },
+    {
+        "year": 2004,
+        "countryCode": 21,
+        "shortName": "Brazil",
+        "value": 1.4972881436261258
+    },
+    {
+        "year": 2004,
+        "countryCode": 22,
+        "shortName": "Aruba",
+        "value": -1
+    },
+    {
+        "year": 2004,
+        "countryCode": 23,
+        "shortName": "Belize",
+        "value": 4.796196747482061
+    },
+    {
+        "year": 2004,
+        "countryCode": 25,
+        "shortName": "Solomon Islands",
+        "value": 0.9338654981870513
+    },
+    {
+        "year": 2004,
+        "countryCode": 26,
+        "shortName": "Brunei",
+        "value": 4.13883316532649
+    },
+    {
+        "year": 2004,
+        "countryCode": 27,
+        "shortName": "Bulgaria",
+        "value": 2.283677680648695
+    },
+    {
+        "year": 2004,
+        "countryCode": 28,
+        "shortName": "Myanmar",
+        "value": 0.5368935712877428
+    },
+    {
+        "year": 2004,
+        "countryCode": 29,
+        "shortName": "Burundi",
+        "value": 0.559926301532769
+    },
+    {
+        "year": 2004,
+        "countryCode": 32,
+        "shortName": "Cameroon",
+        "value": 0.6301253029989888
+    },
+    {
+        "year": 2004,
+        "countryCode": 33,
+        "shortName": "Canada",
+        "value": 5.319124318197017
+    },
+    {
+        "year": 2004,
+        "countryCode": 35,
+        "shortName": "Cabo Verde",
+        "value": 0.8025705601614667
+    },
+    {
+        "year": 2004,
+        "countryCode": 36,
+        "shortName": "Cayman Islands",
+        "value": -1
+    },
+    {
+        "year": 2004,
+        "countryCode": 37,
+        "shortName": "Central African Republic",
+        "value": 0.8431374735611264
+    },
+    {
+        "year": 2004,
+        "countryCode": 38,
+        "shortName": "Sri Lanka",
+        "value": 0.6824569492119172
+    },
+    {
+        "year": 2004,
+        "countryCode": 39,
+        "shortName": "Chad",
+        "value": 1.1777906738899222
+    },
+    {
+        "year": 2004,
+        "countryCode": 40,
+        "shortName": "Chile",
+        "value": 2.147823727805052
+    },
+    {
+        "year": 2004,
+        "countryCode": 44,
+        "shortName": "Colombia",
+        "value": 1.118661308728014
+    },
+    {
+        "year": 2004,
+        "countryCode": 45,
+        "shortName": "Comoros",
+        "value": 0.7005307612625227
+    },
+    {
+        "year": 2004,
+        "countryCode": 46,
+        "shortName": "Congo",
+        "value": 0.5970472756621035
+    },
+    {
+        "year": 2004,
+        "countryCode": 47,
+        "shortName": "Cook Islands",
+        "value": 4.699357007602012
+    },
+    {
+        "year": 2004,
+        "countryCode": 48,
+        "shortName": "Costa Rica",
+        "value": 1.6480987775419327
+    },
+    {
+        "year": 2004,
+        "countryCode": 49,
+        "shortName": "Cuba",
+        "value": 1.1795076337106425
+    },
+    {
+        "year": 2004,
+        "countryCode": 50,
+        "shortName": "Cyprus",
+        "value": 3.1058093570004024
+    },
+    {
+        "year": 2004,
+        "countryCode": 52,
+        "shortName": "Azerbaijan",
+        "value": 1.2482879264526232
+    },
+    {
+        "year": 2004,
+        "countryCode": 53,
+        "shortName": "Benin",
+        "value": 0.6802245120161976
+    },
+    {
+        "year": 2004,
+        "countryCode": 54,
+        "shortName": "Denmark",
+        "value": 5.181517239557949
+    },
+    {
+        "year": 2004,
+        "countryCode": 55,
+        "shortName": "Dominica",
+        "value": 1.8226829070417683
+    },
+    {
+        "year": 2004,
+        "countryCode": 56,
+        "shortName": "Dominican Republic",
+        "value": 1.1325234314632082
+    },
+    {
+        "year": 2004,
+        "countryCode": 57,
+        "shortName": "Belarus",
+        "value": 2.449730227747118
+    },
+    {
+        "year": 2004,
+        "countryCode": 58,
+        "shortName": "Ecuador",
+        "value": 0.9898132970978452
+    },
+    {
+        "year": 2004,
+        "countryCode": 59,
+        "shortName": "Egypt",
+        "value": 0.7911779340503339
+    },
+    {
+        "year": 2004,
+        "countryCode": 60,
+        "shortName": "El Salvador",
+        "value": 1.039469031129323
+    },
+    {
+        "year": 2004,
+        "countryCode": 61,
+        "shortName": "Equatorial Guinea",
+        "value": 1.0915189492829014
+    },
+    {
+        "year": 2004,
+        "countryCode": 63,
+        "shortName": "Estonia",
+        "value": 4.798294897501224
+    },
+    {
+        "year": 2004,
+        "countryCode": 64,
+        "shortName": "Faroe Islands",
+        "value": 40.14848876760138
+    },
+    {
+        "year": 2004,
+        "countryCode": 65,
+        "shortName": "Falkland Islands",
+        "value": -1
+    },
+    {
+        "year": 2004,
+        "countryCode": 66,
+        "shortName": "Fiji",
+        "value": 1.695750156270956
+    },
+    {
+        "year": 2004,
+        "countryCode": 67,
+        "shortName": "Finland",
+        "value": 3.726596702978109
+    },
+    {
+        "year": 2004,
+        "countryCode": 68,
+        "shortName": "France",
+        "value": 3.3862896253344723
+    },
+    {
+        "year": 2004,
+        "countryCode": 69,
+        "shortName": "French Guiana",
+        "value": 1.3709648254587146
+    },
+    {
+        "year": 2004,
+        "countryCode": 70,
+        "shortName": "French Polynesia",
+        "value": 2.6139472199086287
+    },
+    {
+        "year": 2004,
+        "countryCode": 72,
+        "shortName": "Djibouti",
+        "value": 0.807158017337283
+    },
+    {
+        "year": 2004,
+        "countryCode": 73,
+        "shortName": "Georgia",
+        "value": 0.778319936253408
+    },
+    {
+        "year": 2004,
+        "countryCode": 74,
+        "shortName": "Gabon",
+        "value": 1.3966112839249594
+    },
+    {
+        "year": 2004,
+        "countryCode": 75,
+        "shortName": "Gambia",
+        "value": 0.5340622687320323
+    },
+    {
+        "year": 2004,
+        "countryCode": 79,
+        "shortName": "Germany",
+        "value": 3.094964050711171
+    },
+    {
+        "year": 2004,
+        "countryCode": 80,
+        "shortName": "Bosnia and Herzegovina",
+        "value": 1.6928986457873825
+    },
+    {
+        "year": 2004,
+        "countryCode": 81,
+        "shortName": "Ghana",
+        "value": 0.8823614372002564
+    },
+    {
+        "year": 2004,
+        "countryCode": 82,
+        "shortName": "Gibraltar",
+        "value": -1
+    },
+    {
+        "year": 2004,
+        "countryCode": 83,
+        "shortName": "Kiribati",
+        "value": 1.871788844623495
+    },
+    {
+        "year": 2004,
+        "countryCode": 84,
+        "shortName": "Greece",
+        "value": 3.3975431540836754
+    },
+    {
+        "year": 2004,
+        "countryCode": 86,
+        "shortName": "Grenada",
+        "value": 1.3422215022729804
+    },
+    {
+        "year": 2004,
+        "countryCode": 87,
+        "shortName": "Guadeloupe",
+        "value": 2.174525626115022
+    },
+    {
+        "year": 2004,
+        "countryCode": 88,
+        "shortName": "Guam",
+        "value": -1
+    },
+    {
+        "year": 2004,
+        "countryCode": 89,
+        "shortName": "Guatemala",
+        "value": 1.0937042544784112
+    },
+    {
+        "year": 2004,
+        "countryCode": 90,
+        "shortName": "Guinea",
+        "value": 0.8014251785671509
+    },
+    {
+        "year": 2004,
+        "countryCode": 91,
+        "shortName": "Guyana",
+        "value": 1.4093094967170603
+    },
+    {
+        "year": 2004,
+        "countryCode": 93,
+        "shortName": "Haiti",
+        "value": 0.3310906927546486
+    },
+    {
+        "year": 2004,
+        "countryCode": 95,
+        "shortName": "Honduras",
+        "value": 1.0242093113889836
+    },
+    {
+        "year": 2004,
+        "countryCode": 97,
+        "shortName": "Hungary",
+        "value": 2.6654790874312546
+    },
+    {
+        "year": 2004,
+        "countryCode": 98,
+        "shortName": "Croatia",
+        "value": 2.2446512894555033
+    },
+    {
+        "year": 2004,
+        "countryCode": 99,
+        "shortName": "Iceland",
+        "value": 22.16376501241046
+    },
+    {
+        "year": 2004,
+        "countryCode": 100,
+        "shortName": "India",
+        "value": 0.43396595835726887
+    },
+    {
+        "year": 2004,
+        "countryCode": 101,
+        "shortName": "Indonesia",
+        "value": 0.7813955180103387
+    },
+    {
+        "year": 2004,
+        "countryCode": 102,
+        "shortName": "Iran",
+        "value": 1.6759028653884556
+    },
+    {
+        "year": 2004,
+        "countryCode": 103,
+        "shortName": "Iraq",
+        "value": 0.6943907611343018
+    },
+    {
+        "year": 2004,
+        "countryCode": 104,
+        "shortName": "Ireland",
+        "value": 3.625736405000129
+    },
+    {
+        "year": 2004,
+        "countryCode": 105,
+        "shortName": "Israel",
+        "value": 3.296415712898757
+    },
+    {
+        "year": 2004,
+        "countryCode": 106,
+        "shortName": "Italy",
+        "value": 3.319587987153209
+    },
+    {
+        "year": 2004,
+        "countryCode": 107,
+        "shortName": "Cote d'Ivoire",
+        "value": 0.5204328515829234
+    },
+    {
+        "year": 2004,
+        "countryCode": 108,
+        "shortName": "Kazakhstan",
+        "value": 2.0247440687453055
+    },
+    {
+        "year": 2004,
+        "countryCode": 109,
+        "shortName": "Jamaica",
+        "value": 0.9416478176107347
+    },
+    {
+        "year": 2004,
+        "countryCode": 110,
+        "shortName": "Japan",
+        "value": 2.7823070761280473
+    },
+    {
+        "year": 2004,
+        "countryCode": 112,
+        "shortName": "Jordan",
+        "value": 1.3128414621297155
+    },
+    {
+        "year": 2004,
+        "countryCode": 113,
+        "shortName": "Kyrgyzstan",
+        "value": 0.6668341927878451
+    },
+    {
+        "year": 2004,
+        "countryCode": 114,
+        "shortName": "Kenya",
+        "value": 0.5781162264809518
+    },
+    {
+        "year": 2004,
+        "countryCode": 115,
+        "shortName": "Cambodia",
+        "value": 0.5561913465791881
+    },
+    {
+        "year": 2004,
+        "countryCode": 116,
+        "shortName": "North Korea",
+        "value": 0.9052779064009322
+    },
+    {
+        "year": 2004,
+        "countryCode": 117,
+        "shortName": "South Korea",
+        "value": 3.0626254882357746
+    },
+    {
+        "year": 2004,
+        "countryCode": 118,
+        "shortName": "Kuwait",
+        "value": 5.228758680379041
+    },
+    {
+        "year": 2004,
+        "countryCode": 119,
+        "shortName": "Latvia",
+        "value": 2.9237092496546255
+    },
+    {
+        "year": 2004,
+        "countryCode": 120,
+        "shortName": "Laos",
+        "value": 0.6309601096670961
+    },
+    {
+        "year": 2004,
+        "countryCode": 121,
+        "shortName": "Lebanon",
+        "value": 1.7038137718733433
+    },
+    {
+        "year": 2004,
+        "countryCode": 122,
+        "shortName": "Lesotho",
+        "value": 0.7070826416909948
+    },
+    {
+        "year": 2004,
+        "countryCode": 123,
+        "shortName": "Liberia",
+        "value": 0.702944404673164
+    },
+    {
+        "year": 2004,
+        "countryCode": 124,
+        "shortName": "Libya",
+        "value": 1.9337928900679697
+    },
+    {
+        "year": 2004,
+        "countryCode": 125,
+        "shortName": "Liechtenstein",
+        "value": -1
+    },
+    {
+        "year": 2004,
+        "countryCode": 126,
+        "shortName": "Lithuania",
+        "value": 2.648250716383014
+    },
+    {
+        "year": 2004,
+        "countryCode": 127,
+        "shortName": "Marshall Islands",
+        "value": 6.7519015355200915
+    },
+    {
+        "year": 2004,
+        "countryCode": 129,
+        "shortName": "Madagascar",
+        "value": 0.5564470633386076
+    },
+    {
+        "year": 2004,
+        "countryCode": 130,
+        "shortName": "Malawi",
+        "value": 0.34218787640051307
+    },
+    {
+        "year": 2004,
+        "countryCode": 131,
+        "shortName": "Malaysia",
+        "value": 2.189434299522318
+    },
+    {
+        "year": 2004,
+        "countryCode": 132,
+        "shortName": "Maldives",
+        "value": 4.623035826903653
+    },
+    {
+        "year": 2004,
+        "countryCode": 133,
+        "shortName": "Mali",
+        "value": 0.6860572729938492
+    },
+    {
+        "year": 2004,
+        "countryCode": 134,
+        "shortName": "Malta",
+        "value": 3.184880008357147
+    },
+    {
+        "year": 2004,
+        "countryCode": 135,
+        "shortName": "Martinique",
+        "value": 1.9771111056042683
+    },
+    {
+        "year": 2004,
+        "countryCode": 136,
+        "shortName": "Mauritania",
+        "value": 1.5633666716908141
+    },
+    {
+        "year": 2004,
+        "countryCode": 137,
+        "shortName": "Mauritius",
+        "value": 1.5133511208416157
+    },
+    {
+        "year": 2004,
+        "countryCode": 138,
+        "shortName": "Mexico",
+        "value": 1.5463034323076101
+    },
+    {
+        "year": 2004,
+        "countryCode": 141,
+        "shortName": "Mongolia",
+        "value": 2.4760414823149137
+    },
+    {
+        "year": 2004,
+        "countryCode": 142,
+        "shortName": "Montserrat",
+        "value": -1
+    },
+    {
+        "year": 2004,
+        "countryCode": 143,
+        "shortName": "Morocco",
+        "value": 0.8413985410681251
+    },
+    {
+        "year": 2004,
+        "countryCode": 144,
+        "shortName": "Mozambique",
+        "value": 0.4873258905581442
+    },
+    {
+        "year": 2004,
+        "countryCode": 145,
+        "shortName": "Micronesia",
+        "value": 1.7861050852065798
+    },
+    {
+        "year": 2004,
+        "countryCode": 146,
+        "shortName": "Moldova",
+        "value": 1.0185830516483951
+    },
+    {
+        "year": 2004,
+        "countryCode": 147,
+        "shortName": "Namibia",
+        "value": 1.4304708275160962
+    },
+    {
+        "year": 2004,
+        "countryCode": 148,
+        "shortName": "Nauru",
+        "value": 1.9014560582393956
+    },
+    {
+        "year": 2004,
+        "countryCode": 149,
+        "shortName": "Nepal",
+        "value": 0.3725091013165294
+    },
+    {
+        "year": 2004,
+        "countryCode": 150,
+        "shortName": "Netherlands",
+        "value": 3.9167417279371772
+    },
+    {
+        "year": 2004,
+        "countryCode": 151,
+        "shortName": "Netherlands Antilles",
+        "value": -1
+    },
+    {
+        "year": 2004,
+        "countryCode": 153,
+        "shortName": "New Caledonia",
+        "value": 1.1769790133257905
+    },
+    {
+        "year": 2004,
+        "countryCode": 154,
+        "shortName": "Macedonia",
+        "value": 1.7968378590271776
+    },
+    {
+        "year": 2004,
+        "countryCode": 155,
+        "shortName": "Vanuatu",
+        "value": 4.611754006971399
+    },
+    {
+        "year": 2004,
+        "countryCode": 156,
+        "shortName": "New Zealand",
+        "value": 3.70109577962811
+    },
+    {
+        "year": 2004,
+        "countryCode": 157,
+        "shortName": "Nicaragua",
+        "value": 1.0486771947470428
+    },
+    {
+        "year": 2004,
+        "countryCode": 158,
+        "shortName": "Niger",
+        "value": 0.7191100387128718
+    },
+    {
+        "year": 2004,
+        "countryCode": 159,
+        "shortName": "Nigeria",
+        "value": 0.6484879324581568
+    },
+    {
+        "year": 2004,
+        "countryCode": 160,
+        "shortName": "Niue",
+        "value": 2.071060336689995
+    },
+    {
+        "year": 2004,
+        "countryCode": 162,
+        "shortName": "Norway",
+        "value": 3.52791380710533
+    },
+    {
+        "year": 2004,
+        "countryCode": 163,
+        "shortName": "Northern Mariana Islands",
+        "value": -1
+    },
+    {
+        "year": 2004,
+        "countryCode": 165,
+        "shortName": "Pakistan",
+        "value": 0.437863343202546
+    },
+    {
+        "year": 2004,
+        "countryCode": 166,
+        "shortName": "Panama",
+        "value": 1.3509034313229236
+    },
+    {
+        "year": 2004,
+        "countryCode": 167,
+        "shortName": "Czech Republic",
+        "value": 4.032721380863239
+    },
+    {
+        "year": 2004,
+        "countryCode": 168,
+        "shortName": "Papua New Guinea",
+        "value": 1.0485193509273738
+    },
+    {
+        "year": 2004,
+        "countryCode": 169,
+        "shortName": "Paraguay",
+        "value": 1.8690202919362893
+    },
+    {
+        "year": 2004,
+        "countryCode": 170,
+        "shortName": "Peru",
+        "value": 1.1717199861246714
+    },
+    {
+        "year": 2004,
+        "countryCode": 171,
+        "shortName": "Philippines",
+        "value": 0.6835669618614781
+    },
+    {
+        "year": 2004,
+        "countryCode": 173,
+        "shortName": "Poland",
+        "value": 2.5383167296851434
+    },
+    {
+        "year": 2004,
+        "countryCode": 174,
+        "shortName": "Portugal",
+        "value": 2.6292978856431772
+    },
+    {
+        "year": 2004,
+        "countryCode": 175,
+        "shortName": "Guinea-Bissau",
+        "value": 0.6779202040254902
+    },
+    {
+        "year": 2004,
+        "countryCode": 176,
+        "shortName": "Timor-Leste",
+        "value": 0.2438438426200697
+    },
+    {
+        "year": 2004,
+        "countryCode": 177,
+        "shortName": "Puerto Rico",
+        "value": 0.029338158291049674
+    },
+    {
+        "year": 2004,
+        "countryCode": 178,
+        "shortName": "Eritrea",
+        "value": 0.6265050437267297
+    },
+    {
+        "year": 2004,
+        "countryCode": 179,
+        "shortName": "Qatar",
+        "value": 7.441675257615064
+    },
+    {
+        "year": 2004,
+        "countryCode": 180,
+        "shortName": "Palau",
+        "value": -1
+    },
+    {
+        "year": 2004,
+        "countryCode": 181,
+        "shortName": "Zimbabwe",
+        "value": 0.7249890091874683
+    },
+    {
+        "year": 2004,
+        "countryCode": 182,
+        "shortName": "Reunion",
+        "value": 1.704765567985185
+    },
+    {
+        "year": 2004,
+        "countryCode": 183,
+        "shortName": "Romania",
+        "value": 1.8372966516315288
+    },
+    {
+        "year": 2004,
+        "countryCode": 184,
+        "shortName": "Rwanda",
+        "value": 0.337019611162234
+    },
+    {
+        "year": 2004,
+        "countryCode": 185,
+        "shortName": "Russia",
+        "value": 3.1137785242307556
+    },
+    {
+        "year": 2004,
+        "countryCode": 186,
+        "shortName": "Serbia and Montenegro",
+        "value": 2.238572678970066
+    },
+    {
+        "year": 2004,
+        "countryCode": 187,
+        "shortName": "St. Helena",
+        "value": -1
+    },
+    {
+        "year": 2004,
+        "countryCode": 188,
+        "shortName": "St. Kitts and Nevis",
+        "value": 2.0709270815622345
+    },
+    {
+        "year": 2004,
+        "countryCode": 189,
+        "shortName": "St. Lucia",
+        "value": 1.4913721202630645
+    },
+    {
+        "year": 2004,
+        "countryCode": 190,
+        "shortName": "St. Pierre and Miquelon",
+        "value": -1
+    },
+    {
+        "year": 2004,
+        "countryCode": 191,
+        "shortName": "St. Vincent and Grenadines",
+        "value": 2.9943065495265477
+    },
+    {
+        "year": 2004,
+        "countryCode": 193,
+        "shortName": "Sao Tome and Principe",
+        "value": 0.8352469858219312
+    },
+    {
+        "year": 2004,
+        "countryCode": 194,
+        "shortName": "Saudi Arabia",
+        "value": 2.337248062485669
+    },
+    {
+        "year": 2004,
+        "countryCode": 195,
+        "shortName": "Senegal",
+        "value": 0.7581387851533787
+    },
+    {
+        "year": 2004,
+        "countryCode": 196,
+        "shortName": "Seychelles",
+        "value": 10.866771690778005
+    },
+    {
+        "year": 2004,
+        "countryCode": 197,
+        "shortName": "Sierra Leone",
+        "value": 0.5743947039060685
+    },
+    {
+        "year": 2004,
+        "countryCode": 198,
+        "shortName": "Slovenia",
+        "value": 3.6564123283824643
+    },
+    {
+        "year": 2004,
+        "countryCode": 199,
+        "shortName": "Slovakia",
+        "value": 2.546041108275858
+    },
+    {
+        "year": 2004,
+        "countryCode": 200,
+        "shortName": "Singapore",
+        "value": 4.028469672801743
+    },
+    {
+        "year": 2004,
+        "countryCode": 201,
+        "shortName": "Somalia",
+        "value": 0.6463599486398057
+    },
+    {
+        "year": 2004,
+        "countryCode": 202,
+        "shortName": "South Africa",
+        "value": 2.0430907622209893
+    },
+    {
+        "year": 2004,
+        "countryCode": 203,
+        "shortName": "Spain",
+        "value": 3.373625584192002
+    },
+    {
+        "year": 2004,
+        "countryCode": 207,
+        "shortName": "Suriname",
+        "value": 1.2840814782171976
+    },
+    {
+        "year": 2004,
+        "countryCode": 208,
+        "shortName": "Tajikistan",
+        "value": 0.4122200479541504
+    },
+    {
+        "year": 2004,
+        "countryCode": 209,
+        "shortName": "Swaziland",
+        "value": 1.7652625691889725
+    },
+    {
+        "year": 2004,
+        "countryCode": 210,
+        "shortName": "Sweden",
+        "value": 3.3566532495104084
+    },
+    {
+        "year": 2004,
+        "countryCode": 211,
+        "shortName": "Switzerland",
+        "value": 3.0295038535625762
+    },
+    {
+        "year": 2004,
+        "countryCode": 212,
+        "shortName": "Syria",
+        "value": 1.0276435048335135
+    },
+    {
+        "year": 2004,
+        "countryCode": 213,
+        "shortName": "Turkmenistan",
+        "value": 2.5949932470449024
+    },
+    {
+        "year": 2004,
+        "countryCode": 215,
+        "shortName": "Tanzania",
+        "value": 0.6250835454914779
+    },
+    {
+        "year": 2004,
+        "countryCode": 216,
+        "shortName": "Thailand",
+        "value": 1.2049318748949434
+    },
+    {
+        "year": 2004,
+        "countryCode": 217,
+        "shortName": "Togo",
+        "value": 0.5675502730037806
+    },
+    {
+        "year": 2004,
+        "countryCode": 218,
+        "shortName": "Tokelau",
+        "value": 0.8175612660057414
+    },
+    {
+        "year": 2004,
+        "countryCode": 219,
+        "shortName": "Tonga",
+        "value": 1.1530970572994403
+    },
+    {
+        "year": 2004,
+        "countryCode": 220,
+        "shortName": "Trinidad and Tobago",
+        "value": 3.2561291221771023
+    },
+    {
+        "year": 2004,
+        "countryCode": 221,
+        "shortName": "Oman",
+        "value": 2.7592480276411706
+    },
+    {
+        "year": 2004,
+        "countryCode": 222,
+        "shortName": "Tunisia",
+        "value": 0.6996636976923043
+    },
+    {
+        "year": 2004,
+        "countryCode": 223,
+        "shortName": "Turkey",
+        "value": 1.5617621982530119
+    },
+    {
+        "year": 2004,
+        "countryCode": 224,
+        "shortName": "Turks and Caicos Islands",
+        "value": -1
+    },
+    {
+        "year": 2004,
+        "countryCode": 225,
+        "shortName": "United Arab Emirates",
+        "value": 7.076578603669434
+    },
+    {
+        "year": 2004,
+        "countryCode": 226,
+        "shortName": "Uganda",
+        "value": 0.8310272832424892
+    },
+    {
+        "year": 2004,
+        "countryCode": 227,
+        "shortName": "Tuvalu",
+        "value": 1.8384662422851132
+    },
+    {
+        "year": 2004,
+        "countryCode": 229,
+        "shortName": "United Kingdom",
+        "value": 3.309273027637842
+    },
+    {
+        "year": 2004,
+        "countryCode": 230,
+        "shortName": "Ukraine",
+        "value": 1.9753666282612283
+    },
+    {
+        "year": 2004,
+        "countryCode": 231,
+        "shortName": "United States",
+        "value": 5.86484217316502
+    },
+    {
+        "year": 2004,
+        "countryCode": 233,
+        "shortName": "Burkina Faso",
+        "value": 0.48030037424604577
+    },
+    {
+        "year": 2004,
+        "countryCode": 234,
+        "shortName": "Uruguay",
+        "value": 2.1668535835880247
+    },
+    {
+        "year": 2004,
+        "countryCode": 235,
+        "shortName": "Uzbekistan",
+        "value": 1.221328187667777
+    },
+    {
+        "year": 2004,
+        "countryCode": 236,
+        "shortName": "Venezuela",
+        "value": 1.6552150770254486
+    },
+    {
+        "year": 2004,
+        "countryCode": 237,
+        "shortName": "Viet Nam",
+        "value": 0.6259419450216456
+    },
+    {
+        "year": 2004,
+        "countryCode": 238,
+        "shortName": "Ethiopia",
+        "value": 0.48550685401580385
+    },
+    {
+        "year": 2004,
+        "countryCode": 239,
+        "shortName": "British Virgin Islands",
+        "value": -1
+    },
+    {
+        "year": 2004,
+        "countryCode": 240,
+        "shortName": "US Virgin Islands",
+        "value": -1
+    },
+    {
+        "year": 2004,
+        "countryCode": 243,
+        "shortName": "Wallis and Futuna Islands",
+        "value": -1
+    },
+    {
+        "year": 2004,
+        "countryCode": 244,
+        "shortName": "Samoa",
+        "value": 1.1575594330846184
+    },
+    {
+        "year": 2004,
+        "countryCode": 249,
+        "shortName": "Yemen",
+        "value": 0.5292716881536171
+    },
+    {
+        "year": 2004,
+        "countryCode": 250,
+        "shortName": "Congo DR",
+        "value": 0.4900108417576311
+    },
+    {
+        "year": 2004,
+        "countryCode": 251,
+        "shortName": "Zambia",
+        "value": 0.706196521945472
+    },
+    {
+        "year": 2004,
+        "countryCode": 255,
+        "shortName": "Belgium",
+        "value": 4.657723367645981
+    },
+    {
+        "year": 2004,
+        "countryCode": 256,
+        "shortName": "Luxembourg",
+        "value": 8.479261641220006
+    },
+    {
+        "year": 2004,
+        "countryCode": 258,
+        "shortName": "Anguilla",
+        "value": -1
+    },
+    {
+        "year": 2004,
+        "countryCode": 264,
+        "shortName": "Isle of Man",
+        "value": -1
+    },
+    {
+        "year": 2004,
+        "countryCode": 270,
+        "shortName": "Mayotte",
+        "value": -1
+    },
+    {
+        "year": 2004,
+        "countryCode": 299,
+        "shortName": "Palestine",
+        "value": 0.5091445020448793
+    },
+    {
+        "year": 2004,
+        "countryCode": 351,
+        "shortName": "China",
+        "value": 1.2432058277215299
     }
 ]

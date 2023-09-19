@@ -1,10 +1,20 @@
-import { margin, width, barSize, n } from "./constants.js"
+import { margin, width, barSize, n, height, flagWidth } from "./constants.js"
 import { x, y } from "./aux.js"
 
 export const axis = svg => {
     const g = svg
         .append('g')
         .attr('transform', `translate(0, ${margin.top})`)
+
+    svg
+        .append('g')
+        .append('text')
+        .classed('axis-label', true)
+        .attr('x', -height/2)
+        .attr('y', margin.left - flagWidth - 16)
+        .attr('text-anchor', 'middle')
+        .attr('transform', 'rotate(-90)')
+        .text(`TOP ${n} COUNTRIES`)
 
     const axis = d3
         .axisTop(x)

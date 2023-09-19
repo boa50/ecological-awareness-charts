@@ -26,7 +26,7 @@ export const axis = (svg, data) => {
         .append('text')
         .classed('axis-label', true)
         .attr('x', -height/2)
-        .attr('y', margin.left - 32)
+        .attr('y', margin.left - 40 - 16)
         .attr('text-anchor', 'middle')
         .attr('transform', 'rotate(-90)')
         .text('GLOBAL AVERAGE')

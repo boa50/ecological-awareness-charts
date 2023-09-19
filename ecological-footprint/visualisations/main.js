@@ -19,16 +19,12 @@ getData().then(dataset => {
 
     const chart = async () => {
         const svgBar = d3
-            .select('body')
-            .append('div')
-            .append('svg')
+            .select('#barChart')
             .attr('width', width)
             .attr('height', barHeight)
 
         const svgLine = d3
-            .select('body')
-            .append('div')
-            .append('svg')
+            .select('#lineChart')
             .attr('width', width)
             .attr('height', lineHeight)
 

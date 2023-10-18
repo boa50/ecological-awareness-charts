@@ -14,6 +14,7 @@ export const images = (svg, prev, next) => {
                 .attr('xlink:href', d => getImgUrl(d.name))
                 .attr('width', flagWidth)
                 .attr('height', barSize / 1.5)
+                .attr('preserveAspectRatio', 'none')
                 .attr('transform', d => `translate(0, ${y(getRank(prev, d))})`)
                 .attr('y', y.bandwidth() / 8)
                 .attr('x', margin.left - flagWidth - 4),

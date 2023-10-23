@@ -31,7 +31,7 @@ getData().then(dataset => {
 
 
     // Get the extent and split in specified groups ignoring 0 values 
-    console.log(((data, columns) => {
+    console.log(d3.extent(((data, columns) => {
         let res = []
 
         data.forEach(item => {
@@ -41,11 +41,11 @@ getData().then(dataset => {
             })
         })
 
-        return res
-    })(fullData, years));
+        return res.filter(d => d > 0)
+    })(fullData, years)));
 
     const colour = d3
-        .scaleThreshold()
+        .scaleSequentialLog()
         .domain(d3.extent(((data, columns) => {
             let res = []
 
@@ -56,9 +56,9 @@ getData().then(dataset => {
                 })
             })
 
-            return res
+            return res.filter(d => d > 0)
         })(fullData, years)))
-        .range(d3.schemeBlues[3])
+        .interpolator(d3.interpolateBlues)
 
 
     const svg = d3
@@ -71,5 +71,5 @@ getData().then(dataset => {
         .data(geo.features)
         .join('path')
         .attr('d', path)
-        .attr('fill', d => colour(data.get(d.code) || 0))
+        .attr('fill', d => colour(data.get(d.id) || 0))
 })

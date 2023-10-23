@@ -1,6 +1,7 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 600px;
+    margin: 32px;
 }
 
 .label {

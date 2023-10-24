@@ -8,6 +8,8 @@ const getData = async () =>
 
 const width = 600
 const height = 500
+const minYear = 1960
+const maxYear = 2021
 
 const projection = d3
     .geoEquirectangular()
@@ -18,11 +20,22 @@ const path = d3
     .geoPath()
     .projection(projection)
 
+const getLastGdp = (countryCode, year) => {
+    if (data.get(countryCode)) {
+        if(!data.get(countryCode)[year]) {
+            return year == minYear ? 0 : getLastGdp(countryCode, year - 1)
+        }
+
+        return data.get(countryCode)[year]
+    }
+
+    return 0
+}
+
 getData().then(dataset => {
     const geo = dataset[0]
     const fullData = dataset[2]
-    const years = Array.from({length: 2022 - 1960 + 1}, (_, i) => i + 1960)
-
+    const years = Array.from({ length: maxYear - minYear + 1 }, (_, i) => i + minYear)
 
     const colour = d3
         .scaleSequentialLog()
@@ -32,13 +45,12 @@ getData().then(dataset => {
             data.forEach(item => {
                 columns.forEach(col => {
                     res = res.concat(+item[col])
-
                 })
             })
 
             return res.filter(d => d > 0)
         })(fullData, years)))
-        .interpolator(d3.interpolateBlues)
+        .interpolator(d3.interpolateGreens)
 
 
     const svg = d3
@@ -46,10 +58,36 @@ getData().then(dataset => {
         .attr('width', width)
         .attr('height', height)
 
-    svg
-        .selectAll('path')
-        .data(geo.features)
-        .join('path')
-        .attr('d', path)
-        .attr('fill', d => colour(data.get(d.id) ? data.get(d.id)['2021'] : 0))
+
+    const chart = async () => {
+
+        const ticker = svg
+            .append('text')
+            .attr('font-size', 20)
+            .attr('x', width - 126)
+            .attr('y', height - 100)
+            .attr('dy', '0.32em')
+            .text(years[0])
+
+        for (const year of years) {
+            const transition = svg
+                .transition()
+                .duration(250)
+                .ease(d3.easeLinear)
+
+            svg
+                .selectAll('path')
+                .data(geo.features)
+                .join('path')
+                .transition(transition)
+                .attr('d', path)
+                .attr('fill', d => colour(getLastGdp(d.id, year)))
+
+            transition.end().then(() => ticker.text(year))
+
+            await transition.end()
+        }
+    }
+
+    chart()
 })

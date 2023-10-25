@@ -1,9 +1,12 @@
 let data = new Map()
+let centroids = new Map()
 const getData = async () =>
     Promise.all([
         d3.json('./data/world.geojson'),
         d3.csv('./data/dataset.csv', d => { data.set(d['Country Code'], d) }),
-        d3.csv('./data/dataset.csv')
+        d3.csv('./data/dataset.csv'),
+        d3.csv('./data/co2-emissions.csv'),
+        d3.csv('./data/centroids.csv', d => { centroids.set(d.code, [+d.latitude, +d.longitude])})
     ])
 
 const width = 600
@@ -32,9 +35,20 @@ const getLastGdp = (countryCode, year) => {
     return 0
 }
 
+const getProjection = countryCode => {
+    const coordinates = centroids.get(countryCode)
+
+    if (coordinates == undefined) {
+        return projection([-1000, -1000])
+    }
+
+    return projection([coordinates[1], coordinates[0]])
+}
+
 getData().then(dataset => {
     const geo = dataset[0]
     const fullData = dataset[2]
+    const co2 = dataset[3].filter(d => (d.Code !== '') && (d.Year == 2021))
     const years = Array.from({ length: maxYear - minYear + 1 }, (_, i) => i + minYear)
 
     const colour = d3
@@ -57,7 +71,6 @@ getData().then(dataset => {
         .select('#mapChart')
         .attr('width', width)
         .attr('height', height)
-
 
     const chart = async () => {
 
@@ -90,4 +103,20 @@ getData().then(dataset => {
     }
 
     chart()
+
+
+    const circleSize = d3
+        .scaleLinear()
+        .domain(d3.extent(co2, d => +d.Emissions))
+        .range([1, 50])
+
+    svg
+        .selectAll('.co2Circles')
+        .data(co2)
+        .join('circle')
+        .attr('cx', d => getProjection(d.Code)[0])
+        .attr('cy', d => getProjection(d.Code)[1])
+        .attr('r', d => circleSize(d.Emissions))
+        .style('fill', d3.schemeReds[7][3])
+        .attr('fill-opacity', .7)
 })

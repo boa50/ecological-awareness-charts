@@ -32,11 +32,19 @@ export const getProjection = (centroids, countryCode) => {
     return projection([coordinates[1], coordinates[0]])
 }
 
-export const getDensityData = (rawData, year) => d3
+// Function got from https://stackoverflow.com/questions/40475155/does-javascript-have-a-method-that-returns-an-array-of-numbers-based-on-start-s
+const _linspace = (start, stop, num, endpoint = true) => {
+    const div = endpoint ? (num - 1) : num;
+    const step = (stop - start) / div;
+    return Array.from({length: num}, (_, i) => start + step * i);
+}
+
+export const getDensityData = (rawData, centroids, year) => d3
     .contourDensity()
-    .x(d => getProjection(d.Code)[0])
-    .y(d => getProjection(d.Code)[1])
+    .x(d => getProjection(centroids, d.Code)[0])
+    .y(d => getProjection(centroids, d.Code)[1])
     .size([width, height])
+    .thresholds(_linspace(50000, 4800000, 15))
     .bandwidth(20)
     .cellSize(1)
     .weight(d => +d.Emissions)

@@ -19,14 +19,46 @@ getData().then(dataset => {
     const fullData = dataset[2]
     const co2 = dataset[3].filter(d => (d.Code !== ''))
 
+    console.log(co2.filter(d => d.Year == 1960));
+    // console.log(co2.filter(d => d.Year == 2020));
+
+    const setTest = new Set()
+
+    for (const year of years) {
+        const tmpco2 = co2.filter(d => d.Year == year)
+
+        for (const r of tmpco2) {
+            setTest.add(r.Code)
+        }
+    }
+
+    const sortedArr = [...setTest].sort()
+
+    const co2fit = []
+
+    for (const year of years) {
+        for (const cty of sortedArr) {
+            const filteredObj = co2.filter(d => d.Year == year).filter(d => d.Code == cty)[0]
+
+            co2fit.push({
+                Code: cty,
+                Year: year,
+                Emissions: filteredObj ? filteredObj.Emissions : 0
+            })
+        }
+    }
+
+    console.log(co2fit);
+
+
     const svg = d3
         .select('#mapChart')
         .attr('width', width)
         .attr('height', height)
 
+    // const updateGdpMap = gdpMap(svg, geo, data, fullData, years)
+    const updateCo2Circles = co2Circles(svg, co2fit, centroids)
     const updateTicker = ticker(svg, minYear)
-    const updateGdpMap = gdpMap(svg, geo, data, fullData, years)
-    const updateCo2Circles = co2Circles(svg, co2, minYear, centroids)
 
     const chart = async () => {
         for (const year of years) {
@@ -35,7 +67,7 @@ getData().then(dataset => {
                 .duration(250)
                 .ease(d3.easeLinear)
 
-            updateGdpMap(year, transition)
+            // updateGdpMap(year, transition)
             updateCo2Circles(year, transition)
             updateTicker(year, transition)
 

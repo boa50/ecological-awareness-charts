@@ -2,8 +2,8 @@ import { width, height, minYear } from "./constants.js"
 
 const projection = d3
     .geoEquirectangular()
-    .scale(70)
-    .center([0, 20])
+    .scale(100)
+    .center([0, -10])
     .translate([width / 2, height / 2])
 
 export const path = d3

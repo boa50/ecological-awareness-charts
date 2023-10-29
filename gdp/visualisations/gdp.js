@@ -23,7 +23,7 @@ export const gdpMap = (svg, geo, data, fullData) => {
         title: "GDP",
         titleColour: "#777777",
         width: 200,
-        yPosition: height - 60,
+        yPosition: height,
         marginLeft: 16,
         ticks: 5,
         tickSize: 1,

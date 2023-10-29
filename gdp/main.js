@@ -20,7 +20,6 @@ getData().then(dataset => {
     const fullData = dataset[2]
     const co2 = dataset[3]
 
-
     const svg = d3
         .select('#mapChart')
         .attr('width', width)

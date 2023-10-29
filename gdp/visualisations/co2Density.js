@@ -12,9 +12,10 @@ export const co2Density = (svg, co2, centroids) => {
     // OTHERWISE SET THE LIMITS BY HAND
     const limits = [50000, 4800000]
 
-    const colour = d3.scaleLinear()
+    const colour = d3
+        .scaleLinear()
         .domain(limits)
-        .range(["yellow", "red"])
+        .range(d3.schemeYlOrBr[9].slice(4))
 
     return (year, transition) => {
         svg
@@ -22,10 +23,9 @@ export const co2Density = (svg, co2, centroids) => {
             .data(getDensityData(co2, centroids, year))
             .join('path')
             .attr('class', 'co2Density')
-            .attr('fill-opacity', 0.2)
+            .attr('fill-opacity', 0.25)
             .attr('d', d3.geoPath())
             .transition(transition)
             .attr('fill', d => colour(d.value))
     }
-
 }

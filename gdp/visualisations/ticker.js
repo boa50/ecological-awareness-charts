@@ -7,6 +7,7 @@ export const ticker = (svg, year) => {
         .attr('x', width - 126)
         .attr('y', height - 100)
         .attr('dy', '0.32em')
+        .attr('fill', '#777777')
         .text(year)
 
     return (newYear, transition) => {

@@ -1,7 +1,7 @@
-/* DEFAULT STYLE FOR THE CHARTS */
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 600px;
+    margin: 32px;
 }
 
 #title {

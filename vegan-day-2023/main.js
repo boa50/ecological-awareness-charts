@@ -17,7 +17,7 @@ const margin = {
 const width = svgWidth - margin.left - margin.right
 const height = svgHeight - margin.top - margin.bottom
 const barSize = 20
-const nElements = 10
+const nElements = 15
 const barPadding = 0.1
 
 getData().then(data => {
@@ -61,9 +61,32 @@ getData().then(data => {
                 .axisLeft(y)
                 .tickSizeOuter(0)
         )
-
     axisLeft.selectAll('.tick line').remove()
     axisLeft.select('.domain').remove()
+
+    const nonVeganColour = d3.schemeGreys[9][2]
+    const veganColour = d3.schemeGreens[9][5]
+
+    const colour = d3
+            .scaleOrdinal()
+            .domain(edibles)
+            .range([
+                nonVeganColour,
+                veganColour,
+                nonVeganColour,
+                nonVeganColour,
+                veganColour,
+                nonVeganColour,
+                nonVeganColour,
+                nonVeganColour,
+                nonVeganColour,
+                nonVeganColour,
+                nonVeganColour,
+                veganColour,
+                veganColour,
+                veganColour,
+                veganColour,
+            ])
 
     chart
         .selectAll('.bars')
@@ -73,5 +96,5 @@ getData().then(data => {
         .attr('y', d => y(d.Edible))
         .attr('height', y.bandwidth())
         .attr('width', d => x(d.Emissions))
-
+        .attr('fill', d => colour(d.Edible))
 })

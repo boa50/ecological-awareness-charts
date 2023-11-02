@@ -7,12 +7,12 @@ const getData = async () =>
     })
 
 const svgWidth = 600
-const svgHeight = 400
+const svgHeight = 500
 const margin = {
-    left: 128,
+    left: 100,
     right: 22,
-    top: 22,
-    bottom: 8
+    top: 42,
+    bottom: 0
 }
 const width = svgWidth - margin.left - margin.right
 const height = svgHeight - margin.top - margin.bottom
@@ -48,6 +48,14 @@ getData().then(data => {
                 .tickSizeOuter(0)
                 .ticks(5)
         )
+    chart
+        .append('g')
+        .append('text')
+        .attr('class', 'axis-label')
+        .attr('x', width / 2)
+        .attr('y', -30)
+        .attr('text-anchor', 'middle')
+        .text('GHG Emissions per Kilogram')
 
     const y = d3
         .scaleBand()
@@ -107,4 +115,12 @@ getData().then(data => {
         .attr('y', y.bandwidth() / 10)
         .attr('x', d => x(d.Emissions) + 5)
         .attr('transform', d => `translate(0, ${y(d.Edible)})`)
+
+    chart
+        .append('image')
+        .attr('xlink:href', './img/lettuce.webp')
+        .attr('height', 200)
+        .attr('y', height - 250)
+        .attr('x', width - 200)
+        .style('opacity', 0.5)
 })

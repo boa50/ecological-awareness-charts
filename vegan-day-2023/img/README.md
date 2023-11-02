@@ -13,3 +13,7 @@ https://www.svgrepo.com/svg/299994/rice
 https://www.svgrepo.com/svg/510088/nut
 https://www.svgrepo.com/svg/323394/sugar-cane
 https://www.svgrepo.com/svg/338180/japanese-food-meal-traditional-tofu
+
+Background downloaded from: https://www.pexels.com/photo/basket-full-of-colorful-fruits-and-vegetables-11631746/
+
+Lettuce image generated using: https://playgroundai.com/

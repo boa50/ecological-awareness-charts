@@ -10,7 +10,7 @@ const svgWidth = 600
 const svgHeight = 400
 const margin = {
     left: 128,
-    right: 16,
+    right: 22,
     top: 22,
     bottom: 8
 }
@@ -48,7 +48,7 @@ getData().then(data => {
                 .tickSizeOuter(0)
                 .ticks(5)
         )
-        
+
     const y = d3
         .scaleBand()
         .domain(edibles)
@@ -68,25 +68,25 @@ getData().then(data => {
     const veganColour = d3.schemeGreens[9][5]
 
     const colour = d3
-            .scaleOrdinal()
-            .domain(edibles)
-            .range([
-                nonVeganColour,
-                veganColour,
-                nonVeganColour,
-                nonVeganColour,
-                veganColour,
-                nonVeganColour,
-                nonVeganColour,
-                nonVeganColour,
-                nonVeganColour,
-                nonVeganColour,
-                nonVeganColour,
-                veganColour,
-                veganColour,
-                veganColour,
-                veganColour,
-            ])
+        .scaleOrdinal()
+        .domain(edibles)
+        .range([
+            nonVeganColour,
+            veganColour,
+            nonVeganColour,
+            nonVeganColour,
+            veganColour,
+            nonVeganColour,
+            nonVeganColour,
+            nonVeganColour,
+            nonVeganColour,
+            nonVeganColour,
+            nonVeganColour,
+            veganColour,
+            veganColour,
+            veganColour,
+            veganColour,
+        ])
 
     chart
         .selectAll('.bars')
@@ -97,4 +97,14 @@ getData().then(data => {
         .attr('height', y.bandwidth())
         .attr('width', d => x(d.Emissions))
         .attr('fill', d => colour(d.Edible))
+
+    chart
+        .selectAll('image')
+        .data(data)
+        .join('image')
+        .attr('xlink:href', d => `./img/${d.Edible}.png`)
+        .attr('height', 20)
+        .attr('y', y.bandwidth() / 10)
+        .attr('x', d => x(d.Emissions) + 5)
+        .attr('transform', d => `translate(0, ${y(d.Edible)})`)
 })

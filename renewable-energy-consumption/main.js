@@ -1,4 +1,5 @@
 import { circlesFilling } from "./circlesFilling.js"
+import { createNumber } from "./number.js"
 
 const width = 400
 const height = 400
@@ -38,12 +39,14 @@ const draw = () => {
 }
 
 
-svg
-    .append('path')
-    .attr('d', draw())
-    .style('fill', 'silver')
+// svg
+//     .append('path')
+//     .attr('d', draw())
+//     .style('fill', 'silver')
 
-circlesFilling(svg, bodyWidth, bodyHeight, bodyStartX, bodyStartY)
+// circlesFilling(svg, bodyWidth, bodyHeight, bodyStartX, bodyStartY)
+
+createNumber(svg)
 
 
 

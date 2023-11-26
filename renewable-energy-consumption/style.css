@@ -1,7 +1,6 @@
 /* DEFAULT STYLE FOR THE CHARTS */
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 600px;
 }
 
 #title {
@@ -34,4 +33,77 @@ body {
 .axis-label {
     fill: #777777;
     font-size: 0.7rem;
+}
+
+
+
+#intro {
+    max-width: 40rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 420px;
+}
+
+.intro__head {
+    font-size: 2em;
+    margin: 2rem auto 0.5rem auto;
+}
+
+.intro__txt {
+    color: #8a8a8a;
+}
+
+
+#scrolly {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #f3f3f3;
+    padding: 1rem;
+}
+
+#scrolly>* {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+article {
+    position: relative;
+    padding: 0 1rem;
+    max-width: 20rem;
+}
+
+.step {
+    margin: 0 auto 2rem auto;
+    background-color: #3b3b3b;
+    color: #fff;
+}
+
+.step:last-child {
+    margin-bottom: 0;
+}
+
+.step.is-active {
+    background-color: goldenrod;
+    color: #3b3b3b;
+}
+
+.step p {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+svg {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    /* background-color: #8a8a8a; */
+    z-index: 0;
 }

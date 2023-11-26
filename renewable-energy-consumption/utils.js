@@ -1,0 +1,1 @@
+export const pxToInt = size => +size.replace('px', '')

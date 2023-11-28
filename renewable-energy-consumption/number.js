@@ -55,22 +55,33 @@ export const numberMove = (number, x1, y1, progress = 1) => {
         .attr('transform', `translate(${[x, y]})`)
 }
 
-export const numberAddSufix = (number, sufix) => {
-    number
-        .append('text')
-        .attr('class', 'el-sufix')
-        .attr('x', 400)
-        .style('fill', 'transparent')
-        .text(`${sufix}`)
-        .transition('numberAddSufix')
-        .duration(250)
-        .style('fill', 'black')
+export const numberAddSuffix = (number, suffix, progress = 1) => {
+    if (number.select('.el-suffix').empty()) {
+        number
+            .append('text')
+            .attr('class', 'el-suffix')
+            .attr('x', 400)
+            .style('fill', 'transparent')
+            .text(`${suffix}`)
+    } else {
+        number
+            .select('.el-suffix')
+            .transition('numberAddSuffix')
+            .style('fill', `rgba(0, 0, 0, ${progress})`)
+    }
 }
 
-export const numberRemoveSufix = (number) => {
-    number
-        .select('.el-sufix')
-        .transition('numberRemoveSufix')
-        .style('fill', 'transparent')
-        .remove()
+export const numberRemoveSuffix = (number, progress = 1) => {
+    const elSuffix = number.select('.el-suffix')
+
+    if (progress === 1) {
+        elSuffix
+            .transition('numberRemoveSuffix')
+            .style('fill', 'transparent')
+            .remove()
+    } else {
+        elSuffix
+            .transition('numberRemoveSuffix')
+            .style('fill', `rgba(0, 0, 0, ${1 - progress})`)
+    }
 }

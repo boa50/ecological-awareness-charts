@@ -1,5 +1,5 @@
 import { pxToInt } from "./utils.js"
-import { createNumber, numberAddSufix, numberChangeValue, numberMove, numberRemoveSufix, setNumberPosition } from "./number.js"
+import { createNumber, numberAddSuffix, numberChangeValue, numberMove, numberRemoveSuffix, setNumberPosition } from "./number.js"
 
 let numberStart = 0
 
@@ -8,10 +8,10 @@ const svg = scrolly.select('svg')
 const article = scrolly.select('article')
 const steps = article.selectAll('.step')
 
-const svgDims = {
-    width: 0,
-    height: 0
-}
+let svgWidth
+let svgHeight
+let svgCenterWidth
+let svgCenterHeight
 
 const number = createNumber(svg)
 
@@ -23,17 +23,18 @@ const handleResize = () => {
     const stepHeight = Math.floor(windowHeight * 0.75)
     steps.style('height', `${stepHeight}px`)
 
-    const svgHeight = windowHeight
+    svgHeight = windowHeight
     const svgMarginTop = (windowHeight - svgHeight) / 2
 
     svg
         .attr('height', `${svgHeight}px`)
         .style('top', `${svgMarginTop}px`)
 
-    svgDims.width = pxToInt(svg.style('width'))
-    svgDims.height = pxToInt(svg.attr('height'))
+    svgWidth = pxToInt(svg.style('width'))
+    svgCenterWidth = svgWidth / 2
+    svgCenterHeight = svgHeight / 2
 
-    setNumberPosition(number, svgDims.width / 2, svgDims.height / 2)
+    setNumberPosition(number, svgCenterWidth, svgCenterHeight)
 
     d3.select('#outro').style('height', `${stepHeight}px`)
 
@@ -45,31 +46,7 @@ const handleDirection = (currentDirection, funcDown, funcUp) => {
 }
 
 const handleStepEnter = (response) => {
-    const currentIndex = response.index
-    const currentDirection = response.direction
-
-    steps.classed('is-active', (_, i) => i === currentIndex)
-
-    switch (currentIndex) {
-        case 0:
-            handleDirection(
-                currentDirection,
-                () => { },
-                () => { numberRemoveSufix(number) }
-            )
-            break
-        case 1:
-            handleDirection(
-                currentDirection,
-                () => { numberAddSufix(number, 'billion t') },
-                () => { }
-            )
-            break
-        case 2:
-            break
-        default:
-            break
-    }
+    steps.classed('is-active', (_, i) => i === response.index)
 }
 
 const handleStepExit = (response) => {
@@ -90,13 +67,24 @@ const handleStepProgress = (response) => {
             numberStart = numberChangeValue(number, numberStart, 54.59, currentProgress)
             break
         case 1:
-            break
-        case 2:
             handleDirection(
                 currentDirection,
-                () => { numberMove(number, 100, 100, currentProgress); console.log('wharever'); },
-                () => { numberMove(number, svgDims.width / 2, svgDims.height / 2, 1 - currentProgress) }
+                () => {
+                    numberMove(number, svgCenterWidth, svgHeight * 0.2, currentProgress)
+                    numberAddSuffix(number, 'billion t', currentProgress)
+                },
+                () => {
+                    numberRemoveSuffix(number, 1 - currentProgress)
+                    numberMove(number, svgCenterWidth, svgCenterHeight, 1 - currentProgress)
+                }
             )
+            break
+        case 2:
+            // handleDirection(
+            //     currentDirection,
+            //     () => { numberMove(number, 100, 100, currentProgress) },
+            //     () => { numberMove(number, svgCenterWidth, svgCenterHeight, 1 - currentProgress) }
+            // )
             break
         default:
             break

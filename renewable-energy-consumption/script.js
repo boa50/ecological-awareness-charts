@@ -1,5 +1,5 @@
 import { pxToInt } from "./utils.js"
-import { createNumber, numberChangeValue, numberMove } from "./number.js"
+import { createNumber, numberAddSufix, numberChangeValue, numberMove, numberRemoveSufix, setNumberPosition } from "./number.js"
 
 let numberStart = 0
 
@@ -33,26 +33,39 @@ const handleResize = () => {
     svgDims.width = pxToInt(svg.style('width'))
     svgDims.height = pxToInt(svg.attr('height'))
 
-    number
-        .attr('x', svgDims.width / 2)
-        .attr('y', svgDims.height / 2)
+    setNumberPosition(number, svgDims.width / 2, svgDims.height / 2)
 
     d3.select('#outro').style('height', `${stepHeight}px`)
 
     scroller.resize()
 }
 
+const handleDirection = (currentDirection, funcDown, funcUp) => {
+    currentDirection === 'down' ? funcDown() : funcUp()
+}
+
 const handleStepEnter = (response) => {
     const currentIndex = response.index
+    const currentDirection = response.direction
 
     steps.classed('is-active', (_, i) => i === currentIndex)
 
     switch (currentIndex) {
         case 0:
-            numberMove(number, svgDims.width / 2, svgDims.height / 2)
+            handleDirection(
+                currentDirection,
+                () => { },
+                () => { numberRemoveSufix(number) }
+            )
             break
         case 1:
-            numberMove(number, 100, 100)
+            handleDirection(
+                currentDirection,
+                () => { numberAddSufix(number, 'billion t') },
+                () => { }
+            )
+            break
+        case 2:
             break
         default:
             break
@@ -63,23 +76,34 @@ const handleStepExit = (response) => {
     console.log(response)
 }
 
+
+let lastIndex = 0
+let lastProgress = 0
+
 const handleStepProgress = (response) => {
     const currentIndex = response.index
     const currentProgress = response.progress
+    const currentDirection = currentIndex > lastIndex ? 'down' : currentProgress > lastProgress ? 'down' : 'up'
 
     switch (currentIndex) {
         case 0:
-            numberStart = numberChangeValue(number, numberStart, 100, currentProgress)
+            numberStart = numberChangeValue(number, numberStart, 54.59, currentProgress)
             break
         case 1:
+            break
+        case 2:
+            handleDirection(
+                currentDirection,
+                () => { numberMove(number, 100, 100, currentProgress); console.log('wharever'); },
+                () => { numberMove(number, svgDims.width / 2, svgDims.height / 2, 1 - currentProgress) }
+            )
             break
         default:
             break
     }
 
-    const el = d3.select(response.element)
-    el.style('background-color', `rgba(218, 165, 32, ${currentProgress})`)
-    el.select('.progress').text(d3.format('.1%')(currentProgress))
+    lastIndex = response.index
+    lastProgress = response.progress
 }
 
 const init = () => {

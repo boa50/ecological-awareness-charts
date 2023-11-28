@@ -76,19 +76,23 @@ article {
 }
 
 .step {
-    margin: 0 auto 2rem auto;
-    background-color: #3b3b3b;
-    color: #fff;
+    margin: 0 auto 18rem auto;
+    background-color: transparent;
+    color: #000;
+    display: flex;
+    align-items: center;
+    /* FOR DEBUGGING */
+    border: 1px solid;
 }
 
 .step:last-child {
     margin-bottom: 0;
 }
 
-.step.is-active {
+/* .step.is-active {
     background-color: goldenrod;
     color: #3b3b3b;
-}
+} */
 
 .step p {
     text-align: center;

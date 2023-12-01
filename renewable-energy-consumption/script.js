@@ -1,5 +1,6 @@
 import { pxToInt } from "./utils.js"
 import { createNumber, numberAddSuffix, numberChangeValue, numberMove, numberRemoveSuffix, setNumberPosition } from "./number.js"
+import { imageFill, imgRemove } from "./images.js"
 
 let numberStart = 0
 
@@ -47,12 +48,35 @@ const handleDirection = (currentDirection, funcDown, funcUp) => {
 
 const handleStepEnter = (response) => {
     steps.classed('is-active', (_, i) => i === response.index)
+    const currentIndex = response.index
+    const currentDirection = response.direction
+
+
+    switch (currentIndex) {
+        case 0:
+            break
+        case 1:
+            handleDirection(
+                currentDirection,
+                () => { },
+                () => { imgRemove(svg) }
+            )
+            break
+        case 2:
+            handleDirection(
+                currentDirection,
+                () => { imageFill(svg, 100, svgWidth, svgHeight * 0.35, svgHeight) },
+                () => { }
+            )
+            break
+        default:
+            break
+    }
 }
 
 const handleStepExit = (response) => {
     console.log(response)
 }
-
 
 let lastIndex = 0
 let lastProgress = 0
@@ -80,6 +104,7 @@ const handleStepProgress = (response) => {
             )
             break
         case 2:
+            // imageFill(svg, 100, svgWidth, svgHeight * 0.2, svgHeight, currentProgress)
             // handleDirection(
             //     currentDirection,
             //     () => { numberMove(number, 100, 100, currentProgress) },

@@ -1,6 +1,6 @@
 import { pxToInt } from "./utils.js"
 import { createNumber, numberAddSuffix, numberChangeValue, numberMove, numberRemoveSuffix, setNumberPosition } from "./number.js"
-import { imageFill, imgRemove } from "./images.js"
+import { imgChangeColour, imgChangeColourRemove, imgFill, imgRemove } from "./images.js"
 
 let numberStart = 0
 
@@ -65,7 +65,14 @@ const handleStepEnter = (response) => {
         case 2:
             handleDirection(
                 currentDirection,
-                () => { imageFill(svg, 100, svgWidth, svgHeight * 0.35, svgHeight) },
+                () => { imgFill(svg, 100, svgWidth, svgHeight * 0.35, svgHeight) },
+                () => { imgChangeColourRemove(svg) }
+            )
+            break
+        case 3:
+            handleDirection(
+                currentDirection,
+                () => { imgChangeColour(svg) },
                 () => { }
             )
             break

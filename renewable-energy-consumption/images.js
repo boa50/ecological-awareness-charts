@@ -1,11 +1,13 @@
 const transitionDuration = 750
+const nRows = 7
+const nItems = 10
+const imgDefaultColour = 'grey'
+const imgChangedColour = '#826000'
 
-export const imageFill = (svg, x0, x1, y0, y1, progress = 1) => {
+export const imgFill = (svg, x0, x1, y0, y1, progress = 1) => {
     const housePath = 'M199.3,65.4V6.1h-32.6v29.4L128.5,0.8L2.3,113.7l20.5,20.5l17.4-15.7V255h62.3v-82h48.4v82h64.8V119.6l15.7,14.6l20.5-20.5 L199.3,65.4z'
     const imgPath = housePath
     // const pathGroup = svg.select('.pathGroup')
-    const nRows = 7
-    const nItems = 10
     const imgPaddingY = 60
     const imgPaddingX = 125
 
@@ -24,11 +26,12 @@ export const imageFill = (svg, x0, x1, y0, y1, progress = 1) => {
             .attr('class', pathItemsClass)
             .attr('transform', `translate(${[groupPaddingX, isLastRow ? y1 : i * imgPaddingY]})`)
             .attr('stroke', 'transparent')
-            .style('fill', isLastRow ? 'grey' : 'transparent')
+            .style('fill', isLastRow ? imgDefaultColour : 'transparent')
 
         Array(nItems).fill().map((_, i) => i).forEach(j => {
             pathGroupItems
                 .append('path')
+                .attr('class', 'pathItem')
                 .attr('d', imgPath)
                 .attr('transform', `translate(${[j * imgPaddingX, 0]}) scale(0.5)`)
         })
@@ -49,7 +52,7 @@ export const imageFill = (svg, x0, x1, y0, y1, progress = 1) => {
                 .transition('imageFillFill')
                 .duration(transitionDuration)
                 .delay(transitionDuration + transitionDuration * (nRows - i - 2))
-                .style('fill', 'grey')
+                .style('fill', imgDefaultColour)
                 .attr('stroke', 'black')
         }
 
@@ -86,8 +89,34 @@ export const imgRemove = (svg) => {
     svg
         .select('.pathGroup')
         .transition('imgRemove')
-        .duration(750)
+        // .duration(750)
         .attr('stroke', 'transparent')
-        .style('fill', 'red')
+        .style('fill', 'transparent')
         .remove()
+}
+
+export const imgChangeColour = (svg, proportion = 0.75) => {
+    const itemsPerLine = nItems * proportion
+    const itemsRemaining = Math.floor((itemsPerLine - Math.floor(itemsPerLine)) * nRows)
+    const lastIdxFullPaint = Math.floor(itemsPerLine) - 1
+    const paintingCondition = i => i > nItems * (nRows - itemsRemaining) ?
+        i % nItems <= lastIdxFullPaint + 1 :
+        i % nItems <= lastIdxFullPaint
+
+    svg
+        .select('.pathGroup')
+        .selectAll('.pathItem')
+        .filter((_, i) => paintingCondition(i))
+        .transition('imgChangeColour')
+        .duration(1000)
+        .style('fill', imgChangedColour)
+}
+
+export const imgChangeColourRemove = (svg) => {
+    svg
+        .select('.pathGroup')
+        .selectAll('.pathItem')
+        .transition('imgChangeColourRemove')
+        .duration(1000)
+        .style('fill', imgDefaultColour)
 }

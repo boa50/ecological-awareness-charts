@@ -1,6 +1,9 @@
 import { pxToInt } from "./utils.js"
 import { createNumber, numberAddSuffix, numberChangeValue, numberMove, numberRemoveSuffix, setNumberPosition } from "./number.js"
 import { imgChangeColour, imgChangeColourRemove, imgFill, imgRemove } from "./images.js"
+import { groupFinish, groupReturn } from "./groups.js"
+import { circlesFilling, containerDraw } from "./circlesFilling.js"
+import { colours } from "./constants.js"
 
 let numberStart = 0
 
@@ -9,12 +12,16 @@ const svg = scrolly.select('svg')
 const article = scrolly.select('article')
 const steps = article.selectAll('.step')
 
+const group1 = svg.append('g')
+const group2 = svg.append('g')
+
 let svgWidth
 let svgHeight
 let svgCenterWidth
 let svgCenterHeight
 
-const number = createNumber(svg)
+// const number = createNumber(svg)
+const number = createNumber(group1)
 
 const scroller = scrollama()
 
@@ -51,7 +58,6 @@ const handleStepEnter = (response) => {
     const currentIndex = response.index
     const currentDirection = response.direction
 
-
     switch (currentIndex) {
         case 0:
             break
@@ -59,20 +65,47 @@ const handleStepEnter = (response) => {
             handleDirection(
                 currentDirection,
                 () => { },
-                () => { imgRemove(svg) }
+                () => { imgRemove(group1) }
             )
             break
         case 2:
             handleDirection(
                 currentDirection,
-                () => { imgFill(svg, 100, svgWidth, svgHeight * 0.35, svgHeight) },
-                () => { imgChangeColourRemove(svg) }
+                () => { imgFill(group1, 100, svgWidth, svgHeight * 0.35, svgHeight) },
+                () => { imgChangeColourRemove(group1) }
             )
             break
         case 3:
             handleDirection(
                 currentDirection,
-                () => { imgChangeColour(svg) },
+                () => { imgChangeColour(group1, 0.75) },
+                () => { groupReturn(group1) }
+            )
+            break
+        case 4:
+            handleDirection(
+                currentDirection,
+                () => { groupFinish(group1, svgHeight) },
+                () => { }
+            )
+            break
+        case 5:
+            handleDirection(
+                currentDirection,
+                () => {
+                    containerDraw(group2, 300, svgHeight - 700, 100, 400, 'nonRenewable')
+                    containerDraw(group2, 700, svgHeight - 500, 100, 200, 'renewable')
+                },
+                () => { }
+            )
+            break
+        case 6:
+            handleDirection(
+                currentDirection,
+                () => {
+                    circlesFilling(group2, 300, svgHeight - 700, 100, 400, 'nonRenewable', true, colours.nonRenewableEnergy)
+                    circlesFilling(group2, 700, svgHeight - 500, 100, 200, 'renewable', true, colours.renewableEnergy)
+                },
                 () => { }
             )
             break

@@ -62,11 +62,6 @@ const handleStepEnter = (response) => {
         case 0:
             break
         case 1:
-            handleDirection(
-                currentDirection,
-                () => { },
-                () => { imgRemove(group1) }
-            )
             break
         case 2:
             handleDirection(
@@ -140,6 +135,7 @@ const handleStepProgress = (response) => {
                 () => {
                     numberRemoveSuffix(number, 1 - currentProgress)
                     numberMove(number, svgCenterWidth, svgCenterHeight, 1 - currentProgress)
+                    imgRemove(group1, 1 - currentProgress)
                 }
             )
             break

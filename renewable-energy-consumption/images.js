@@ -1,4 +1,5 @@
 import { colours } from "./constants.js"
+import { getColourTransition } from "./utils.js"
 
 const transitionDuration = 750
 const nRows = 7
@@ -87,14 +88,25 @@ export const imgFill = (svg, x0, x1, y0, y1, progress = 1) => {
     // }
 }
 
-export const imgRemove = (svg) => {
-    svg
-        .select('.pathGroup')
-        .transition('imgRemove')
-        // .duration(750)
-        .attr('stroke', 'transparent')
-        .style('fill', 'transparent')
-        .remove()
+
+export const imgRemove = (svg, progress = 1) => {
+    if (progress === 1) {
+        svg
+            .select('.pathGroup')
+            .transition('imgRemove')
+            .attr('stroke', 'transparent')
+            .style('fill', 'transparent')
+            .remove()
+    } else {
+        const colour = getColourTransition(imgDefaultColour, 1 - progress)
+
+        svg
+            .select('.pathGroup')
+            .selectAll('.pathItem')
+            .transition('imgRemove')
+            .attr('stroke-opacity', 1 - progress)
+            .style('fill', colour)
+    }
 }
 
 export const imgChangeColour = (svg, proportion = 0.75) => {

@@ -1,21 +1,4 @@
-const formatNumber = d3.format('.2f')
-
-function textTween(a, b) {
-    const i = d3.interpolateNumber(a, b)
-    return function (t) {
-        this.textContent = formatNumber(i(t))
-    }
-}
-
-const getTranslatePos = (g) => {
-    const tMatrix = g.node()
-        .transform
-        .baseVal
-        .getItem(0)
-        .matrix
-
-    return { x0: tMatrix.e, y0: tMatrix.f }
-}
+import { getTranslatePos, textTweenNumber } from "./utils.js"
 
 export const createNumber = (svg) => {
     const number = svg
@@ -40,19 +23,19 @@ export const numberChangeValue = (number, start = 0, end, progress = 1) => {
     number
         .select('.el-number')
         .transition('numberChangeValue')
-        .tween('text', d => textTween(start, end * progress))
+        .tween('text', d => textTweenNumber(start, end * progress))
 
     return end * progress
 }
 
 export const numberMove = (number, x1, y1, progress = 1) => {
     const { x0, y0 } = getTranslatePos(number)
-    const x = x0 < x1 ? (x0 - (x0 - x1) * progress) : (x0 + (x1 - x0) * progress)
-    const y = y0 < y1 ? (y0 - (y0 - y1) * progress) : (y0 + (y1 - y0) * progress)
+    const moveAxis = (a0, a1) =>
+        a0 < a1 ? (a0 - (a0 - a1) * progress) : (a0 + (a1 - a0) * progress)
 
     number
         .transition('numberMove')
-        .attr('transform', `translate(${[x, y]})`)
+        .attr('transform', `translate(${[moveAxis(x0, x1), moveAxis(y0, y1)]})`)
 }
 
 export const numberAddSuffix = (number, suffix, progress = 1) => {

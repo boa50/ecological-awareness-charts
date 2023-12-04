@@ -1,4 +1,4 @@
-import { getTranslatePos, textTweenNumber } from "./utils.js"
+import { getTranslatePos, textTweenNumber, moveAxis } from "./utils.js"
 
 export const createNumber = (svg) => {
     const number = svg
@@ -30,12 +30,10 @@ export const numberChangeValue = (number, start = 0, end, progress = 1) => {
 
 export const numberMove = (number, x1, y1, progress = 1) => {
     const { x0, y0 } = getTranslatePos(number)
-    const moveAxis = (a0, a1) =>
-        a0 < a1 ? (a0 - (a0 - a1) * progress) : (a0 + (a1 - a0) * progress)
 
     number
         .transition('numberMove')
-        .attr('transform', `translate(${[moveAxis(x0, x1), moveAxis(y0, y1)]})`)
+        .attr('transform', `translate(${[moveAxis(x0, x1, progress), moveAxis(y0, y1, progress)]})`)
 }
 
 export const numberAddSuffix = (number, suffix, progress = 1) => {

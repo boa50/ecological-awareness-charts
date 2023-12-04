@@ -66,7 +66,7 @@ const handleStepEnter = (response) => {
         case 2:
             handleDirection(
                 currentDirection,
-                () => { imgFill(group1, 100, svgWidth, svgHeight * 0.35, svgHeight) },
+                () => { },
                 () => { imgChangeColourRemove(group1) }
             )
             break
@@ -140,12 +140,11 @@ const handleStepProgress = (response) => {
             )
             break
         case 2:
-            // imageFill(svg, 100, svgWidth, svgHeight * 0.2, svgHeight, currentProgress)
-            // handleDirection(
-            //     currentDirection,
-            //     () => { numberMove(number, 100, 100, currentProgress) },
-            //     () => { numberMove(number, svgCenterWidth, svgCenterHeight, 1 - currentProgress) }
-            // )
+            handleDirection(
+                currentDirection,
+                () => { imgFill(group1, 100, svgWidth, svgHeight * 0.35, svgHeight, currentProgress) },
+                () => { }
+            )
             break
         default:
             break

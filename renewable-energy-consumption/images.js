@@ -1,5 +1,5 @@
 import { colours } from "./constants.js"
-import { getColourTransition, moveAxis, getTranslatePos, progressLimit } from "./utils.js"
+import { getColourTransition, moveAxis, getTranslatePos, progressLimit, colourChange } from "./utils.js"
 
 const nRows = 7
 const nItems = 10
@@ -88,8 +88,6 @@ export const imgRemove = (svg, progress = 1) => {
             const rowProgress = progressLimit((progress - firstProgress) / progressStep)
             const colour = getColourTransition(imgDefaultColour, 1 - rowProgress)
 
-            console.log(i, rowProgress);
-
             pathGroupItems
                 .transition('imgRemove')
                 .attr('stroke-opacity', 1 - rowProgress)
@@ -99,7 +97,7 @@ export const imgRemove = (svg, progress = 1) => {
     }
 }
 
-export const imgChangeColour = (svg, proportion = 0.75) => {
+export const imgChangeColour = (svg, proportion = 0.75, progress = 1) => {
     const itemsPerLine = nItems * proportion
     const itemsRemaining = Math.floor((itemsPerLine - Math.floor(itemsPerLine)) * nRows)
     const lastIdxFullPaint = Math.floor(itemsPerLine) - 1
@@ -111,16 +109,23 @@ export const imgChangeColour = (svg, proportion = 0.75) => {
         .select('.pathGroup')
         .selectAll('.pathItem')
         .filter((_, i) => paintingCondition(i))
+        .classed('pathItemColourChanged', true)
         .transition('imgChangeColour')
-        .duration(1000)
-        .style('fill', imgChangedColour)
+        .style('fill', colourChange(imgDefaultColour, imgChangedColour, progress))
 }
 
-export const imgChangeColourRemove = (svg) => {
-    svg
+export const imgChangeColourRemove = (svg, progress = 1) => {
+    const items = svg
         .select('.pathGroup')
-        .selectAll('.pathItem')
-        .transition('imgChangeColourRemove')
-        .duration(1000)
-        .style('fill', imgDefaultColour)
+        .selectAll('.pathItemColourChanged')
+
+    if (progress < 1) {
+        items
+            .transition('imgChangeColourRemove')
+            .style('fill', colourChange(imgChangedColour, imgDefaultColour, progress))
+    } else {
+        items
+            .classed('pathItemColourChanged', false)
+            .style('fill', null)
+    }
 }

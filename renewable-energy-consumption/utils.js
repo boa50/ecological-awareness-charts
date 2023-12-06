@@ -29,3 +29,6 @@ export const moveAxis = (a0, a1, progress) =>
     a0 < a1 ? (a0 - (a0 - a1) * progress) : (a0 + (a1 - a0) * progress)
 
 export const progressLimit = value => value > 1 ? 1 : value < 0 ? 0 : value
+
+export const colourChange = (from, to, progress = 1) =>
+    d3.interpolateRgb(from, to)(progress)

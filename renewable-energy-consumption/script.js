@@ -64,16 +64,11 @@ const handleStepEnter = (response) => {
         case 1:
             break
         case 2:
-            handleDirection(
-                currentDirection,
-                () => { },
-                () => { imgChangeColourRemove(group1) }
-            )
             break
         case 3:
             handleDirection(
                 currentDirection,
-                () => { imgChangeColour(group1, 0.75) },
+                () => { },
                 () => { groupReturn(group1) }
             )
             break
@@ -143,6 +138,13 @@ const handleStepProgress = (response) => {
             handleDirection(
                 currentDirection,
                 () => { imgFill(group1, 100, svgWidth, svgHeight * 0.35, svgHeight, currentProgress) },
+                () => { imgChangeColourRemove(group1, 1 - currentProgress) }
+            )
+            break
+        case 3:
+            handleDirection(
+                currentDirection,
+                () => { imgChangeColour(group1, 0.75, currentProgress) },
                 () => { }
             )
             break

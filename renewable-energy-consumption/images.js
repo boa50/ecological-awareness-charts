@@ -125,7 +125,7 @@ export const imgChangeColourRemove = (svg, progress = 1) => {
             .style('fill', colourChange(imgChangedColour, imgDefaultColour, progress))
     } else {
         items
-            .classed('pathItemColourChanged', false)
             .style('fill', null)
+            .classed('pathItemColourChanged', false)
     }
 }

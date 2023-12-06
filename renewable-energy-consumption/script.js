@@ -1,7 +1,7 @@
 import { pxToInt } from "./utils.js"
 import { createNumber, numberAddSuffix, numberChangeValue, numberMove, numberRemoveSuffix, setNumberPosition } from "./number.js"
 import { imgChangeColour, imgChangeColourRemove, imgFill, imgRemove } from "./images.js"
-import { groupFinish, groupReturn } from "./groups.js"
+import { groupGoAway, groupReturn } from "./groups.js"
 import { circlesFilling, containerDraw } from "./circlesFilling.js"
 import { colours } from "./constants.js"
 
@@ -28,7 +28,7 @@ const scroller = scrollama()
 const handleResize = () => {
     const windowHeight = window.innerHeight
 
-    const stepHeight = Math.floor(windowHeight * 0.75)
+    const stepHeight = Math.floor(windowHeight)
     steps.style('height', `${stepHeight}px`)
 
     svgHeight = windowHeight
@@ -66,18 +66,8 @@ const handleStepEnter = (response) => {
         case 2:
             break
         case 3:
-            handleDirection(
-                currentDirection,
-                () => { },
-                () => { groupReturn(group1) }
-            )
             break
         case 4:
-            handleDirection(
-                currentDirection,
-                () => { groupFinish(group1, svgHeight) },
-                () => { }
-            )
             break
         case 5:
             handleDirection(
@@ -145,6 +135,13 @@ const handleStepProgress = (response) => {
             handleDirection(
                 currentDirection,
                 () => { imgChangeColour(group1, 0.75, currentProgress) },
+                () => { groupReturn(group1, 1 - currentProgress) }
+            )
+            break
+        case 4:
+            handleDirection(
+                currentDirection,
+                () => { groupGoAway(group1, svgHeight, currentProgress) },
                 () => { }
             )
             break

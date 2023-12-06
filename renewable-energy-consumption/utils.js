@@ -12,7 +12,7 @@ export function textTweenNumber(a, b) {
 }
 
 export const getTranslatePos = g => {
-    if (g.node()) {
+    try {
         const tMatrix = g.node()
             .transform
             .baseVal
@@ -20,9 +20,9 @@ export const getTranslatePos = g => {
             .matrix
 
         return { x0: tMatrix.e, y0: tMatrix.f }
+    } catch {
+        return { x0: 0, y0: 0 }
     }
-
-    return { x0: 0, y0: 0 }
 }
 
 export const moveAxis = (a0, a1, progress) =>

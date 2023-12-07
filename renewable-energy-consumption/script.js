@@ -94,9 +94,9 @@ const handleStepEnter = (response) => {
     }
 }
 
-const handleStepExit = (response) => {
-    console.log(response)
-}
+// const handleStepExit = (response) => {
+//     console.log(response)
+// }
 
 let lastIndex = 0
 let lastProgress = 0
@@ -120,7 +120,7 @@ const handleStepProgress = (response) => {
                 () => {
                     numberRemoveSuffix(number, 1 - currentProgress)
                     numberMove(number, svgCenterWidth, svgCenterHeight, 1 - currentProgress)
-                    imgRemove(group1, 1 - currentProgress)
+                    imgRemove(group1, svgHeight, 1 - currentProgress)
                 }
             )
             break

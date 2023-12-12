@@ -1,4 +1,6 @@
-export const containerDraw = (svg, x0, y0, width, height, containerId = '') => {
+import { progressLimit } from "./utils.js"
+
+export const setUpContainer = (svg, x0, y0, width, height, containerId = '') => {
     svg
         .append('g')
         .attr('id', containerId)
@@ -7,14 +9,21 @@ export const containerDraw = (svg, x0, y0, width, height, containerId = '') => {
         .attr('y', y0)
         .attr('width', width)
         .attr('height', height)
-        .attr('stroke', 'transparent')
-        .style('fill', 'transparent')
-        .transition('containerDraw')
-        .duration(1000)
         .attr('stroke', 'black')
+        .attr('stroke-opacity', 0)
+        .style('fill', 'transparent')
 }
 
-export const circlesFilling = (svg, x0, y0, width, height, containerId = '', batched = true, circleColour = 'black') => {
+
+export const containerShow = (svg, containerId = '', progress = 1) => {
+    svg
+        .select(`#${containerId}`)
+        .select('rect')
+        .transition('containerShow')
+        .attr('stroke-opacity', progress)
+}
+
+export const setUpCircles = (svg, x0, y0, width, height, containerId = '', batched = true, circleColour = 'black') => {
     const circleRadius = 7
     const circlePadding = 2
     const circleLength = (circleRadius * 2) + circlePadding
@@ -27,26 +36,42 @@ export const circlesFilling = (svg, x0, y0, width, height, containerId = '', bat
     const circlesTotal = Array(nCircles).fill().map((_, i) => i)
     const batch = batched ? nColumns : 1
 
-    const circlesAnimation = async () => {
-        for (let n = 0; n <= nCircles; n += batch) {
-            const circles = svg
-                .select(`#${containerId}`)
-                .selectAll('circle')
 
-            const data = circlesTotal.toReversed().slice(0, n)
+    for (let n = 0; n < nCircles; n += batch) {
+        const nRow = n / nColumns
+        const data = circlesTotal.toReversed().slice(n, n + batch)
 
-            await circles
-                .data(data)
-                .join('circle')
-                .attr('cx', d => x0 + (circleRadius + circlePadding) + (circleLength * ((d % nColumns))))
-                .transition('circlesFilling')
-                .duration(50)
-                .attr('cy', d => y0 + (circleRadius + circlePadding) + (circleLength * (Math.floor(d / nColumns))))
-                .attr('r', circleRadius)
-                .style('fill', circleColour)
-                .end()
-        }
+        svg
+            .select(`#${containerId}`)
+            .append('g')
+            .attr('id', `${containerId}_g${nRow}`)
+            .attr('data-y1', (circleRadius + circlePadding) + (circleLength * nRow))
+            .selectAll('myCircle')
+            .data(data)
+            .join('circle')
+            .attr('cx', d => x0 + (circleRadius + circlePadding) + (circleLength * ((d % nColumns))))
+            .style('fill', circleColour)
+            .attr('r', circleRadius)
+            .attr('cy', y0)
     }
+}
 
-    circlesAnimation()
+export const circlesFilling = (svg, containerId = '', progress = 1) => {
+    const groups = svg
+        .select(`#${containerId}`)
+        .selectAll('g')
+    const nRows = groups.size()
+
+    groups.each(function (_, i) {
+        const progressStep = 1 / nRows
+        const firstProgress = 1 - (i + 1) / nRows
+        const rowProgress = progressLimit((progress - firstProgress) / progressStep)
+
+        const group = d3.select(this)
+        const y1 = group.attr('data-y1')
+
+        group
+            .transition('circlesFilling')
+            .attr('transform', `translate(${[0, y1 * rowProgress]})`)
+    })
 }

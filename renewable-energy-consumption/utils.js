@@ -33,4 +33,10 @@ export const progressLimit = value => value > 1 ? 1 : value < 0 ? 0 : value
 export const colourChange = (from, to, progress = 1) =>
     d3.interpolateRgb(from, to)(progress)
 
-export const getGroupOpacity = g => d3.color(d3.style(g.node(), 'fill')).opacity
+export const getGroupOpacity = g => {
+    try {
+        return d3.color(d3.style(g.node(), 'fill')).opacity
+    } catch {
+        return 0
+    }
+}

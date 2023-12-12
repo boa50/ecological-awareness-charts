@@ -116,6 +116,7 @@ const handleStepProgress = (response) => {
                 () => {
                     numberMove(number, svgCenterWidth, svgHeight * 0.2, currentProgress)
                     numberAddSuffix(number, 'billion t', currentProgress)
+                    numberMove(number, svgCenterWidth - 200, svgHeight * 0.2, currentProgress)
                 },
                 () => {
                     numberRemoveSuffix(number, 1 - currentProgress)

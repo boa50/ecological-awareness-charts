@@ -2,7 +2,7 @@ import { pxToInt } from "./utils.js"
 import { createNumber, numberAddSuffix, numberChangeValue, numberMove, numberRemoveSuffix, setNumberPosition } from "./number.js"
 import { imgChangeColour, imgChangeColourRemove, imgFill, imgRemove } from "./images.js"
 import { groupGoAway, groupReturn } from "./groups.js"
-import { circlesFilling, containerShow, setUpCircles, setUpContainer } from "./circlesFilling.js"
+import { circlesFilling, clearCircles, clearContainer, containerShow, setUpCircles, setUpContainer } from "./circlesFilling.js"
 import { colours } from "./constants.js"
 
 let numberStart = 0
@@ -20,7 +20,6 @@ let svgHeight
 let svgCenterWidth
 let svgCenterHeight
 
-// const number = createNumber(svg)
 const number = createNumber(group1)
 
 const scroller = scrollama()
@@ -68,6 +67,14 @@ const handleStepEnter = (response) => {
         case 3:
             break
         case 4:
+            handleDirection(
+                currentDirection,
+                () => { },
+                () => {
+                    clearContainer(group2, 'nonRenewable')
+                    clearContainer(group2, 'renewable')
+                }
+            )
             break
         case 5:
             handleDirection(
@@ -76,7 +83,10 @@ const handleStepEnter = (response) => {
                     setUpContainer(group2, 300, svgHeight - 700, 100, 400, 'nonRenewable')
                     setUpContainer(group2, 700, svgHeight - 500, 100, 200, 'renewable')
                 },
-                () => { }
+                () => {
+                    clearCircles(group2, 'nonRenewable')
+                    clearCircles(group2, 'renewable')
+                }
             )
             break
         case 6:
@@ -93,10 +103,6 @@ const handleStepEnter = (response) => {
             break
     }
 }
-
-// const handleStepExit = (response) => {
-//     console.log(response)
-// }
 
 let lastIndex = 0
 let lastProgress = 0
@@ -143,31 +149,16 @@ const handleStepProgress = (response) => {
             handleDirection(
                 currentDirection,
                 () => { groupGoAway(group1, svgHeight, currentProgress) },
-                () => {
-                    containerShow(group2, 'nonRenewable', currentProgress)
-                    containerShow(group2, 'renewable', currentProgress)
-                }
+                () => { }
             )
             break
         case 5:
-            handleDirection(
-                currentDirection,
-                () => {
-                    containerShow(group2, 'nonRenewable', currentProgress)
-                    containerShow(group2, 'renewable', currentProgress)
-                },
-                () => { }
-            )
+            containerShow(group2, 'nonRenewable', currentProgress)
+            containerShow(group2, 'renewable', currentProgress)
             break
         case 6:
-            handleDirection(
-                currentDirection,
-                () => {
-                    circlesFilling(group2, 'nonRenewable', currentProgress)
-                    circlesFilling(group2, 'renewable', currentProgress)
-                },
-                () => { }
-            )
+            circlesFilling(group2, 'nonRenewable', currentProgress)
+            circlesFilling(group2, 'renewable', currentProgress)
             break
         default:
             break
@@ -188,7 +179,6 @@ const init = () => {
             offset: 0.5
         })
         .onStepEnter(handleStepEnter)
-        // .onStepExit(handleStepExit)
         .onStepProgress(handleStepProgress)
 
     window.addEventListener('resize', handleResize())

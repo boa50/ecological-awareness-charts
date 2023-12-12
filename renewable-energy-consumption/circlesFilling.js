@@ -14,6 +14,11 @@ export const setUpContainer = (svg, x0, y0, width, height, containerId = '') => 
         .style('fill', 'transparent')
 }
 
+export const clearContainer = (svg, containerId = '') => {
+    svg
+        .select(`#${containerId}`)
+        .remove()
+}
 
 export const containerShow = (svg, containerId = '', progress = 1) => {
     svg
@@ -54,6 +59,13 @@ export const setUpCircles = (svg, x0, y0, width, height, containerId = '', batch
             .attr('r', circleRadius)
             .attr('cy', y0)
     }
+}
+
+export const clearCircles = (svg, containerId = '') => {
+    svg
+        .select(`#${containerId}`)
+        .selectAll('g')
+        .remove()
 }
 
 export const circlesFilling = (svg, containerId = '', progress = 1) => {

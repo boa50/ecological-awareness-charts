@@ -2,8 +2,8 @@ import { pxToInt } from "./utils.js"
 import { createNumber, numberAddSuffix, numberChangeValue, numberMove, numberRemoveSuffix, setNumberPosition } from "./number.js"
 import { imgChangeColour, imgChangeColourRemove, imgFill, imgRemove } from "./images.js"
 import { groupGoAway, groupReturn } from "./groups.js"
-import { circlesFilling, clearCircles, clearContainer, containerShow, setUpCircles, setUpContainer } from "./circlesFilling.js"
-import { colours } from "./constants.js"
+import { circlesFilling, circlesFillingGrouped, clearCircles, clearContainer, containerShow, setUpCircles, setUpCirclesGrouped, setUpContainer } from "./circlesFilling.js"
+import { colours, energyData } from "./constants.js"
 
 let numberStart = 0
 
@@ -80,8 +80,8 @@ const handleStepEnter = (response) => {
             handleDirection(
                 currentDirection,
                 () => {
-                    setUpContainer(group2, 300, svgHeight - 700, 100, 400, 'nonRenewable')
-                    setUpContainer(group2, 700, svgHeight - 500, 100, 200, 'renewable')
+                    setUpContainer(group2, 500, svgHeight - 775, 150, 575, 'nonRenewable')
+                    setUpContainer(group2, 1000, svgHeight - 300, 150, 100, 'renewable')
                 },
                 () => {
                     clearCircles(group2, 'nonRenewable')
@@ -93,8 +93,20 @@ const handleStepEnter = (response) => {
             handleDirection(
                 currentDirection,
                 () => {
-                    setUpCircles(group2, 300, svgHeight - 700, 100, 400, 'nonRenewable', true, colours.nonRenewableEnergy)
-                    setUpCircles(group2, 700, svgHeight - 500, 100, 200, 'renewable', true, colours.renewableEnergy)
+                    setUpCirclesGrouped(
+                        group2,
+                        500, svgHeight - 775, 150, 575,
+                        'nonRenewable',
+                        colours.nonRenewableEnergy,
+                        energyData.fossil, energyData.fossilMax
+                    )
+                    setUpCirclesGrouped(
+                        group2,
+                        1000, svgHeight - 300, 150, 100,
+                        'renewable',
+                        colours.renewableEnergy,
+                        energyData.renewables, energyData.renewablesMax
+                    )
                 },
                 () => { }
             )
@@ -157,8 +169,8 @@ const handleStepProgress = (response) => {
             containerShow(group2, 'renewable', currentProgress)
             break
         case 6:
-            circlesFilling(group2, 'nonRenewable', currentProgress)
-            circlesFilling(group2, 'renewable', currentProgress)
+            circlesFillingGrouped(group2, 'nonRenewable', currentProgress)
+            circlesFillingGrouped(group2, 'renewable', currentProgress)
             break
         default:
             break

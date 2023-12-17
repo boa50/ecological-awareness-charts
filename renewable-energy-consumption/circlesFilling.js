@@ -29,7 +29,7 @@ export const containerShow = (svg, containerId = '', progress = 1) => {
 }
 
 export const setUpCircles = (svg, x0, y0, width, height, containerId = '', batched = true, circleColour = 'black') => {
-    const circleRadius = 7
+    const circleRadius = 5
     const circlePadding = 2
     const circleLength = (circleRadius * 2) + circlePadding
 
@@ -61,6 +61,39 @@ export const setUpCircles = (svg, x0, y0, width, height, containerId = '', batch
     }
 }
 
+export const setUpCirclesGrouped = (svg, x0, y0, width, height, containerId = '', circleColour = 'black', values, maxValue) => {
+    const circleRadius = 5
+    const circlePadding = 2
+    const circleLength = (circleRadius * 2) + circlePadding
+
+    let nColumns = Math.floor(width / circleLength)
+    nColumns = (((nColumns * circleLength) + circlePadding) > width) ? nColumns - 1 : nColumns
+    let nRows = Math.floor(height / circleLength)
+    nRows = (((nRows * circleLength) + circlePadding) > height) ? nRows - 1 : nRows
+    const nCircles = nRows * nColumns
+    const circlesTotal = Array(nCircles).fill().map((_, i) => i)
+
+    const circleValue = maxValue / nCircles
+    const groups = values.map(d => Math.round(d / circleValue))
+
+    for (let i = 0; i < groups.length; i++) {
+        const data = circlesTotal.toReversed().slice(groups[i - 1], groups[i])
+
+        svg
+            .select(`#${containerId}`)
+            .append('g')
+            .attr('id', `${containerId}_g${i}`)
+            .selectAll('myCircle')
+            .data(data)
+            .join('circle')
+            .attr('cx', d => x0 + (circleRadius + circlePadding) + (circleLength * (d % nColumns)))
+            .style('fill', circleColour)
+            .attr('r', circleRadius)
+            .attr('cy', y0)
+            .attr('data-y1', d => (circleRadius + circlePadding) + (circleLength * Math.floor(d / nColumns)))
+    }
+}
+
 export const clearCircles = (svg, containerId = '') => {
     svg
         .select(`#${containerId}`)
@@ -72,6 +105,7 @@ export const circlesFilling = (svg, containerId = '', progress = 1) => {
     const groups = svg
         .select(`#${containerId}`)
         .selectAll('g')
+
     const nRows = groups.size()
 
     groups.each(function (_, i) {
@@ -85,5 +119,31 @@ export const circlesFilling = (svg, containerId = '', progress = 1) => {
         group
             .transition('circlesFilling')
             .attr('transform', `translate(${[0, y1 * rowProgress]})`)
+    })
+}
+
+export const circlesFillingGrouped = (svg, containerId = '', progress = 1) => {
+    const groups = svg
+        .select(`#${containerId}`)
+        .selectAll('g')
+    const nGroups = groups.size()
+
+    groups.each(function (_, i) {
+        const progressStep = 1 / nGroups
+        const firstProgress = 1 - (nGroups - i) / nGroups
+        const groupProgress = progressLimit((progress - firstProgress) / progressStep)
+
+        const groupCirlces = d3
+            .select(this)
+            .selectAll('circle')
+
+        groupCirlces.each(function () {
+            const el = d3.select(this)
+            const y1 = el.attr('data-y1')
+
+            el
+                .transition('circlesFilling')
+                .attr('transform', `translate(${[0, y1 * groupProgress]})`)
+        })
     })
 }

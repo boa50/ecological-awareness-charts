@@ -62,7 +62,7 @@ export const setUpCircles = (svg, x0, y0, width, height, containerId = '', batch
 }
 
 export const setUpCirclesGrouped = (svg, x0, y0, width, height, containerId = '', circleColour = 'black', values, maxValue) => {
-    const circleRadius = 5
+    const circleRadius = 5.6
     const circlePadding = 2
     const circleLength = (circleRadius * 2) + circlePadding
 

@@ -143,6 +143,7 @@ export const circlesFillingGrouped = (svg, containerId = '', progress = 1) => {
 
             el
                 .transition('circlesFilling')
+                .duration(50)
                 .attr('transform', `translate(${[0, y1 * groupProgress]})`)
         })
     })

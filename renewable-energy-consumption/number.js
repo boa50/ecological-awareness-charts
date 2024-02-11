@@ -19,13 +19,15 @@ export const setNumberPosition = (number, x, y) => {
         .attr('transform', `translate(${[x, y]})`)
 }
 
-export const numberChangeValue = (number, start = 0, end, progress = 1) => {
+export const numberChangeValue = (number, initial = 0, actual = 0, end, progress = 1, numberFormat = d3.format('.2f')) => {
+    const nextNumber = initial + (end - initial) * progress
+
     number
         .select('.el-number')
         .transition('numberChangeValue')
-        .tween('text', d => textTweenNumber(start, end * progress))
+        .tween('text', d => textTweenNumber(actual, nextNumber, numberFormat))
 
-    return end * progress
+    return nextNumber
 }
 
 export const numberMove = (number, x1, y1, progress = 1) => {
@@ -65,4 +67,9 @@ export const numberRemoveSuffix = (number, progress = 1) => {
             .transition('numberRemoveSuffix')
             .style('fill', `rgba(0, 0, 0, ${1 - progress})`)
     }
+}
+
+export const numberTransparency = (number, progress = 1) => {
+    number
+        .style('fill', `rgba(0, 0, 0, ${progress})`)
 }

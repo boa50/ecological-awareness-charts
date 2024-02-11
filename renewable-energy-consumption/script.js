@@ -1,11 +1,12 @@
 import { pxToInt } from "./utils.js"
-import { createNumber, numberAddSuffix, numberChangeValue, numberMove, numberRemoveSuffix, setNumberPosition } from "./number.js"
+import { createNumber, numberAddSuffix, numberChangeValue, numberMove, numberRemoveSuffix, numberTransparency, setNumberPosition } from "./number.js"
 import { imgChangeColour, imgChangeColourRemove, imgFill, imgRemove } from "./images.js"
 import { groupGoAway, groupReturn } from "./groups.js"
-import { circlesFilling, circlesFillingGrouped, clearCircles, clearContainer, containerShow, setUpCircles, setUpCirclesGrouped, setUpContainer } from "./circlesFilling.js"
+import { circlesFillingGrouped, clearCircles, clearContainer, containerShow, setUpCirclesGrouped, setUpContainer } from "./circlesFilling.js"
 import { colours, energyData } from "./constants.js"
 
-let numberStart = 0
+let numberActual = 0
+let numberYearActual = energyData.years[0]
 
 const scrolly = d3.select('#scrolly')
 const svg = scrolly.select('svg')
@@ -21,6 +22,7 @@ let svgCenterWidth
 let svgCenterHeight
 
 const number = createNumber(group1)
+const numberYear = createNumber(group2)
 
 const scroller = scrollama()
 
@@ -57,6 +59,21 @@ const handleStepEnter = (response) => {
     const currentIndex = response.index
     const currentDirection = response.direction
 
+    const circlesContainerDimension = {
+        nonRenewable: {
+            x: 500,
+            y: svgHeight - 825,
+            width: 150,
+            height: 575
+        },
+        renewable: {
+            x: 1000,
+            y: svgHeight - 350,
+            width: 150,
+            height: 100
+        }
+    }
+
     switch (currentIndex) {
         case 0:
             break
@@ -80,13 +97,36 @@ const handleStepEnter = (response) => {
             handleDirection(
                 currentDirection,
                 () => {
-                    setUpContainer(group2, 500, svgHeight - 775, 150, 575, 'nonRenewable')
-                    setUpContainer(group2, 1000, svgHeight - 300, 150, 100, 'renewable')
+                    setUpContainer(
+                        group2,
+                        circlesContainerDimension.nonRenewable.x,
+                        circlesContainerDimension.nonRenewable.y,
+                        circlesContainerDimension.nonRenewable.width,
+                        circlesContainerDimension.nonRenewable.height,
+                        'nonRenewable'
+                    )
+                    setUpContainer(
+                        group2,
+                        circlesContainerDimension.renewable.x,
+                        circlesContainerDimension.renewable.y,
+                        circlesContainerDimension.renewable.width,
+                        circlesContainerDimension.renewable.height,
+                        'renewable'
+                    )
                 },
                 () => {
                     clearCircles(group2, 'nonRenewable')
                     clearCircles(group2, 'renewable')
                 }
+            )
+            setNumberPosition(numberYear, 825, 850)
+            numberChangeValue(
+                numberYear,
+                energyData.years[0],
+                numberYearActual,
+                energyData.years[0],
+                1,
+                d3.format(`.${d3.precisionFixed(1)}f`)
             )
             break
         case 6:
@@ -95,14 +135,20 @@ const handleStepEnter = (response) => {
                 () => {
                     setUpCirclesGrouped(
                         group2,
-                        500, svgHeight - 775, 150, 575,
+                        circlesContainerDimension.nonRenewable.x,
+                        circlesContainerDimension.nonRenewable.y,
+                        circlesContainerDimension.nonRenewable.width,
+                        circlesContainerDimension.nonRenewable.height,
                         'nonRenewable',
                         colours.nonRenewableEnergy,
                         energyData.fossil, energyData.fossilMax
                     )
                     setUpCirclesGrouped(
                         group2,
-                        1000, svgHeight - 300, 150, 100,
+                        circlesContainerDimension.renewable.x,
+                        circlesContainerDimension.renewable.y,
+                        circlesContainerDimension.renewable.width,
+                        circlesContainerDimension.renewable.height,
                         'renewable',
                         colours.renewableEnergy,
                         energyData.renewables, energyData.renewablesMax
@@ -126,7 +172,7 @@ const handleStepProgress = (response) => {
 
     switch (currentIndex) {
         case 0:
-            numberStart = numberChangeValue(number, numberStart, 54.59, currentProgress)
+            numberActual = numberChangeValue(number, 0, numberActual, 54.59, currentProgress)
             break
         case 1:
             handleDirection(
@@ -167,10 +213,19 @@ const handleStepProgress = (response) => {
         case 5:
             containerShow(group2, 'nonRenewable', currentProgress)
             containerShow(group2, 'renewable', currentProgress)
+            numberTransparency(numberYear, currentProgress)
             break
         case 6:
             circlesFillingGrouped(group2, 'nonRenewable', currentProgress)
             circlesFillingGrouped(group2, 'renewable', currentProgress)
+            numberYearActual = numberChangeValue(
+                numberYear,
+                energyData.years[0],
+                numberYearActual,
+                energyData.years[energyData.years.length - 1],
+                currentProgress,
+                d3.format(`.${d3.precisionFixed(1)}f`)
+            )
             break
         default:
             break

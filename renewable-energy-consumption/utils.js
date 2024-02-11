@@ -2,9 +2,7 @@ export const pxToInt = size => +size.replace('px', '')
 
 export const getColourTransition = (colour, progress) => d3.color(colour).copy({ opacity: progress })
 
-const formatNumber = d3.format('.2f')
-
-export function textTweenNumber(a, b) {
+export function textTweenNumber(a, b, formatNumber) {
     const i = d3.interpolateNumber(a, b)
     return function (t) {
         this.textContent = formatNumber(i(t))

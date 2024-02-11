@@ -1,9 +1,16 @@
 import { pxToInt } from "./utils.js"
-import { createNumber, numberAddSuffix, numberChangeValue, numberMove, numberRemoveSuffix, numberTransparency, setNumberPosition } from "./number.js"
+import { createNumber, numberAddSuffix, numberChangeValue, numberRemoveSuffix, numberTransparency, setNumberPosition } from "./number.js"
 import { imgChangeColour, imgChangeColourRemove, imgFill, imgRemove } from "./images.js"
-import { groupGoAway, groupReturn } from "./groups.js"
+import { groupGoAway, groupReturn, groupMoveY, groupMoveEl } from "./groups.js"
 import { changeCirclesFill, circlesFillingGrouped, clearCircles, clearContainer, containerShow, setUpCirclesGrouped, setUpContainer } from "./circlesFilling.js"
 import { colours, energyData } from "./constants.js"
+import { setUpText } from "./text.js"
+
+const ids = {
+    renewable: 'renewable',
+    nonRenewable: 'non_renewable',
+    energiesComparison: 'energies_comparison'
+}
 
 let numberActual = 0
 let numberYearActual = energyData.years[0]
@@ -151,9 +158,21 @@ const handleStepEnter = (response) => {
             )
             break
         case 6:
+            break
+        case 7:
             handleDirection(
                 currentDirection,
-                () => { },
+                () => {
+                    setUpText(
+                        group2,
+                        ids.energiesComparison,
+                        circlesContainerDimension.renewable.x + circlesContainerDimension.renewable.width + 20,
+                        700,
+                        'black',
+                        'some text',
+                        'start'
+                    )
+                },
                 () => { }
             )
             break
@@ -178,13 +197,12 @@ const handleStepProgress = (response) => {
             handleDirection(
                 currentDirection,
                 () => {
-                    numberMove(number, svgCenterWidth, svgHeight * 0.2, currentProgress)
+                    groupMoveEl(number, svgCenterWidth, svgCenterWidth - 200, svgCenterHeight, svgHeight * 0.2, currentProgress)
                     numberAddSuffix(number, 'billion t', currentProgress)
-                    numberMove(number, svgCenterWidth - 200, svgHeight * 0.2, currentProgress)
                 },
                 () => {
                     numberRemoveSuffix(number, 1 - currentProgress)
-                    numberMove(number, svgCenterWidth, svgCenterHeight, 1 - currentProgress)
+                    groupMoveEl(number, svgCenterWidth - 200, svgCenterWidth, svgHeight * 0.2, svgCenterHeight, 1 - currentProgress)
                     imgRemove(group1, svgHeight, 1 - currentProgress)
                 }
             )
@@ -227,6 +245,13 @@ const handleStepProgress = (response) => {
                 energyData.years[energyData.years.length - 1],
                 currentProgress,
                 d3.format(`.${d3.precisionFixed(1)}f`)
+            )
+            break
+        case 7:
+            handleDirection(
+                currentDirection,
+                () => { groupMoveY(group2, ids.energiesComparison, 700, 500, currentProgress) },
+                () => { groupMoveY(group2, ids.energiesComparison, 500, 700, 1 - currentProgress) }
             )
             break
         default:

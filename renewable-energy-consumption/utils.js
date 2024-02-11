@@ -23,8 +23,7 @@ export const getTranslatePos = g => {
     }
 }
 
-export const moveAxis = (a0, a1, progress) =>
-    a0 < a1 ? (a0 - (a0 - a1) * progress) : (a0 + (a1 - a0) * progress)
+export const moveAxis = (aInit, a0, a1, progress) => a0 + (a1 - aInit) * progress - (a0 - aInit)
 
 export const progressLimit = value => value > 1 ? 1 : value < 0 ? 0 : value
 

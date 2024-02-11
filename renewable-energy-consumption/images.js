@@ -57,7 +57,7 @@ export const imgFill = (svg, x0, x1, y0, y1, progress = 1) => {
                 .attr('stroke-opacity', 1)
                 .style('fill', imgDefaultColour)
                 .transition('imageFillTranslate')
-                .attr('transform', `translate(0, ${moveAxis(y0, i * imgPaddingY, rowProgress)})`)
+                .attr('transform', `translate(0, ${moveAxis(y0, y0, i * imgPaddingY, rowProgress)})`)
         } else {
             if (pathGroupItems.empty()) return
 
@@ -99,7 +99,7 @@ export const imgRemove = (svg, y1, progress = 1) => {
 
                 pathGroupItems
                     .transition('imgRemoveTranslate')
-                    .attr('transform', `translate(0, ${moveAxis(y0, y1, rowProgress)})`)
+                    .attr('transform', `translate(0, ${moveAxis(y0, y0, y1, rowProgress)})`)
             }
 
             pathGroupItems

@@ -2,7 +2,7 @@ import { pxToInt } from "./utils.js"
 import { createNumber, numberAddSuffix, numberChangeValue, numberMove, numberRemoveSuffix, numberTransparency, setNumberPosition } from "./number.js"
 import { imgChangeColour, imgChangeColourRemove, imgFill, imgRemove } from "./images.js"
 import { groupGoAway, groupReturn } from "./groups.js"
-import { circlesFillingGrouped, clearCircles, clearContainer, containerShow, setUpCirclesGrouped, setUpContainer } from "./circlesFilling.js"
+import { changeCirclesFill, circlesFillingGrouped, clearCircles, clearContainer, containerShow, setUpCirclesGrouped, setUpContainer } from "./circlesFilling.js"
 import { colours, energyData } from "./constants.js"
 
 let numberActual = 0
@@ -90,6 +90,8 @@ const handleStepEnter = (response) => {
                 () => {
                     clearContainer(group2, 'nonRenewable')
                     clearContainer(group2, 'renewable')
+                    clearCircles(group2, 'nonRenewable')
+                    clearCircles(group2, 'renewable')
                 }
             )
             break
@@ -113,11 +115,28 @@ const handleStepEnter = (response) => {
                         circlesContainerDimension.renewable.height,
                         'renewable'
                     )
+                    setUpCirclesGrouped(
+                        group2,
+                        circlesContainerDimension.nonRenewable.x,
+                        circlesContainerDimension.nonRenewable.y,
+                        circlesContainerDimension.nonRenewable.width,
+                        circlesContainerDimension.nonRenewable.height,
+                        'nonRenewable',
+                        energyData.fossil, energyData.fossilMax,
+                        1
+                    )
+                    setUpCirclesGrouped(
+                        group2,
+                        circlesContainerDimension.renewable.x,
+                        circlesContainerDimension.renewable.y,
+                        circlesContainerDimension.renewable.width,
+                        circlesContainerDimension.renewable.height,
+                        'renewable',
+                        energyData.renewables, energyData.renewablesMax,
+                        1
+                    )
                 },
-                () => {
-                    clearCircles(group2, 'nonRenewable')
-                    clearCircles(group2, 'renewable')
-                }
+                () => { }
             )
             setNumberPosition(numberYear, 825, 850)
             numberChangeValue(
@@ -132,28 +151,7 @@ const handleStepEnter = (response) => {
         case 6:
             handleDirection(
                 currentDirection,
-                () => {
-                    setUpCirclesGrouped(
-                        group2,
-                        circlesContainerDimension.nonRenewable.x,
-                        circlesContainerDimension.nonRenewable.y,
-                        circlesContainerDimension.nonRenewable.width,
-                        circlesContainerDimension.nonRenewable.height,
-                        'nonRenewable',
-                        colours.nonRenewableEnergy,
-                        energyData.fossil, energyData.fossilMax
-                    )
-                    setUpCirclesGrouped(
-                        group2,
-                        circlesContainerDimension.renewable.x,
-                        circlesContainerDimension.renewable.y,
-                        circlesContainerDimension.renewable.width,
-                        circlesContainerDimension.renewable.height,
-                        'renewable',
-                        colours.renewableEnergy,
-                        energyData.renewables, energyData.renewablesMax
-                    )
-                },
+                () => { },
                 () => { }
             )
             break
@@ -214,10 +212,12 @@ const handleStepProgress = (response) => {
             containerShow(group2, 'nonRenewable', currentProgress)
             containerShow(group2, 'renewable', currentProgress)
             numberTransparency(numberYear, currentProgress)
+            changeCirclesFill(group2, 'nonRenewable', colours.nonRenewableEnergy, currentProgress, 0)
+            changeCirclesFill(group2, 'renewable', colours.renewableEnergy, currentProgress, 0)
             break
         case 6:
-            circlesFillingGrouped(group2, 'nonRenewable', currentProgress)
-            circlesFillingGrouped(group2, 'renewable', currentProgress)
+            circlesFillingGrouped(group2, 'nonRenewable', currentProgress, 1, colours.nonRenewableEnergy)
+            circlesFillingGrouped(group2, 'renewable', currentProgress, 1, colours.renewableEnergy)
             numberYearActual = numberChangeValue(
                 numberYear,
                 energyData.years[0],

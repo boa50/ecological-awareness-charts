@@ -1,4 +1,4 @@
-import { progressLimit } from "./utils.js"
+import { colourChange, progressLimit } from "./utils.js"
 
 export const setUpContainer = (svg, x0, y0, width, height, containerId = '') => {
     svg
@@ -61,7 +61,7 @@ export const setUpCircles = (svg, x0, y0, width, height, containerId = '', batch
     }
 }
 
-export const setUpCirclesGrouped = (svg, x0, y0, width, height, containerId = '', circleColour = 'black', values, maxValue) => {
+export const setUpCirclesGrouped = (svg, x0, y0, width, height, containerId = '', values, maxValue, groupsFilled = 0) => {
     const circleRadius = 5.6
     const circlePadding = 2
     const circleLength = (circleRadius * 2) + circlePadding
@@ -87,11 +87,19 @@ export const setUpCirclesGrouped = (svg, x0, y0, width, height, containerId = ''
             .data(data)
             .join('circle')
             .attr('cx', d => x0 + (circleRadius + circlePadding) + (circleLength * (d % nColumns)))
-            .style('fill', circleColour)
+            .style('fill', 'transparent')
             .attr('r', circleRadius)
-            .attr('cy', y0)
+            .attr('cy', d => i > (groupsFilled - 1) ? y0 : y0 + (circleRadius + circlePadding) + (circleLength * Math.floor(d / nColumns)))
             .attr('data-y1', d => (circleRadius + circlePadding) + (circleLength * Math.floor(d / nColumns)))
     }
+}
+
+export const changeCirclesFill = (svg, containerId, circleColour = 'black', progress = 1, group = -1) => {
+    svg
+        .select(`#${containerId}`)
+        .selectAll(group >= 0 ? `#${containerId}_g${group}` : 'g')
+        .selectAll('circle')
+        .style('fill', colourChange('transparent', circleColour, progress))
 }
 
 export const clearCircles = (svg, containerId = '') => {
@@ -122,29 +130,33 @@ export const circlesFilling = (svg, containerId = '', progress = 1) => {
     })
 }
 
-export const circlesFillingGrouped = (svg, containerId = '', progress = 1) => {
+export const circlesFillingGrouped = (svg, containerId = '', progress = 1, groupsFilled = 0, circleColour = 'black') => {
     const groups = svg
         .select(`#${containerId}`)
         .selectAll('g')
     const nGroups = groups.size()
 
     groups.each(function (_, i) {
-        const progressStep = 1 / nGroups
-        const firstProgress = 1 - (nGroups - i) / nGroups
-        const groupProgress = progressLimit((progress - firstProgress) / progressStep)
+        if (i > (groupsFilled - 1)) {
+            const progressStep = 1 / nGroups
+            const firstProgress = 1 - (nGroups - i) / nGroups
+            const groupProgress = progressLimit((progress - firstProgress) / progressStep)
 
-        const groupCirlces = d3
-            .select(this)
-            .selectAll('circle')
+            const groupCirlces = d3
+                .select(this)
+                .selectAll('circle')
 
-        groupCirlces.each(function () {
-            const el = d3.select(this)
-            const y1 = el.attr('data-y1')
+            groupCirlces.each(function () {
+                const el = d3.select(this)
+                const y1 = el.attr('data-y1')
 
-            el
-                .transition('circlesFilling')
-                .duration(50)
-                .attr('transform', `translate(${[0, y1 * groupProgress]})`)
-        })
+                el
+                    .transition('circlesFilling')
+                    .duration(50)
+                    .attr('transform', `translate(${[0, y1 * groupProgress]})`)
+            })
+
+            changeCirclesFill(svg, containerId, circleColour, groupProgress, i)
+        }
     })
 }

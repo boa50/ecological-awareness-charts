@@ -28,6 +28,15 @@ export const clearContainer = (svg, containerId = '') => {
     svg
         .select(`#${containerId}`)
         .remove()
+
+    clearCircles(svg, containerId)
+}
+
+const clearCircles = (svg, containerId = '') => {
+    svg
+        .select(`#${containerId}`)
+        .selectAll('g')
+        .remove()
 }
 
 export const containerShow = (svg, containerId = '', progress = 1) => {
@@ -116,13 +125,6 @@ export const changeCirclesFill = (svg, containerId, circleColour = 'black', prog
         .selectAll(group >= 0 ? `#${containerId}_g${group}` : 'g')
         .selectAll('circle')
         .style('fill', colourChange('transparent', circleColour, progress))
-}
-
-export const clearCircles = (svg, containerId = '') => {
-    svg
-        .select(`#${containerId}`)
-        .selectAll('g')
-        .remove()
 }
 
 export const circlesFilling = (svg, containerId = '', progress = 1) => {

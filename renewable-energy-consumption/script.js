@@ -3,14 +3,8 @@ import { createNumber, numberAddSuffix, numberChangeValue, numberRemoveSuffix, n
 import { imgChangeColour, imgChangeColourRemove, imgFill, imgRemove } from "./images.js"
 import { groupGoAway, groupReturn, groupMoveY, groupMoveEl } from "./groups.js"
 import { changeCirclesFill, circlesFillingGrouped, clearContainer, containerShow, setUpCirclesGrouped, setUpContainer } from "./circlesFilling.js"
-import { colours, energyData } from "./constants.js"
+import { colours, energyData, ids, dimensions as dimensionsDefault } from "./constants.js"
 import { setUpText } from "./text.js"
-
-const ids = {
-    renewable: 'renewable',
-    nonRenewable: 'non_renewable',
-    energiesComparison: 'energies_comparison'
-}
 
 let numberActual = 0
 let numberYearActual = energyData.years[0]
@@ -27,6 +21,7 @@ let svgWidth
 let svgHeight
 let svgCenterWidth
 let svgCenterHeight
+let dimensions
 
 const number = createNumber(group1)
 const numberYear = createNumber(group2)
@@ -50,6 +45,8 @@ const handleResize = () => {
     svgCenterWidth = svgWidth / 2
     svgCenterHeight = svgHeight / 2
 
+    dimensions = dimensionsDefault(svgHeight)
+
     setNumberPosition(number, svgCenterWidth, svgCenterHeight)
 
     d3.select('#outro').style('height', `${stepHeight}px`)
@@ -65,21 +62,6 @@ const handleStepEnter = (response) => {
     steps.classed('is-active', (_, i) => i === response.index)
     const currentIndex = response.index
     const currentDirection = response.direction
-
-    const circlesContainerDimension = {
-        nonRenewable: {
-            x: 500,
-            y: svgHeight - 825,
-            width: 150,
-            height: 575
-        },
-        renewable: {
-            x: 1000,
-            y: svgHeight - 350,
-            width: 150,
-            height: 100
-        }
-    }
 
     switch (currentIndex) {
         case 0:
@@ -106,38 +88,38 @@ const handleStepEnter = (response) => {
                 () => {
                     setUpContainer(
                         group2,
-                        circlesContainerDimension.nonRenewable.x,
-                        circlesContainerDimension.nonRenewable.y,
-                        circlesContainerDimension.nonRenewable.width,
-                        circlesContainerDimension.nonRenewable.height,
+                        dimensions.circlesContainer.nonRenewable.x,
+                        dimensions.circlesContainer.nonRenewable.y,
+                        dimensions.circlesContainer.nonRenewable.width,
+                        dimensions.circlesContainer.nonRenewable.height,
                         ids.nonRenewable,
                         'Non Renewable'
                     )
                     setUpContainer(
                         group2,
-                        circlesContainerDimension.renewable.x,
-                        circlesContainerDimension.renewable.y,
-                        circlesContainerDimension.renewable.width,
-                        circlesContainerDimension.renewable.height,
+                        dimensions.circlesContainer.renewable.x,
+                        dimensions.circlesContainer.renewable.y,
+                        dimensions.circlesContainer.renewable.width,
+                        dimensions.circlesContainer.renewable.height,
                         ids.renewable,
                         'Renewable'
                     )
                     setUpCirclesGrouped(
                         group2,
-                        circlesContainerDimension.nonRenewable.x,
-                        circlesContainerDimension.nonRenewable.y,
-                        circlesContainerDimension.nonRenewable.width,
-                        circlesContainerDimension.nonRenewable.height,
+                        dimensions.circlesContainer.nonRenewable.x,
+                        dimensions.circlesContainer.nonRenewable.y,
+                        dimensions.circlesContainer.nonRenewable.width,
+                        dimensions.circlesContainer.nonRenewable.height,
                         ids.nonRenewable,
                         energyData.fossil, energyData.fossilMax,
                         1
                     )
                     setUpCirclesGrouped(
                         group2,
-                        circlesContainerDimension.renewable.x,
-                        circlesContainerDimension.renewable.y,
-                        circlesContainerDimension.renewable.width,
-                        circlesContainerDimension.renewable.height,
+                        dimensions.circlesContainer.renewable.x,
+                        dimensions.circlesContainer.renewable.y,
+                        dimensions.circlesContainer.renewable.width,
+                        dimensions.circlesContainer.renewable.height,
                         ids.renewable,
                         energyData.renewables, energyData.renewablesMax,
                         1
@@ -145,7 +127,7 @@ const handleStepEnter = (response) => {
                 },
                 () => { }
             )
-            setNumberPosition(numberYear, 825, 850)
+            setNumberPosition(numberYear, dimensions.yearNumber.x, dimensions.yearNumber.y)
             numberChangeValue(
                 numberYear,
                 energyData.years[0],
@@ -164,8 +146,8 @@ const handleStepEnter = (response) => {
                     setUpText(
                         group2,
                         ids.energiesComparison,
-                        circlesContainerDimension.renewable.x + circlesContainerDimension.renewable.width + 20,
-                        700,
+                        dimensions.circlesContainer.renewable.x + dimensions.circlesContainer.renewable.width + 20,
+                        dimensions.comparisonText.y0,
                         'black',
                         'some text',
                         'start'
@@ -248,8 +230,8 @@ const handleStepProgress = (response) => {
         case 7:
             handleDirection(
                 currentDirection,
-                () => { groupMoveY(group2, ids.energiesComparison, 700, 500, currentProgress) },
-                () => { groupMoveY(group2, ids.energiesComparison, 500, 700, 1 - currentProgress) }
+                () => { groupMoveY(group2, ids.energiesComparison, dimensions.comparisonText.y0, dimensions.comparisonText.y1, currentProgress) },
+                () => { groupMoveY(group2, ids.energiesComparison, dimensions.comparisonText.y1, dimensions.comparisonText.y0, 1 - currentProgress) }
             )
             break
         default:

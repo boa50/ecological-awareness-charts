@@ -1,3 +1,36 @@
+export const ids = {
+    renewable: 'renewable',
+    nonRenewable: 'non_renewable',
+    energiesComparison: 'energies_comparison'
+}
+
+export const dimensions = svgHeight => {
+    return ({
+        circlesContainer: {
+            nonRenewable: {
+                x: 500,
+                y: svgHeight - 825,
+                width: 150,
+                height: 575
+            },
+            renewable: {
+                x: 1000,
+                y: svgHeight - 350,
+                width: 150,
+                height: 100
+            }
+        },
+        yearNumber: {
+            x: 825,
+            y: 850
+        },
+        comparisonText: {
+            y0: 700,
+            y1: 500
+        }
+    })
+}
+
 export const colours = {
     standard: 'grey',
     nonRenewableEnergy: '#826000',

@@ -1,9 +1,11 @@
 import { colourChange, progressLimit } from "./utils.js"
 
-export const setUpContainer = (svg, x0, y0, width, height, containerId = '') => {
-    svg
+export const setUpContainer = (svg, x0, y0, width, height, containerId = '', containerLabel = '') => {
+    const container = svg
         .append('g')
         .attr('id', containerId)
+
+    container
         .append('rect')
         .attr('x', x0)
         .attr('y', y0)
@@ -12,6 +14,14 @@ export const setUpContainer = (svg, x0, y0, width, height, containerId = '') => 
         .attr('stroke', 'black')
         .attr('stroke-opacity', 0)
         .style('fill', 'transparent')
+
+    container
+        .append('text')
+        .attr('x', x0 + width / 2)
+        .attr('y', y0 + height + 20)
+        .style('text-anchor', 'middle')
+        .style('fill', 'transparent')
+        .text(containerLabel)
 }
 
 export const clearContainer = (svg, containerId = '') => {
@@ -21,11 +31,17 @@ export const clearContainer = (svg, containerId = '') => {
 }
 
 export const containerShow = (svg, containerId = '', progress = 1) => {
-    svg
+    const container = svg
         .select(`#${containerId}`)
+
+    container
         .select('rect')
         .transition('containerShow')
         .attr('stroke-opacity', progress)
+
+    container
+        .select('text')
+        .style('fill', `rgba(0, 0, 0, ${progress})`)
 }
 
 export const setUpCircles = (svg, x0, y0, width, height, containerId = '', batched = true, circleColour = 'black') => {

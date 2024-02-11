@@ -105,7 +105,8 @@ const handleStepEnter = (response) => {
                         circlesContainerDimension.nonRenewable.y,
                         circlesContainerDimension.nonRenewable.width,
                         circlesContainerDimension.nonRenewable.height,
-                        'nonRenewable'
+                        'nonRenewable',
+                        'Non Renewable'
                     )
                     setUpContainer(
                         group2,
@@ -113,7 +114,8 @@ const handleStepEnter = (response) => {
                         circlesContainerDimension.renewable.y,
                         circlesContainerDimension.renewable.width,
                         circlesContainerDimension.renewable.height,
-                        'renewable'
+                        'renewable',
+                        'Renewable'
                     )
                     setUpCirclesGrouped(
                         group2,

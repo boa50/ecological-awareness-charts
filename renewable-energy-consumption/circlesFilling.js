@@ -46,6 +46,7 @@ export const containerShow = (svg, containerId = '', progress = 1) => {
     container
         .select('rect')
         .transition('containerShow')
+        .duration(50)
         .attr('stroke-opacity', progress)
 
     container
@@ -144,6 +145,7 @@ export const circlesFilling = (svg, containerId = '', progress = 1) => {
 
         group
             .transition('circlesFilling')
+            .duration(50)
             .attr('transform', `translate(${[0, y1 * rowProgress]})`)
     })
 }

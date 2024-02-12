@@ -57,6 +57,7 @@ export const imgFill = (svg, x0, x1, y0, y1, progress = 1) => {
                 .attr('stroke-opacity', 1)
                 .style('fill', imgDefaultColour)
                 .transition('imageFillTranslate')
+                .duration(50)
                 .attr('transform', `translate(0, ${moveAxis(y0, y0, i * imgPaddingY, rowProgress)})`)
         } else {
             if (pathGroupItems.empty()) return
@@ -66,6 +67,7 @@ export const imgFill = (svg, x0, x1, y0, y1, progress = 1) => {
 
             pathGroupItems
                 .transition('imageFillFill')
+                .duration(50)
                 .style('fill', colour)
                 .attr('stroke', 'black')
                 .attr('stroke-opacity', rowProgress + groupOpacity)
@@ -81,6 +83,7 @@ export const imgRemove = (svg, y1, progress = 1) => {
     if (progress === 1) {
         pathGroup
             .transition('imgRemove')
+            .duration(50)
             .attr('stroke', 'transparent')
             .style('fill', 'transparent')
             .remove()
@@ -99,11 +102,13 @@ export const imgRemove = (svg, y1, progress = 1) => {
 
                 pathGroupItems
                     .transition('imgRemoveTranslate')
+                    .duration(50)
                     .attr('transform', `translate(0, ${moveAxis(y0, y0, y1, rowProgress)})`)
             }
 
             pathGroupItems
                 .transition('imgRemoveFill')
+                .duration(50)
                 .attr('stroke-opacity', groupOpacity - rowProgress)
                 .style('fill', colour)
 
@@ -130,6 +135,7 @@ export const imgChangeColour = (svg, proportion = 0.75, progress = 1) => {
     items
         .classed('pathItemColourChanged', true)
         .transition('imgChangeColour')
+        .duration(50)
         .style('fill', colourChange(imgActualColour, imgChangedColour, progress))
 
 }
@@ -144,11 +150,13 @@ export const imgChangeColourRemove = (svg, progress = 1) => {
     if (progress < 1) {
         items
             .transition('imgChangeColourRemove')
+            .duration(50)
             .style('fill', colourChange(d3.style(items.node(), 'fill'), imgDefaultColour, progress))
     } else {
         items
             .classed('pathItemColourChanged', false)
             .transition('imgChangeColourRemove')
+            .duration(50)
             .style('fill', null)
     }
 }

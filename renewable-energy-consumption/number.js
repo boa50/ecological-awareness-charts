@@ -25,6 +25,7 @@ export const numberChangeValue = (number, initial = 0, actual = 0, end, progress
     number
         .select('.el-number')
         .transition('numberChangeValue')
+        .duration(50)
         .tween('text', d => textTweenNumber(actual, nextNumber, numberFormat))
 
     return nextNumber
@@ -42,6 +43,7 @@ export const numberAddSuffix = (number, suffix, progress = 1) => {
         number
             .select('.el-suffix')
             .transition('numberAddSuffix')
+            .duration(50)
             .style('fill', `rgba(0, 0, 0, ${progress})`)
     }
 }
@@ -52,11 +54,13 @@ export const numberRemoveSuffix = (number, progress = 1) => {
     if (progress === 1) {
         elSuffix
             .transition('numberRemoveSuffix')
+            .duration(50)
             .style('fill', 'transparent')
             .remove()
     } else {
         elSuffix
             .transition('numberRemoveSuffix')
+            .duration(50)
             .style('fill', `rgba(0, 0, 0, ${1 - progress})`)
     }
 }

@@ -251,6 +251,20 @@ const handleStepProgress = (response) => {
                 currentProgress
             )
             break
+        case 9:
+            handleDirection(
+                currentDirection,
+                () => { },
+                () => { groupReturn(group2, 1 - currentProgress) }
+            )
+            break
+        case 10:
+            handleDirection(
+                currentDirection,
+                () => { groupGoAway(group2, svgHeight, currentProgress) },
+                () => { }
+            )
+            break
         default:
             break
     }

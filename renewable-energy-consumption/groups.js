@@ -38,3 +38,9 @@ export const groupMoveY = (svg, id, yInit, y1, progress = 1) => {
 export const groupMoveX = (svg, id, xInit, x1, progress = 1) => {
     groupMove(svg, id, xInit, x1, null, null, progress)
 }
+
+export const removeGroup = (svg, id) => {
+    svg
+        .select(`#${id}`)
+        .remove()
+}

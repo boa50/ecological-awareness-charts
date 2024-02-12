@@ -1,10 +1,11 @@
 import { pxToInt } from "./utils.js"
 import { createNumber, numberAddSuffix, numberChangeValue, numberRemoveSuffix, numberTransparency, setNumberPosition } from "./number.js"
 import { imgChangeColour, imgChangeColourRemove, imgFill, imgRemove } from "./images.js"
-import { groupGoAway, groupReturn, groupMoveY, groupMoveEl } from "./groups.js"
+import { groupGoAway, groupReturn, groupMoveY, groupMoveEl, removeGroup } from "./groups.js"
 import { changeCirclesFill, circlesFillingGrouped, clearContainer, containerShow, setUpCirclesGrouped, setUpContainer } from "./circlesFilling.js"
 import { colours, energyData, ids, dimensions as dimensionsDefault } from "./constants.js"
 import { setUpText } from "./text.js"
+import { drawHorizontalLine } from "./lines.js"
 
 let numberActual = 0
 let numberYearActual = energyData.years[0]
@@ -138,6 +139,11 @@ const handleStepEnter = (response) => {
             )
             break
         case 6:
+            handleDirection(
+                currentDirection,
+                () => { },
+                () => { removeGroup(group2, ids.energiesComparison) }
+            )
             break
         case 7:
             handleDirection(
@@ -149,11 +155,11 @@ const handleStepEnter = (response) => {
                         dimensions.comparisonText.x,
                         dimensions.comparisonText.y0,
                         'black',
-                        'some text',
+                        energyData.renewablesPercentage.toFixed(0) + '%',
                         'start'
                     )
                 },
-                () => { }
+                () => { removeGroup(group2, ids.lineEnergiesComparison) }
             )
             break
         default:
@@ -232,6 +238,17 @@ const handleStepProgress = (response) => {
                 currentDirection,
                 () => { groupMoveY(group2, ids.energiesComparison, dimensions.comparisonText.y0, dimensions.comparisonText.y1, currentProgress) },
                 () => { groupMoveY(group2, ids.energiesComparison, dimensions.comparisonText.y1, dimensions.comparisonText.y0, 1 - currentProgress) }
+            )
+            break
+        case 8:
+            drawHorizontalLine(
+                group2,
+                ids.lineEnergiesComparison,
+                dimensions.lineEnergiesComparison.x0,
+                dimensions.lineEnergiesComparison.x1,
+                dimensions.lineEnergiesComparison.y,
+                colours.renewableEnergy,
+                currentProgress
             )
             break
         default:

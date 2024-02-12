@@ -4,7 +4,7 @@ export const ids = {
     energiesComparison: 'energies_comparison'
 }
 
-export const dimensions = svgHeight => {
+const dimensionsDefault = svgHeight => {
     return ({
         circlesContainer: {
             nonRenewable: {
@@ -25,10 +25,20 @@ export const dimensions = svgHeight => {
             y: 850
         },
         comparisonText: {
-            y0: 700,
-            y1: 500
+            y0: svgHeight + 50,
+            y1: -1,
+            x: -1
         }
     })
+}
+
+export const dimensions = svgHeight => {
+    const dims = dimensionsDefault(svgHeight)
+
+    dims.comparisonText.y1 = dims.circlesContainer.renewable.y
+    dims.comparisonText.x = dims.circlesContainer.renewable.x + dims.circlesContainer.renewable.width + 20
+
+    return dims
 }
 
 export const colours = {

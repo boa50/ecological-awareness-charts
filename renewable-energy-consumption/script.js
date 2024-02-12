@@ -146,7 +146,7 @@ const handleStepEnter = (response) => {
                     setUpText(
                         group2,
                         ids.energiesComparison,
-                        dimensions.circlesContainer.renewable.x + dimensions.circlesContainer.renewable.width + 20,
+                        dimensions.comparisonText.x,
                         dimensions.comparisonText.y0,
                         'black',
                         'some text',

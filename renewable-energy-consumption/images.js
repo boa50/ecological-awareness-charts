@@ -1,4 +1,5 @@
 import { colours } from "./constants.js"
+import { paths } from "./path.js"
 import { getColourTransition, moveAxis, getTranslatePos, progressLimit, colourChange, getGroupOpacity } from "./utils.js"
 
 const nRows = 7
@@ -10,8 +11,7 @@ const imgChangedColour = colours.nonRenewableEnergy
 const isLastRow = i => i === (nRows - 1)
 
 export const imgFill = (svg, x0, x1, y0, y1, progress = 1) => {
-    const housePath = 'M199.3,65.4V6.1h-32.6v29.4L128.5,0.8L2.3,113.7l20.5,20.5l17.4-15.7V255h62.3v-82h48.4v82h64.8V119.6l15.7,14.6l20.5-20.5 L199.3,65.4z'
-    const imgPath = housePath
+    const imgPath = paths.house[0]
     const pathGroup = svg.select('.pathGroup')
     const imgPaddingY = 60
     const imgPaddingX = 125

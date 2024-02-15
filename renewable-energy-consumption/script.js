@@ -6,17 +6,23 @@ import { changeCirclesFill, circlesFillingGrouped, clearContainer, containerShow
 import { colours, energyData, ids, dimensions as dimensionsDefault } from "./constants.js"
 import { setUpText } from "./text.js"
 import { drawHorizontalLine } from "./lines.js"
+import { addPathImg } from "./path.js"
 
 let numberActual = 0
 let numberYearActual = energyData.years[0]
 
 const scrolly = d3.select('#scrolly')
-const svg = scrolly.select('svg')
+const svg = scrolly.select('#chart')
 const article = scrolly.select('article')
 const steps = article.selectAll('.step')
 
 const group1 = svg.append('g')
 const group2 = svg.append('g')
+const groupInitiatives = {
+    first: steps.select('#initiative-one'),
+    second: svg.append('g'),
+    third: svg.append('g')
+}
 
 let svgWidth
 let svgHeight
@@ -51,6 +57,9 @@ const handleResize = () => {
     setNumberPosition(number, svgCenterWidth, svgCenterHeight)
 
     d3.select('#outro').style('height', `${stepHeight}px`)
+
+    groupGoAway(groupInitiatives.second, svgHeight, 1, 'down')
+    groupGoAway(groupInitiatives.third, svgHeight, 1, 'down')
 
     scroller.resize()
 }
@@ -160,6 +169,37 @@ const handleStepEnter = (response) => {
                     )
                 },
                 () => { removeGroup(group2, ids.lineEnergiesComparison) }
+            )
+            break
+        case 10:
+            addPathImg(groupInitiatives.first, 'jumentinho', 'windTurbine', 500, 500, 0.5, 'red')
+            // handleDirection(
+            //     currentDirection,
+            //     () => {
+
+            //         addPathImg(groupInitiatives.first, 'jumentinho', 'windTurbine', 470, 500, 0.5)
+            //     },
+            //     () => { }
+            // )
+            break
+        case 11:
+            handleDirection(
+                currentDirection,
+                () => {
+                    addPathImg(groupInitiatives.second, 'jumentinho2', 'solarPanel', 500, 500, 0.5, 'red')
+                    addPathImg(groupInitiatives.second, 'jumentinho2', 'solarPanel', 470, 500, 0.5)
+                },
+                () => { }
+            )
+            break
+        case 12:
+            handleDirection(
+                currentDirection,
+                () => {
+                    addPathImg(groupInitiatives.third, 'jumentinho3', 'person', 500, 500, 0.5, 'red')
+                    addPathImg(groupInitiatives.third, 'jumentinho3', 'heat', 470, 500, 0.5)
+                },
+                () => { }
             )
             break
         default:

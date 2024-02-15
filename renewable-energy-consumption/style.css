@@ -85,6 +85,14 @@ article {
     border: 1px solid;
 }
 
+.step.static {
+    width: 96vw;
+}
+
+.step.static svg {
+    height: 100%;
+}
+
 .step:last-child {
     margin-bottom: 0;
 }

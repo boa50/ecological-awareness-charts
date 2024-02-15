@@ -1,10 +1,10 @@
 import { moveAxis, getTranslatePos } from "./utils.js"
 
-export const groupGoAway = (group, height = 1000, progress = 1) => {
+export const groupGoAway = (group, height = 1000, progress = 1, direction = 'up') => {
     group
         .transition('groupGoAway')
         .duration(50)
-        .attr('transform', `translate(0, -${moveAxis(0, 0, height * 1.5, progress)})`)
+        .attr('transform', `translate(0, ${direction === 'up' ? '-' : '+'}${moveAxis(0, 0, height * 1.5, progress)})`)
 }
 
 export const groupReturn = (group, progress = 1) => {
